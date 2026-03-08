@@ -1,0 +1,46 @@
+ULTIMATE PYTHON & CS MASTER LEARNING TREE (MARCH 2026)
+
+ROOT: CORE PYTHON FUNDAMENTALS
+├── Interactive Web Tutorials
+│   └── W3Schools Python Tutorial: https://www.w3schools.com/python/
+├── Video-Based Full Courses (with GitHub Repos)
+│   ├── Bro Code (12-Hour Master Class):
+│   │   ├── Video: https://www.youtube.com/watch?v=ix9cRaBkVe0
+│   │   └── Code: https://github.com/PavanMudigondaTR/python-bro-code
+│   ├── Programming with Mosh (Full Beginner Course):
+│   │   ├── Video: https://www.youtube.com/watch?v=_uQrJ0TkZlc
+│   │   ├── Projects: https://github.com/mosh-hamedani/python-projects-for-beginners
+│   │   └── Notes: https://github.com/jmschp/mosh-complete-python-course
+│   └── freeCodeCamp (Beau Carnes):
+│       ├── Video: https://www.youtube.com/watch?v=eWRfhZUzrAc
+│       └── Blackjack Repo: https://github.com/beaucarnes/blackjack-python
+├── Practice & Exercises
+│   ├── 30 Days Of Python: https://github.com/Asabeneh/30-Days-Of-Python
+│   ├── Learn Python (Interactive): https://github.com/trekhleb/learn-python
+│   └── 100+ Python Exercises: https://github.com/zhiwehu/Python-programming-exercises
+
+ROOT: DATA STRUCTURES & ALGORITHMS (DSA)
+├── Interactive Visualization Tools
+│   └── USFCA Algorithm Visualizations: https://www.cs.usfca.edu/~galles/visualization/Algorithms.html
+├── Mosh DSA Series Repos
+│   ├── DS Part 1 (Linear): https://github.com/mosh-hamedani/data-structures-part1
+│   ├── DS Part 2 (Non-linear): https://github.com/mosh-hamedani/data-structures-part2
+│   └── Algorithms Part 1: https://github.com/mosh-hamedani/algorithms-part1
+├── Reference Collections
+│   ├── The Algorithms (Largest Python Library): https://github.com/TheAlgorithms/Python
+│   └── Advanced Python Mastery: https://github.com/dabeaz-course/python-mastery
+
+ROOT: PROJECT-BASED & AI SPECIALIZATION (THESIS SUPPORT)
+├── AI, ML & Data Science
+│   ├── 100 Days of ML Code: https://github.com/Avik-Jain/100-Days-Of-ML-Code
+│   ├── Python Data Science Handbook: https://github.com/jakevdp/PythonDataScienceHandbook
+│   └── Deep Learning Notebooks: https://github.com/donnemartin/data-science-ipython-notebooks
+├── Project Tutorials
+│   ├── Practical Python Projects: https://github.com/practical-tutorials/project-based-learning#python
+│   └── Mini Scripts & Bots: https://github.com/Python-World/python-mini-projects
+
+ROOT: CURATED ROADMAPS & REFERENCE
+├── Roadmaps
+│   └── Developer Roadmap (Python): https://github.com/kamranahmedse/developer-roadmap
+└── Resource Lists
+    └── Awesome Python: https://github.com/vinta/awesome-python
