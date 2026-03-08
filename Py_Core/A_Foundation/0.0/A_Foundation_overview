@@ -1,0 +1,2483 @@
+Folder PATH listing for volume New Volume
+Volume serial number is 004A-5C36
+D:.
+|   full_tree.txt
+|
++---0.0
+|       A_Foundation_overview
+|
++---A.0_Getting_Started
+|   +---1_Intro_to_Python_Core
+|   |   |   01_Python_Philosophy_and_Architecture.ipynb
+|   |   |
+|   |   +---01_Overview
+|   |   |       1.1_what_is_python.ipynb
+|   |   |       1.2_how_python_runs_code.ipynb
+|   |   |       1.3_scripts_vs_modules.ipynb
+|   |   |       1.4_interpreter_vs_compiler_basics.ipynb
+|   |   |       1.5_mental_models_and_under_the_hood.ipynb
+|   |   |
+|   |   +---02_Setup
+|   |   |       2.1_install_python.ipynb
+|   |   |       2.2_verify_installation.ipynb
+|   |   |       2.3_choose_an_ide_editor.ipynb
+|   |   |       2.4_run_first_program.ipynb
+|   |   |       2.5_production_setup_and_ci_cd_integration.ipynb
+|   |   |
+|   |   \---03_Best_Practices
+|   |           3.1_project_folder_basics.ipynb
+|   |           3.2_naming_conventions.ipynb
+|   |           3.3_reading_errors_tracebacks.ipynb
+|   |           3.4_best_practices_mastery_and_edge_cases.ipynb
+|   |
+|   +---2_Command_Line_and_Execution
+|   |   |   02_Execution_and_CLI.ipynb
+|   |   |
+|   |   +---01_Fundamentals
+|   |   |       1.1_terminal_basics.ipynb
+|   |   |       1.2_files_folders_navigation.ipynb
+|   |   |       1.3_environment_variables_basics.ipynb
+|   |   |       1.4_fundamentals_mental_models_and_under_the_hood.ipynb
+|   |   |
+|   |   +---02_Running_Python
+|   |   |       2.1_run_python_interactive.ipynb
+|   |   |       2.2_run_python_script.ipynb
+|   |   |       2.3_run_module_python_m.ipynb
+|   |   |       2.4_pass_args_sys_argv.ipynb
+|   |   |       2.5_running_python_mastery_and_edge_cases.ipynb
+|   |   |
+|   |   \---03_Troubleshooting
+|   |           3.1_path_python_not_found.ipynb
+|   |           3.2_permissions_and_execution_policy.ipynb
+|   |           3.3_common_cli_mistakes.ipynb
+|   |           3.4_systematic_debugging_and_troubleshooting_pitfalls.ipynb
+|   |
+|   +---3_Notebooks_and_Workflow
+|   |   |   03_Mastering_Jupyter.ipynb
+|   |   |
+|   |   +---01_Jupyter_Basics
+|   |   |       1.1_what_is_jupyter.ipynb
+|   |   |       1.2_create_run_cells.ipynb
+|   |   |       1.3_markdown_cells_basics.ipynb
+|   |   |       1.4_jupyter_mental_models_and_under_the_hood.ipynb
+|   |   |
+|   |   +---02_Environment_in_Notebooks
+|   |   |       2.1_select_kernel.ipynb
+|   |   |       2.2_install_packages_in_notebook.ipynb
+|   |   |       2.3_restart_kernel_and_state.ipynb
+|   |   |       2.4_production_environment_in_notebooks_and_ci_cd_integration.ipynb
+|   |   |
+|   |   \---03_Good_Notebook_Practices
+|   |           3.1_reproducible_notebooks.ipynb
+|   |           3.2_clear_outputs_and_restart_run_all.ipynb
+|   |           3.3_export_to_script_html_pdf.ipynb
+|   |           3.4_good_notebook_practices_mastery_and_edge_cases.ipynb
+|   |
+|   \---4_Help_Docs_and_Learning_Habits
+|       |   04_Introspection_and_Docs.ipynb
+|       |
+|       +---01_Finding_Help
+|       |       1.1_using_help_and_dir.ipynb
+|       |       1.2_reading_official_docs.ipynb
+|       |       1.3_searching_effectively.ipynb
+|       |       1.4_finding_help_mastery_and_edge_cases.ipynb
+|       |
+|       +---02_Debugging_Mindset
+|       |       2.1_minimal_reproducible_example.ipynb
+|       |       2.2_understanding_tracebacks.ipynb
+|       |       2.3_logging_vs_print.ipynb
+|       |       2.4_systematic_debugging_and_debugging_mindset_pitfalls.ipynb
+|       |
+|       \---03_Building_Consistency
+|               3.1_practice_routine.ipynb
+|               3.2_notes_and_flashcards.ipynb
+|               3.3_small_projects_roadmap.ipynb
+|               3.4_building_consistency_mastery_and_edge_cases.ipynb
+|
++---B.1_Setup_Packaging
+|   +---1_PIP
+|   |   +---01_Basics
+|   |   |       1.1_what_is_pip.ipynb
+|   |   |       1.2_install_upgrade_pip.ipynb
+|   |   |       1.3_installing_packages.ipynb
+|   |   |       1.4_upgrade_uninstall_show.ipynb
+|   |   |       1.5_mental_models_and_under_the_hood.ipynb
+|   |   |       SAMPLE_1.1_pip_install.ipynb
+|   |   |
+|   |   +---02_Dependencies
+|   |   |       2.1_requirements_txt_basics.ipynb
+|   |   |       2.2_version_pinning_semver.ipynb
+|   |   |       2.3_constraints_files.ipynb
+|   |   |       2.4_extras_optional_deps.ipynb
+|   |   |       2.5_dependencies_mastery_and_edge_cases.ipynb
+|   |   |
+|   |   +---03_Advanced_Operations
+|   |   |       3.1_pip_cache_config.ipynb
+|   |   |       3.2_wheels_vs_sdists.ipynb
+|   |   |       3.3_editable_installs_pip.ipynb
+|   |   |       3.4_private_indexes_trusted_hosts.ipynb
+|   |   |       3.5_hashes_integrity.ipynb
+|   |   |       3.6_dependency_resolution_conflicts.ipynb
+|   |   |       3.7_expert_advanced_operations_and_real_world_application.ipynb
+|   |   |
+|   |   \---04_Troubleshooting_and_Best_Practices
+|   |           4.1_troubleshooting_common_errors.ipynb
+|   |           4.2_pip_best_practices.ipynb
+|   |
+|   +---2_VirtualEnv
+|   |   +---01_Fundamentals
+|   |   |       1.1_why_virtual_envs.ipynb
+|   |   |       1.2_create_use_venv.ipynb
+|   |   |       1.3_activation_across_os.ipynb
+|   |   |       1.4_fundamentals_mental_models_and_under_the_hood.ipynb
+|   |   |
+|   |   +---02_Daily_Workflow
+|   |   |       2.1_install_inside_env.ipynb
+|   |   |       2.2_requirements_in_envs.ipynb
+|   |   |       2.3_editable_installs_dev.ipynb
+|   |   |       2.4_advanced_daily_workflow_and_edge_cases.ipynb
+|   |   |
+|   |   +---03_Reproducibility_and_MultiPython
+|   |   |       3.1_recreate_envs_reproducibility.ipynb
+|   |   |       3.2_multiple_python_versions.ipynb
+|   |   |       3.3_virtualenv_basics.ipynb
+|   |   |       3.4_reproducibility_and_multipython_mastery_and_edge_cases.ipynb
+|   |   |
+|   |   \---04_Troubleshooting_and_Best_Practices
+|   |           4.1_common_mistakes_fixes.ipynb
+|   |           4.2_virtualenv_best_practices.ipynb
+|   |
+|   +---3_Modules_Imports_Packages
+|   |   +---01_Core_Concepts
+|   |   |       1.1_module_package_distribution.ipynb
+|   |   |       1.2_import_basics_name_lookup.ipynb
+|   |   |       1.3_init_py_package_init.ipynb
+|   |   |       1.4_core_concepts_mastery_and_edge_cases.ipynb
+|   |   |
+|   |   +---02_Import_Patterns
+|   |   |       2.1_absolute_imports.ipynb
+|   |   |       2.2_relative_imports.ipynb
+|   |   |       2.3_sys_path_pythonpath.ipynb
+|   |   |       2.4_running_python_m.ipynb
+|   |   |       2.5_advanced_import_patterns_and_edge_cases.ipynb
+|   |   |
+|   |   +---03_Advanced_Imports_and_Packages
+|   |   |       3.1_circular_imports_avoid.ipynb
+|   |   |       3.2_importlib_dynamic_imports.ipynb
+|   |   |       3.3_namespace_packages_pep420.ipynb
+|   |   |       3.4_package_data_files.ipynb
+|   |   |       3.5_expert_advanced_imports_and_packages_and_real_world_application.ipynb
+|   |   |
+|   |   \---04_Plugins_and_Testing
+|   |           4.1_entry_points_plugins.ipynb
+|   |           4.2_imports_testing_mocking.ipynb
+|   |           4.3_plugins_and_testing_mastery_and_edge_cases.ipynb
+|   |
+|   \---4_Project_Structure_src_layout_pyproject.toml
+|       +---01_Layouts_and_src
+|       |       1.1_project_layout_overview.ipynb
+|       |       1.2_src_layout_concept.ipynb
+|       |       1.3_package_structure_conventions.ipynb
+|       |       1.4_layouts_and_src_mastery_and_edge_cases.ipynb
+|       |
+|       +---02_pyproject_and_Metadata
+|       |       2.1_setup_cfg_setup_py_pyproject.ipynb
+|       |       2.2_pyproject_minimal_example.ipynb
+|       |       2.3_metadata_name_version_desc.ipynb
+|       |       2.4_dependencies_optional.ipynb
+|       |       2.5_pyproject_and_metadata_mastery_and_edge_cases.ipynb
+|       |
+|       +---03_Dev_Workflow_and_Tooling
+|       |       3.1_editable_install_dev_workflow.ipynb
+|       |       3.2_tests_layout_pytest.ipynb
+|       |       3.3_lint_format_typecheck_tooling.ipynb
+|       |       3.4_advanced_dev_workflow_and_tooling_and_edge_cases.ipynb
+|       |
+|       \---04_Build_and_Publish
+|               4.1_building_wheels_sdists.ipynb
+|               4.1_build_system_backends.ipynb
+|               4.2_build_wheel_sdist.ipynb
+|               4.2_upload_pypi_twine.ipynb
+|               4.3_publish_testpypi_pypi.ipynb
+|               4.3_versioning_strategies.ipynb
+|               4.4_modern_packaging_summary.ipynb
+|               4.4_packaging_best_practices.ipynb
+|
++---C.2_Core
+|   |   
+|   |
+|   +---1_Syntax
+|   |   +---01_Basics
+|   |   |       1.1_indentation_blocks.ipynb
+|   |   |       1.2_statements_expressions.ipynb
+|   |   |       1.3_line_continuation.ipynb
+|   |   |       1.4_code_style_pep8_intro.ipynb
+|   |   |       1.5_mental_models_and_under_the_hood.ipynb
+|   |   |
+|   |   +---02_Names_and_Scope_Preview
+|   |   |       2.1_identifiers_keywords.ipynb
+|   |   |       2.2_name_binding_intro.ipynb
+|   |   |       2.3_scope_preview.ipynb
+|   |   |       2.4_names_and_scope_preview_mastery_and_edge_cases.ipynb
+|   |   |
+|   |   \---03_Pro_Tips
+|   |           3.1_unpacking_basics.ipynb
+|   |           3.2_f_strings_quickstart.ipynb
+|   |           3.3_common_syntax_errors.ipynb
+|   |           3.4_assignment_expressions_walrus.ipynb
+|   |           3.5_match_case_pattern_matching.ipynb
+|   |           3.6_comprehension_syntax_overview.ipynb
+|   |           3.7_expert_pro_tips_and_real_world_application.ipynb
+|   |
+|   +---2_Comments
+|   |   +---01_Comment_Basics
+|   |   |       1.1_single_line_comments.ipynb
+|   |   |       1.2_inline_comments.ipynb
+|   |   |       1.3_block_comments_style.ipynb
+|   |   |       1.4_comment_mental_models_and_under_the_hood.ipynb
+|   |   |
+|   |   +---02_Docstrings
+|   |   |       2.1_why_docstrings.ipynb
+|   |   |       2.2_docstring_conventions.ipynb
+|   |   |       2.3_help_uses_docstrings.ipynb
+|   |   |       2.4_docstring_styles_google_numpy_rest.ipynb
+|   |   |       2.5_docstrings_mastery_and_edge_cases.ipynb
+|   |   |
+|   |   \---03_Maintainability
+|   |           3.1_comment_smells.ipynb
+|   |           3.2_self_documenting_code.ipynb
+|   |           3.3_type_comments_type_ignore.ipynb
+|   |           3.4_maintainability_mastery_and_edge_cases.ipynb
+|   |
+|   +---3_Variables
+|   |   +---01_Fundamentals
+|   |   |       1.1_assignment_basics.ipynb
+|   |   |       1.2_multiple_assignment.ipynb
+|   |   |       1.3_unpacking_assignment.ipynb
+|   |   |       1.4_augmented_assignment_and_inplace.ipynb
+|   |   |       1.5_fundamentals_mental_models_and_under_the_hood.ipynb
+|   |   |
+|   |   +---02_Naming_and_Conventions
+|   |   |       2.1_variable_naming_rules.ipynb
+|   |   |       2.2_constants_convention.ipynb
+|   |   |       2.3_shadowing_builtins.ipynb
+|   |   |       2.4_naming_and_conventions_mastery_and_edge_cases.ipynb
+|   |   |
+|   |   \---03_Scope_Preview
+|   |           3.1_local_global_intro.ipynb
+|   |           3.2_global_keyword_intro.ipynb
+|   |           3.3_nonlocal_keyword_preview.ipynb
+|   |           3.4_legb_scope_rule.ipynb
+|   |           3.5_scope_preview_mastery_and_edge_cases.ipynb
+|   |
+|   +---4_Data_Types
+|   |   +---01_Type_System_Basics
+|   |   |       1.1_dynamic_typing.ipynb
+|   |   |       1.2_type_introspection.ipynb
+|   |   |       1.3_common_builtin_types_overview.ipynb
+|   |   |       1.4_bytes_bytearray_memoryview.ipynb
+|   |   |       1.5_set_frozenset_basics.ipynb
+|   |   |       1.6_type_system_mental_models_and_under_the_hood.ipynb
+|   |   |
+|   |   +---02_Conversion_and_Representation
+|   |   |       2.1_str_repr_difference.ipynb
+|   |   |       2.2_formatting_basics.ipynb
+|   |   |       2.3_serialization_preview.ipynb
+|   |   |       2.4_conversion_and_representation_mastery_and_edge_cases.ipynb
+|   |   |
+|   |   \---03_Type_Hints_Preview
+|   |           3.1_why_type_hints.ipynb
+|   |           3.2_basic_annotations.ipynb
+|   |           3.3_mypy_pyright_preview.ipynb
+|   |           3.4_type_hints_preview_mastery_and_edge_cases.ipynb
+|   |
+|   +---5_Numbers
+|   |   +---01_Number_Types
+|   |   |       1.1_integer_basics.ipynb
+|   |   |       1.1_int_float_complex.ipynb
+|   |   |       1.2_float_basics_issue.ipynb
+|   |   |       1.2_numeric_literals.ipynb
+|   |   |       1.3_arithmetic_basics.ipynb
+|   |   |       1.3_complex_numbers.ipynb
+|   |   |       1.4_arithmetic_operations.ipynb
+|   |   |       1.4_floor_division_and_modulo_rules.ipynb
+|   |   |       1.5_number_types_mastery_and_edge_cases.ipynb
+|   |   |
+|   |   +---02_Floating_Point
+|   |   |       2.1_float_precision.ipynb
+|   |   |       2.1_rounding_precision.ipynb
+|   |   |       2.2_decimal_basics.ipynb
+|   |   |       2.2_rounding_gotchas.ipynb
+|   |   |       2.3_decimal_intro.ipynb
+|   |   |       2.3_fractions_basics.ipynb
+|   |   |       2.4_floating_point_mastery_and_edge_cases.ipynb
+|   |   |
+|   |   \---03_Advanced
+|   |           3.1_big_integers_performance.ipynb
+|   |           3.1_fractions_intro.ipynb
+|   |           3.2_big_integers.ipynb
+|   |           3.2_math_module_overview.ipynb
+|   |           3.3_numeric_performance_tips.ipynb
+|   |           3.3_random_vs_secrets.ipynb
+|   |           3.4_cmath_for_complex_numbers.ipynb
+|   |           3.4_cmath_module.ipynb
+|   |           3.5_expert_advanced_and_real_world_application.ipynb
+|   |
+|   +---6_Casting
+|   |   +---01_Basics
+|   |   |       1.1_casting_int_float_str.ipynb
+|   |   |       1.1_int_float_str_cast.ipynb
+|   |   |       1.2_boolean_casting_rules.ipynb
+|   |   |       1.2_bool_cast_rules.ipynb
+|   |   |       1.3_casting_errors.ipynb
+|   |   |       1.3_common_cast_errors.ipynb
+|   |   |       1.4_mental_models_and_under_the_hood.ipynb
+|   |   |
+|   |   +---02_Collections_Casting
+|   |   |       2.1_list_tuple_set_cast.ipynb
+|   |   |       2.1_list_tuple_set_dict.ipynb
+|   |   |       2.2_dict_cast_patterns.ipynb
+|   |   |       2.2_map_filter_casting.ipynb
+|   |   |       2.3_map_filter_vs_cast.ipynb
+|   |   |       2.3_zip_basics.ipynb
+|   |   |       2.4_collections_casting_mastery_and_edge_cases.ipynb
+|   |   |
+|   |   \---03_Custom_and_Safe_Parsing
+|   |           3.1_safe_parsing_try_except.ipynb
+|   |           3.1_try_except_for_casting.ipynb
+|   |           3.2_custom_class_casting.ipynb
+|   |           3.2_parsing_numbers_from_strings.ipynb
+|   |           3.3_custom_class_dunder_int_float.ipynb
+|   |           3.3_implicit_vs_explicit.ipynb
+|   |           3.4_custom_and_safe_parsing_mastery_and_edge_cases.ipynb
+|   |
+|   +---7_Booleans
+|   |   |   SAMPLE_2_boolean_operators.ipynb
+|   |   |
+|   |   +---01_Basics
+|   |   |       1.1_bool_type.ipynb
+|   |   |       1.2_comparison_results.ipynb
+|   |   |       1.3_boolean_operators.ipynb
+|   |   |       1.4_mental_models_and_under_the_hood.ipynb
+|   |   |
+|   |   +---02_Truthiness_Link
+|   |   |       2.1_truthiness_rules.ipynb
+|   |   |       2.2_short_circuiting.ipynb
+|   |   |       2.3_truthiness_link_mastery_and_edge_cases.ipynb
+|   |   |
+|   |   \---03_Advanced
+|   |           3.1_operator_precedence_bool.ipynb
+|   |           3.2_all_any_patterns.ipynb
+|   |           3.3_expert_advanced_and_real_world_application.ipynb
+|   |
+|   +---8_Operators
+|   |   +---01_Core_Operators
+|   |   |       1.1_arithmetic_ops.ipynb
+|   |   |       1.2_comparison_ops.ipynb
+|   |   |       1.3_boolean_ops.ipynb
+|   |   |       1.4_core_operators_mastery_and_edge_cases.ipynb
+|   |   |
+|   |   +---02_Membership_and_Identity
+|   |   |       2.1_in_not_in.ipynb
+|   |   |       2.2_is_is_not.ipynb
+|   |   |       2.3_identity_vs_equality_examples.ipynb
+|   |   |       2.4_membership_and_identity_mastery_and_edge_cases.ipynb
+|   |   |
+|   |   \---03_Bitwise_and_Assignment
+|   |           3.1_bitwise_ops_intro.ipynb
+|   |           3.2_augmented_assignment.ipynb
+|   |           3.3_operator_precedence_overview.ipynb
+|   |           3.4_conditional_expression_ternary.ipynb
+|   |           3.5_operator_precedence_table.ipynb
+|   |           3.6_bitwise_and_assignment_mastery_and_edge_cases.ipynb
+|   |
+|   +---9_Math
+|   |   +---01_Built_in_Math
+|   |   |       1.1_abs_round_pow.ipynb
+|   |   |       1.2_divmod_modulo.ipynb
+|   |   |       1.3_sum_min_max.ipynb
+|   |   |       1.4_built_in_math_mastery_and_edge_cases.ipynb
+|   |   |
+|   |   +---02_math_Module
+|   |   |       2.1_math_constants.ipynb
+|   |   |       2.2_math_trig_log.ipynb
+|   |   |       2.3_math_floor_ceil.ipynb
+|   |   |       2.4_math_module_mastery_and_edge_cases.ipynb
+|   |   |
+|   |   \---03_Advanced_Numerics
+|   |           3.1_statistics_intro.ipynb
+|   |           3.2_decimal_best_practices.ipynb
+|   |           3.3_randomness_vs_determinism_preview.ipynb
+|   |
+|   +---10_User_Input_Output
+|   |   +---01_Output_Basics
+|   |   |       1.1_print_basics.ipynb
+|   |   |       1.2_f_strings_formatting.ipynb
+|   |   |       1.3_sep_end_flush.ipynb
+|   |   |       1.4_output_mental_models_and_under_the_hood.ipynb
+|   |   |
+|   |   +---02_User_Input
+|   |   |       2.1_input_basics.ipynb
+|   |   |       2.2_input_validation.ipynb
+|   |   |       2.3_parsing_user_input.ipynb
+|   |   |       2.4_user_input_mastery_and_edge_cases.ipynb
+|   |   |
+|   |   \---03_Advanced_IO_Preview
+|   |           3.1_stdin_stdout_stderr.ipynb
+|   |           3.2_redirect_and_pipes_intro.ipynb
+|   |           3.3_argparse_preview.ipynb
+|   |           3.4_expert_advanced_io_preview_and_real_world_application.ipynb
+|   |
+|   +---11_None_NoneType
+|   |   +---01_Basics
+|   |   |       1.1_what_is_none.ipynb
+|   |   |       1.2_none_in_functions.ipynb
+|   |   |       1.3_none_checks.ipynb
+|   |   |       1.4_mental_models_and_under_the_hood.ipynb
+|   |   |
+|   |   +---02_Common_Patterns
+|   |   |       2.1_sentinel_values.ipynb
+|   |   |       2.2_default_args_none.ipynb
+|   |   |       2.3_optional_types_preview.ipynb
+|   |   |       2.4_advanced_common_patterns_and_edge_cases.ipynb
+|   |   |
+|   |   \---03_Pitfalls
+|   |           3.1_none_vs_false.ipynb
+|   |           3.2_mutable_defaults_and_none.ipynb
+|   |           3.3_pitfalls_mastery_and_edge_cases.ipynb
+|   |
+|   +---12_Identity_vs_Equality
+|   |   +---01_Core_Idea
+|   |   |       1.1_equals_vs_is.ipynb
+|   |   |       1.2_object_identity_id.ipynb
+|   |   |       1.3_string_int_interning_intro.ipynb
+|   |   |       1.4_core_idea_mastery_and_edge_cases.ipynb
+|   |   |
+|   |   +---02_Practical_Guidelines
+|   |   |       2.1_when_to_use_is.ipynb
+|   |   |       2.2_custom_eq_basics.ipynb
+|   |   |       2.3_dataclasses_eq_preview.ipynb
+|   |   |       2.4_hashability_eq_and_dict_keys.ipynb
+|   |   |       2.5_practical_guidelines_mastery_and_edge_cases.ipynb
+|   |   |
+|   |   \---03_Debugging
+|   |           3.1_aliasing_mutability_link.ipynb
+|   |           3.2_common_bugs_identity.ipynb
+|   |           3.3_systematic_debugging_and_debugging_pitfalls.ipynb
+|   |
+|   +---13_Truthiness_Falsy_Values
+|   |   +---01_Fundamentals
+|   |   |       1.1_truthy_falsy_rules.ipynb
+|   |   |       1.2_empty_collections.ipynb
+|   |   |       1.3_custom_truthiness_bool_len.ipynb
+|   |   |       1.4_fundamentals_mental_models_and_under_the_hood.ipynb
+|   |   |
+|   |   +---02_Short_Circuiting
+|   |   |       2.1_and_or_patterns.ipynb
+|   |   |       2.2_default_values_or.ipynb
+|   |   |       2.3_guard_clauses.ipynb
+|   |   |       2.4_short_circuiting_mastery_and_edge_cases.ipynb
+|   |   |
+|   |   \---03_Pitfalls
+|   |           3.1_none_vs_empty_string.ipynb
+|   |           3.2_zero_vs_false.ipynb
+|   |           3.3_pitfalls_mastery_and_edge_cases.ipynb
+|   |
+|   +---14_Built_in_Functions
+|   |   +---01_Essential_Builtins
+|   |   |       1.1_len_type_id.ipynb
+|   |   |       1.2_range_enumerate.ipynb
+|   |   |       1.3_zip_map_filter.ipynb
+|   |   |       1.4_sum_min_max_sorted.ipynb
+|   |   |       1.5_builtins_reference_map.ipynb
+|   |   |       1.6_essential_builtins_mastery_and_edge_cases.ipynb
+|   |   |
+|   |   +---02_Functional_and_Iterators
+|   |   |       2.1_any_all.ipynb
+|   |   |       2.2_iter_next.ipynb
+|   |   |       2.3_generator_basics_preview.ipynb
+|   |   |       2.4_functional_and_iterators_mastery_and_edge_cases.ipynb
+|   |   |
+|   |   \---03_Introspection_and_Help
+|   |           3.1_help_dir_vars.ipynb
+|   |           3.2_getattr_setattr_hasattr.ipynb
+|   |           3.3_callable_isinstance_issubclass.ipynb
+|   |           3.4_introspection_and_help_mental_models_and_under_the_hood.ipynb
+|   |
+|   +---15_Memory_Model_Mutability
+|   |   +---01_Foundations
+|   |   |       1.1_references_and_aliasing.ipynb
+|   |   |       1.2_mutable_vs_immutable.ipynb
+|   |   |       1.3_copy_shallow_vs_deep.ipynb
+|   |   |       1.4_foundations_mastery_and_edge_cases.ipynb
+|   |   |
+|   |   +---02_Common_Gotchas
+|   |   |       2.1_mutable_default_args.ipynb
+|   |   |       2.2_list_multiplication_pitfall.ipynb
+|   |   |       2.3_in_place_vs_new_object.ipynb
+|   |   |
+|   |   \---03_Advanced_Model
+|   |           3.1_garbage_collection_intro.ipynb
+|   |           3.2_interning_and_caching.ipynb
+|   |           3.3_performance_implications.ipynb
+|   |           3.4_expert_advanced_model_and_real_world_application.ipynb
+|   |
+|   +---16_Random_Module
+|   |   +---01_Basics
+|   |   |       1.1_random_numbers_basics.ipynb
+|   |   |       1.2_choice_shuffle_sample.ipynb
+|   |   |       1.3_uniform_randint.ipynb
+|   |   |       1.4_mental_models_and_under_the_hood.ipynb
+|   |   |
+|   |   +---02_Reproducibility
+|   |   |       2.1_seeding_random.ipynb
+|   |   |       2.2_repeatable_experiments.ipynb
+|   |   |       2.3_state_getstate_setstate.ipynb
+|   |   |       2.4_reproducibility_mastery_and_edge_cases.ipynb
+|   |   |
+|   |   \---03_Advanced_Notes
+|   |           3.1_random_vs_secrets.ipynb
+|   |           3.2_distribution_overview.ipynb
+|   |           3.3_systemrandom_and_security_notes.ipynb
+|   |           3.4_expert_advanced_notes_and_real_world_application.ipynb
+|   |
+|   \---17_Time_Module
+|       +---01_Basics
+|       |       1.1_time_time_sleep.ipynb
+|       |       1.2_struct_time_local_gmtime.ipynb
+|       |       1.3_formatting_strftime_strptime.ipynb
+|       |       1.4_mental_models_and_under_the_hood.ipynb
+|       |
+|       +---02_Measuring_Time
+|       |       2.1_perf_counter_and_monotonic.ipynb
+|       |       2.2_timeit_intro.ipynb
+|       |       2.3_benchmarking_basics.ipynb
+|       |       2.4_measuring_time_mastery_and_edge_cases.ipynb
+|       |
+|       \---03_Advanced_Practices
+|               3.1_timezones_intro.ipynb
+|               3.2_datetime_vs_time_module.ipynb
+|               3.3_common_time_bugs.ipynb
+|               3.4_when_to_use_time_vs_datetime.ipynb
+|               3.5_expert_advanced_practices_and_real_world_application.ipynb
+|
++---D.3_Strings
+|   +---1_Strings
+|   |   +---01_Basics
+|   |   |       1.1_create_strings_quotes_triple_quotes.ipynb
+|   |   |       1.2_len_indexing_iteration_basics.ipynb
+|   |   |       1.3_concatenation_repetition_membership.ipynb
+|   |   |       1.4_string_comparisons_lexicographic.ipynb
+|   |   |       1.5_mental_models_and_under_the_hood.ipynb
+|   |   |
+|   |   +---02_Working_with_Strings
+|   |   |       2.1_building_strings_plus_vs_join_preview.ipynb
+|   |   |       2.2_searching_substrings_find_in_operator.ipynb
+|   |   |       2.3_iteration_patterns_enumerate.ipynb
+|   |   |       2.4_common_string_pitfalls.ipynb
+|   |   |
+|   |   \---03_Advanced_Concepts
+|   |           3.1_string_interning_preview.ipynb
+|   |           3.2_memory_and_performance_notes.ipynb
+|   |           3.3_string_vs_bytes_preview.ipynb
+|   |           3.4_expert_advanced_concepts_and_real_world_application.ipynb
+|   |
+|   +---2_Python_String_Formatting
+|   |   +---01_Basics
+|   |   |       1.1_f_strings_intro.ipynb
+|   |   |       1.2_str_format_basics.ipynb
+|   |   |       1.3_percent_formatting_legacy.ipynb
+|   |   |       1.4_when_to_use_each_method.ipynb
+|   |   |       1.5_mental_models_and_under_the_hood.ipynb
+|   |   |
+|   |   +---02_Format_String_Syntax
+|   |   |       2.1_replacement_fields_and_conversions.ipynb
+|   |   |       2.2_alignment_width_fill_precision.ipynb
+|   |   |       2.3_number_formatting_int_float_percent.ipynb
+|   |   |       2.4_format_spec_mini_language_overview.ipynb
+|   |   |       2.5_format_string_syntax_mastery_and_edge_cases.ipynb
+|   |   |
+|   |   \---03_Advanced
+|   |           3.1_nested_dynamic_format_specs.ipynb
+|   |           3.2_format_map_and_safe_substitution_patterns.ipynb
+|   |           3.3_custom_format_with___format__.ipynb
+|   |           3.4_expert_advanced_and_real_world_application.ipynb
+|   |
+|   +---3_RegEx
+|   |   +---01_Basics
+|   |   |       1.1_what_is_regex_and_when_to_use.ipynb
+|   |   |       1.2_re_search_match_fullmatch.ipynb
+|   |   |       1.3_character_classes_and_metacharacters.ipynb
+|   |   |       1.4_quantifiers_greedy_basics.ipynb
+|   |   |       1.5_mental_models_and_under_the_hood.ipynb
+|   |   |
+|   |   +---02_Groups_and_Flags
+|   |   |       2.1_capturing_groups_and_backreferences.ipynb
+|   |   |       2.2_named_groups_non_capturing_groups.ipynb
+|   |   |       2.3_alternation_anchors_boundaries.ipynb
+|   |   |       2.4_flags_ignorecase_multiline_dotall_verbose.ipynb
+|   |   |       2.5_groups_and_flags_mastery_and_edge_cases.ipynb
+|   |   |
+|   |   \---03_Advanced_Regex
+|   |           3.1_re_sub_and_re_split_practice.ipynb
+|   |           3.2_compile_and_reuse_patterns.ipynb
+|   |           3.3_lookarounds_greedy_vs_lazy.ipynb
+|   |           3.4_performance_and_backtracking_pitfalls.ipynb
+|   |
+|   +---4_Unicode_encoding_bytes_to_str
+|   |   +---01_Foundations
+|   |   |       1.1_str_is_unicode_in_python3.ipynb
+|   |   |       1.2_bytes_vs_str_core_differences.ipynb
+|   |   |       1.3_encode_vs_decode_utf8_basics.ipynb
+|   |   |       1.4_common_encoding_errors_and_fixes.ipynb
+|   |   |       1.5_foundations_mastery_and_edge_cases.ipynb
+|   |   |
+|   |   +---02_Files_and_Streams
+|   |   |       2.1_text_mode_vs_binary_mode_open.ipynb
+|   |   |       2.2_errors_handlers_ignore_replace_surrogateescape.ipynb
+|   |   |       2.3_reading_writing_with_explicit_encoding.ipynb
+|   |   |       2.4_roundtrip_safety_and_newlines.ipynb
+|   |   |       2.5_files_and_streams_mastery_and_edge_cases.ipynb
+|   |   |
+|   |   \---03_Advanced_Unicode
+|   |           3.1_normalization_nfc_nfd_intro.ipynb
+|   |           3.2_casefold_and_locale_gotchas.ipynb
+|   |           3.3_unicode_debugging_codepoints_repr.ipynb
+|   |           3.4_expert_advanced_unicode_and_real_world_application.ipynb
+|   |
+|   +---5_String_Methods
+|   |   |   SAMPLE_3_split_join_strip.ipynb
+|   |   |
+|   |   +---01_Core_Transformations
+|   |   |       1.1_strip_lstrip_rstrip.ipynb
+|   |   |       1.2_lower_upper_title_casefold.ipynb
+|   |   |       1.3_replace_translate_maketrans.ipynb
+|   |   |       1.4_startswith_endswith_contains.ipynb
+|   |   |       1.5_core_transformations_mastery_and_edge_cases.ipynb
+|   |   |
+|   |   +---02_Splitting_and_Joining
+|   |   |       2.1_split_rsplit_splitlines.ipynb
+|   |   |       2.2_partition_rpartition.ipynb
+|   |   |       2.3_join_best_practices.ipynb
+|   |   |       2.4_parsing_key_value_strings.ipynb
+|   |   |
+|   |   \---03_Inspection_and_Classification
+|   |           3.1_find_rfind_index_count.ipynb
+|   |           3.2_isalpha_isdigit_isnumeric_isspace.ipynb
+|   |           3.3_removeprefix_removesuffix.ipynb
+|   |           3.4_inspection_and_classification_mastery_and_edge_cases.ipynb
+|   |
+|   +---6_String_Slicing
+|   |   +---01_Basics
+|   |   |       1.1_indexing_positive_negative.ipynb
+|   |   |       1.2_slicing_start_stop_step.ipynb
+|   |   |       1.3_copying_and_substrings.ipynb
+|   |   |       1.4_common_off_by_one_errors.ipynb
+|   |   |       1.5_mental_models_and_under_the_hood.ipynb
+|   |   |
+|   |   +---02_Common_Patterns
+|   |   |       2.1_reverse_strings_and_steps.ipynb
+|   |   |       2.2_trim_prefix_suffix_with_slices.ipynb
+|   |   |       2.3_windowing_and_chunking_intro.ipynb
+|   |   |       2.4_advanced_common_patterns_and_edge_cases.ipynb
+|   |   |
+|   |   \---03_Advanced
+|   |           3.1_slice_objects_and_reuse.ipynb
+|   |           3.2_performance_notes_slicing_vs_methods.ipynb
+|   |           3.3_expert_advanced_and_real_world_application.ipynb
+|   |
+|   +---7_Raw_Strings_Escape_Sequences
+|   |   +---01_Escape_Sequences
+|   |   |       1.1_common_escapes_newline_tab_backslash.ipynb
+|   |   |       1.2_quotes_and_multiline_strings.ipynb
+|   |   |       1.3_unicode_escapes_u_U_x_N.ipynb
+|   |   |       1.4_escape_gotchas_in_windows_paths.ipynb
+|   |   |       1.5_escape_sequences_mastery_and_edge_cases.ipynb
+|   |   |
+|   |   +---02_Raw_Strings
+|   |   |       2.1_raw_strings_for_regex.ipynb
+|   |   |       2.2_raw_string_limitations_trailing_backslash.ipynb
+|   |   |       2.3_raw_vs_normal_string_comparisons.ipynb
+|   |   |       2.4_raw_strings_mastery_and_edge_cases.ipynb
+|   |   |
+|   |   \---03_Advanced_Literals
+|   |           3.1_bytes_literals_and_escapes.ipynb
+|   |           3.2_f_strings_with_escapes.ipynb
+|   |           3.3_rf_strings_when_to_avoid.ipynb
+|   |           3.4_expert_advanced_literals_and_real_world_application.ipynb
+|   |
+|   +---8_String_Immutability
+|   |   +---01_Core_Idea
+|   |   |       1.1_immutability_explained.ipynb
+|   |   |       1.2_id_and_object_replacement.ipynb
+|   |   |       1.3_why_strings_are_immutable.ipynb
+|   |   |       1.4_core_idea_mastery_and_edge_cases.ipynb
+|   |   |
+|   |   +---02_Performance_Patterns
+|   |   |       2.1_plus_in_loops_vs_join.ipynb
+|   |   |       2.2_using_list_accumulation_then_join.ipynb
+|   |   |       2.3_stringio_for_large_builds.ipynb
+|   |   |       2.4_advanced_performance_patterns_and_edge_cases.ipynb
+|   |   |
+|   |   \---03_Advanced
+|   |           3.1_interning_and_caching_implications.ipynb
+|   |           3.2_bytes_bytearray_for_mutable_text_like_work.ipynb
+|   |           3.3_copying_costs_and_memory_notes.ipynb
+|   |           3.4_expert_advanced_and_real_world_application.ipynb
+|   |
+|   \---9_Text_Processing
+|       +---01_Cleaning_and_Normalizing
+|       |       1.1_whitespace_normalization.ipynb
+|       |       1.2_remove_punctuation_basic_rules.ipynb
+|       |       1.3_casefolding_for_comparisons.ipynb
+|       |       1.4_unicode_normalization_when_needed.ipynb
+|       |       1.5_cleaning_and_normalizing_mastery_and_edge_cases.ipynb
+|       |
+|       +---02_Search_Parse_Transform
+|       |       2.1_tokenization_split_vs_regex.ipynb
+|       |       2.2_extract_fields_with_partition_and_split.ipynb
+|       |       2.3_regex_for_log_parsing.ipynb
+|       |       2.4_safe_replacements_and_substitutions.ipynb
+|       |       2.5_search_parse_transform_mastery_and_edge_cases.ipynb
+|       |
+|       \---03_Templates_and_Rendering
+|               3.1_template_strings_intro.ipynb
+|               3.2_formatting_pipelines_for_reports.ipynb
+|               3.3_text_processing_performance_checklist.ipynb
+|               3.4_templates_and_rendering_mastery_and_edge_cases.ipynb
+|
++---E.4_ControlFlow
+|   |   k
+|   |
+|   +---1_If...else
+|   |   |   SAMPLE_4_if_elif_else.ipynb
+|   |   |
+|   |   +---01_Basics
+|   |   |       1.1_if_statement_basics.ipynb
+|   |   |       1.2_if_else_flow.ipynb
+|   |   |       1.3_elif_chains.ipynb
+|   |   |       1.4_nested_if_readability.ipynb
+|   |   |       1.5_mental_models_and_under_the_hood.ipynb
+|   |   |
+|   |   +---02_Common_Patterns
+|   |   |       2.1_guard_clauses_early_return.ipynb
+|   |   |       2.2_membership_checks_in_sets_dicts.ipynb
+|   |   |       2.3_multiple_conditions_and_or_not.ipynb
+|   |   |       2.4_validating_inputs_with_if.ipynb
+|   |   |       2.5_advanced_common_patterns_and_edge_cases.ipynb
+|   |   |
+|   |   \---03_Pro_Tips
+|   |           3.1_reducing_nesting_refactor_patterns.ipynb
+|   |           3.2_dispatch_tables_vs_long_elif.ipynb
+|   |           3.3_common_logic_bugs_operator_precedence.ipynb
+|   |           3.4_expert_pro_tips_and_real_world_application.ipynb
+|   |
+|   +---2_Match
+|   |   +---01_Basics
+|   |   |       1.1_match_case_minimal_examples.ipynb
+|   |   |       1.2_literal_patterns_and_wildcard.ipynb
+|   |   |       1.3_capture_patterns_name_binding.ipynb
+|   |   |       1.4_mental_models_and_under_the_hood.ipynb
+|   |   |
+|   |   +---02_Pattern_Types
+|   |   |       2.1_or_patterns_and_as_patterns.ipynb
+|   |   |       2.2_sequence_patterns_unpacking.ipynb
+|   |   |       2.3_mapping_patterns_dict_matching.ipynb
+|   |   |       2.4_class_patterns___match_args__.ipynb
+|   |   |       2.5_advanced_pattern_types_and_edge_cases.ipynb
+|   |   |
+|   |   \---03_Advanced
+|   |           3.1_guards_if_in_case_blocks.ipynb
+|   |           3.2_irrefutable_cases_and_ordering_rules.ipynb
+|   |           3.3_pattern_matching_pitfalls_and_readability.ipynb
+|   |
+|   +---3_While_Loops
+|   |   +---01_Basics
+|   |   |       1.1_while_condition_basics.ipynb
+|   |   |       1.2_while_true_and_break_intro.ipynb
+|   |   |       1.3_counter_loops_and_updates.ipynb
+|   |   |       1.4_mental_models_and_under_the_hood.ipynb
+|   |   |
+|   |   +---02_Common_Patterns
+|   |   |       2.1_sentinel_loops_read_until.ipynb
+|   |   |       2.2_input_retry_loop_pattern.ipynb
+|   |   |       2.3_loop_invariants_and_termination.ipynb
+|   |   |       2.4_advanced_common_patterns_and_edge_cases.ipynb
+|   |   |
+|   |   \---03_Pro_Tips
+|   |           3.1_while_else_semantics_preview.ipynb
+|   |           3.2_avoid_infinite_loops_debugging.ipynb
+|   |           3.3_when_to_replace_while_with_for.ipynb
+|   |           3.4_expert_pro_tips_and_real_world_application.ipynb
+|   |
+|   +---4_For_Loops
+|   |   +---01_Basics
+|   |   |       1.1_for_over_iterables_intro.ipynb
+|   |   |       1.2_range_function_basics.ipynb
+|   |   |       1.3_for_loop_variable_scope.ipynb
+|   |   |       1.4_mental_models_and_under_the_hood.ipynb
+|   |   |
+|   |   +---02_Common_Patterns
+|   |   |       2.1_enumerate_indexed_iteration.ipynb
+|   |   |       2.2_zip_parallel_iteration.ipynb
+|   |   |       2.3_nested_loops_and_loop_reuse.ipynb
+|   |   |       2.4_advanced_common_patterns_and_edge_cases.ipynb
+|   |   |
+|   |   \---03_Pro_Tips
+|   |           3.1_for_else_semantics.ipynb
+|   |           3.2_comprehension_vs_for_loop_readability.ipynb
+|   |           3.3_itertools_power_loops.ipynb
+|   |           3.4_expert_pro_tips_and_real_world_application.ipynb
+|   |
+|   +---5_Try...Except
+|   |   +---01_Basics
+|   |   |       1.1_try_except_basics.ipynb
+|   |   |       1.2_multiple_except_clauses.ipynb
+|   |   |       1.3_finally_cleanup_intro.ipynb
+|   |   |       1.4_mental_models_and_under_the_hood.ipynb
+|   |   |
+|   |   +---02_Common_Patterns
+|   |   |       2.1_exception_hierarchy_specificity.ipynb
+|   |   |       2.2_catching_and_raising_exceptions.ipynb
+|   |   |       2.3_try_except_else_finally_flow.ipynb
+|   |   |       2.4_advanced_common_patterns_and_edge_cases.ipynb
+|   |   |
+|   |   \---03_Pro_Tips
+|   |           3.1_context_managers_vs_try_finally.ipynb
+|   |           3.2_when_not_to_catch_exceptions.ipynb
+|   |           3.3_logging_and_debugging_exceptions.ipynb
+|   |           3.4_expert_pro_tips_and_real_world_application.ipynb
+|   |
+|   +---6_Assert
+|   |   +---01_Basics
+|   |   |       1.1_assert_statement_basics.ipynb
+|   |   |       1.2_assert_vs_if_raise.ipynb
+|   |   |       1.3_optimization_and_disabled_mode.ipynb
+|   |   |       1.4_mental_models_and_under_the_hood.ipynb
+|   |   |
+|   |   +---02_Common_Patterns
+|   |   |       2.1_assert_for_debugging_invariants.ipynb
+|   |   |       2.2_unit_tests_and_preconditions.ipynb
+|   |   |       2.3_advanced_common_patterns_and_edge_cases.ipynb
+|   |   |
+|   |   \---03_Pro_Tips
+|   |           3.1_never_use_assert_for_data_validation.ipynb
+|   |           3.2_assert_messages_best_practices.ipynb
+|   |
+|   +---7_Break_Continue_Pass
+|   |   +---01_Basics
+|   |   |       1.1_break_exits_loop.ipynb
+|   |   |       1.2_continue_skips_iteration.ipynb
+|   |   |       1.3_pass_no_op_placeholder.ipynb
+|   |   |       1.4_mental_models_and_under_the_hood.ipynb
+|   |   |
+|   |   +---02_Common_Patterns
+|   |   |       2.1_break_in_search_loops.ipynb
+|   |   |       2.2_continue_for_filtering.ipynb
+|   |   |       2.3_nested_loop_break_limitations.ipynb
+|   |   |       2.4_advanced_common_patterns_and_edge_cases.ipynb
+|   |   |
+|   |   \---03_Pro_Tips
+|   |           3.1_when_to_refactor_break_continue.ipynb
+|   |           3.2_pass_vs_ellipsis_placeholder.ipynb
+|   |           3.3_readability_and_control_flow_complexity.ipynb
+|   |           3.4_expert_pro_tips_and_real_world_application.ipynb
+|   |
+|   +---8_Else_Clause_loops_try
+|   |   +---01_Basics
+|   |   |       1.1_else_with_for_loops.ipynb
+|   |   |       1.2_else_with_while_loops.ipynb
+|   |   |       1.3_else_with_try_success_code.ipynb
+|   |   |       1.4_mental_models_and_under_the_hood.ipynb
+|   |   |
+|   |   +---02_Common_Patterns
+|   |   |       2.1_search_found_not_found_pattern.ipynb
+|   |   |       2.2_try_except_else_finally_full_form.ipynb
+|   |   |       2.3_replacing_flag_variables.ipynb
+|   |   |       2.4_advanced_common_patterns_and_edge_cases.ipynb
+|   |   |
+|   |   \---03_Pro_Tips
+|   |           3.1_controversial_syntax_when_to_use.ipynb
+|   |           3.2_readability_and_comments.ipynb
+|   |           3.3_avoiding_else_overuse.ipynb
+|   |           3.4_expert_pro_tips_and_real_world_application.ipynb
+|   |
+|   +---9_Ternary_Operator
+|   |   +---01_Basics
+|   |   |       1.1_syntax_and_basic_usage.ipynb
+|   |   |       1.2_conditional_expressions_value_result.ipynb
+|   |   |       1.3_ternary_vs_if_statement_differences.ipynb
+|   |   |       1.4_mental_models_and_under_the_hood.ipynb
+|   |   |
+|   |   +---02_Common_Patterns
+|   |   |       2.1_variable_assignment_based_on_condition.ipynb
+|   |   |       2.2_default_value_pattern.ipynb
+|   |   |       2.3_nested_ternary_caution.ipynb
+|   |   |       2.4_advanced_common_patterns_and_edge_cases.ipynb
+|   |   |
+|   |   \---03_Pro_Tips
+|   |           3.1_readability_first_when_not_to_use.ipynb
+|   |           3.2_ternary_in_comprehensions.ipynb
+|   |           3.3_alternatives_short_circuit_or_and.ipynb
+|   |           3.4_expert_pro_tips_and_real_world_application.ipynb
+|   |
+|   \---10_Walrus_Operator
+|       +---01_Basics
+|       |       1.1_assignment_expression_syntax.ipynb
+|       |       1.2_python3_8_intro_motivation.ipynb
+|       |       1.3_walrus_vs_normal_assignment.ipynb
+|       |       1.4_mental_models_and_under_the_hood.ipynb
+|       |
+|       +---02_Common_Patterns
+|       |       2.1_while_loop_pattern_reduced.ipynb
+|       |       2.2_if_reuse_value_pattern.ipynb
+|       |       2.3_list_comprehension_reuse.ipynb
+|       |       2.4_advanced_common_patterns_and_edge_cases.ipynb
+|       |
+|       \---03_Pro_Tips
+|               3.1_readability_controversies.ipynb
+|               3.2_scope_and_potential_pitfalls.ipynb
+|               3.3_team_style_guide_considerations.ipynb
+|
++---F.5_Functions
+|   +---1_Functions
+|   |   +---01_Basics
+|   |   |       1.1_defining_and_calling_functions.ipynb
+|   |   |       1.2_parameters_and_arguments_basics.ipynb
+|   |   |       1.3_return_values_and_early_return.ipynb
+|   |   |       1.4_docstrings_and_help_basics.ipynb
+|   |   |       1.5_mental_models_and_under_the_hood.ipynb
+|   |   |
+|   |   +---02_Common_Patterns
+|   |   |       2.1_default_arguments_intro.ipynb
+|   |   |       2.2_multiple_returns_tuple_unpacking.ipynb
+|   |   |       2.3_input_validation_guard_clauses.ipynb
+|   |   |       2.4_side_effects_vs_pure_functions_intro.ipynb
+|   |   |       2.5_advanced_common_patterns_and_edge_cases.ipynb
+|   |   |
+|   |   \---03_Pro_Tips
+|   |           3.1_mutable_default_args_gotcha.ipynb
+|   |           3.2_designing_clean_function_apis.ipynb
+|   |           3.3_introspecting_signatures_preview.ipynb
+|   |           3.4_expert_pro_tips_and_real_world_application.ipynb
+|   |
+|   +---2_args_kwargs
+|   |   +---01_Basics
+|   |   |       1.1_positional_vs_keyword_arguments.ipynb
+|   |   |       1.2_star_args_collecting_varargs.ipynb
+|   |   |       1.3_double_star_kwargs_collecting.ipynb
+|   |   |       1.4_unpacking_args_kwargs_in_calls.ipynb
+|   |   |       1.5_mental_models_and_under_the_hood.ipynb
+|   |   |
+|   |   +---02_Parameter_Kinds
+|   |   |       2.1_parameter_ordering_rules.ipynb
+|   |   |       2.2_keyword_only_parameters_with_star.ipynb
+|   |   |       2.3_positional_only_parameters_with_slash.ipynb
+|   |   |       2.4_mixing_defaults_varargs_kwonly.ipynb
+|   |   |       2.5_parameter_kinds_mastery_and_edge_cases.ipynb
+|   |   |
+|   |   \---03_API_Design_and_Forwarding
+|   |           3.1_forwarding_wrappers_args_kwargs.ipynb
+|   |           3.2_keyword_only_for_clarity_and_safety.ipynb
+|   |           3.3_defensive_kwargs_and_validation_patterns.ipynb
+|   |           3.4_api_design_and_forwarding_mastery_and_edge_cases.ipynb
+|   |
+|   +---3_Lambda
+|   |   +---01_Basics
+|   |   |       1.1_lambda_syntax_single_expression.ipynb
+|   |   |       1.2_lambda_vs_def_when_to_use.ipynb
+|   |   |       1.3_immediate_use_inline_functions.ipynb
+|   |   |       1.4_mental_models_and_under_the_hood.ipynb
+|   |   |
+|   |   +---02_Common_Uses
+|   |   |       2.1_sorted_key_lambda.ipynb
+|   |   |       2.2_map_filter_with_lambda_intro.ipynb
+|   |   |       2.3_small_adapters_for_callbacks.ipynb
+|   |   |       2.4_advanced_common_uses_and_edge_cases.ipynb
+|   |   |
+|   |   \---03_Pitfalls
+|   |           3.1_readability_limits_and_refactor_to_def.ipynb
+|   |           3.2_late_binding_in_loops_problem.ipynb
+|   |           3.3_closure_capture_fixes_default_args.ipynb
+|   |           3.4_pitfalls_mastery_and_edge_cases.ipynb
+|   |
+|   +---4_Scope_Namespaces
+|   |   +---01_Basics
+|   |   |       1.1_legb_rule_overview.ipynb
+|   |   |       1.2_locals_globals_builtins.ipynb
+|   |   |       1.3_name_resolution_examples.ipynb
+|   |   |       1.4_mental_models_and_under_the_hood.ipynb
+|   |   |
+|   |   +---02_Binding_Rules
+|   |   |       2.1_assignment_creates_local_binding.ipynb
+|   |   |       2.2_global_statement_basics.ipynb
+|   |   |       2.3_nonlocal_statement_basics.ipynb
+|   |   |       2.4_binding_rules_mastery_and_edge_cases.ipynb
+|   |   |
+|   |   \---03_Advanced
+|   |           3.1_unboundlocalerror_why_it_happens.ipynb
+|   |           3.2_namespaces_in_modules_classes_functions.ipynb
+|   |           3.3_scope_debugging_with_locals_globals.ipynb
+|   |           3.4_expert_advanced_and_real_world_application.ipynb
+|   |
+|   +---5_Decorators
+|   |   +---01_Basics
+|   |   |       1.1_decorator_syntax_at_symbol.ipynb
+|   |   |       1.2_first_simple_decorator_wrap_function.ipynb
+|   |   |       1.3_stacking_multiple_decorators_order.ipynb
+|   |   |       1.4_mental_models_and_under_the_hood.ipynb
+|   |   |
+|   |   +---02_Writing_Decorators
+|   |   |       2.1_decorator_with_args_kwargs_forwarding.ipynb
+|   |   |       2.2_functools_wraps_preserve_metadata.ipynb
+|   |   |       2.3_common_decorators_timer_logger_retry.ipynb
+|   |   |       2.4_writing_decorators_mastery_and_edge_cases.ipynb
+|   |   |
+|   |   \---03_Advanced
+|   |           3.1_decorator_factory_parameters.ipynb
+|   |           3.2_class_based_decorators_and_callables.ipynb
+|   |           3.3_signature_preservation_and_introspection.ipynb
+|   |           3.4_expert_advanced_and_real_world_application.ipynb
+|   |
+|   +---6_Context_Managers_with
+|   |   +---01_Basics
+|   |   |       1.1_why_with_try_finally_equivalence.ipynb
+|   |   |       1.2_using_with_open_files.ipynb
+|   |   |       1.3_context_manager_protocol_enter_exit_intro.ipynb
+|   |   |       1.4_mental_models_and_under_the_hood.ipynb
+|   |   |
+|   |   +---02_contextlib_Tools
+|   |   |       2.1_contextlib_contextmanager_decorator.ipynb
+|   |   |       2.2_contextlib_suppress_closing_redirect_stdout.ipynb
+|   |   |       2.3_exitstack_manage_multiple_contexts.ipynb
+|   |   |       2.4_contextlib_tools_mastery_and_edge_cases.ipynb
+|   |   |
+|   |   \---03_Advanced
+|   |           3.1_writing_class_based_context_managers.ipynb
+|   |           3.2_context_manager_error_handling_patterns.ipynb
+|   |           3.3_async_context_managers_preview.ipynb
+|   |           3.4_expert_advanced_and_real_world_application.ipynb
+|   |
+|   +---7_Recursion
+|   |   +---01_Basics
+|   |   |       1.1_base_case_and_recursive_case.ipynb
+|   |   |       1.2_call_stack_mental_model.ipynb
+|   |   |       1.3_simple_recursion_examples_factorial_fib.ipynb
+|   |   |       1.4_mental_models_and_under_the_hood.ipynb
+|   |   |
+|   |   +---02_Common_Patterns
+|   |   |       2.1_tree_recursion_traversal_intro.ipynb
+|   |   |       2.2_divide_and_conquer_preview.ipynb
+|   |   |       2.3_memoization_intro.ipynb
+|   |   |       2.4_advanced_common_patterns_and_edge_cases.ipynb
+|   |   |
+|   |   \---03_Pro_Tips
+|   |           3.1_recursion_limit_and_stack_overflow.ipynb
+|   |           3.2_iterative_refactor_strategies.ipynb
+|   |           3.3_memoization_with_functools_cache_lru_cache.ipynb
+|   |           3.4_expert_pro_tips_and_real_world_application.ipynb
+|   |
+|   +---8_Closures
+|   |   +---01_Basics
+|   |   |       1.1_nested_functions_and_free_variables.ipynb
+|   |   |       1.2_returning_functions_closure_intro.ipynb
+|   |   |       1.3_closure_use_cases_factory_functions.ipynb
+|   |   |       1.4_mental_models_and_under_the_hood.ipynb
+|   |   |
+|   |   +---02_State_and_Nonlocal
+|   |   |       2.1_nonlocal_for_stateful_closures.ipynb
+|   |   |       2.2_closures_for_data_hiding.ipynb
+|   |   |       2.3_closure_vs_class_tradeoffs.ipynb
+|   |   |       2.4_state_and_nonlocal_mastery_and_edge_cases.ipynb
+|   |   |
+|   |   \---03_Pitfalls
+|   |           3.1_late_binding_gotcha_in_loops.ipynb
+|   |           3.2_fix_late_binding_default_arg_capture.ipynb
+|   |           3.3_debugging_closures_cells_and_vars.ipynb
+|   |           3.4_pitfalls_mastery_and_edge_cases.ipynb
+|   |
+|   \---9_First_Class_Functions
+|       +---01_Basics
+|       |       1.1_functions_are_objects.ipynb
+|       |       1.2_assign_pass_return_functions.ipynb
+|       |       1.3_callables_functions_methods_classes.ipynb
+|       |       1.4_mental_models_and_under_the_hood.ipynb
+|       |
+|       +---02_Higher_Order_Functions
+|       |       2.1_higher_order_basics_apply_function.ipynb
+|       |       2.2_function_composition_intro.ipynb
+|       |       2.3_functors_operator_module_preview.ipynb
+|       |       2.4_higher_order_functions_mastery_and_edge_cases.ipynb
+|       |
+|       \---03_Advanced
+|               3.1_callable_objects_with___call__.ipynb
+|               3.2_function_tools_in_functools_overview.ipynb
+|               3.3_introspection_with_inspect_signature_preview.ipynb
+|               3.4_expert_advanced_and_real_world_application.ipynb
+|
+|   +---10_Callbacks
+|   |   +---01_Basics
+|   |   |       1.1_what_is_a_callback.ipynb
+|   |   |       1.2_passing_callbacks_to_functions.ipynb
+|   |   |       1.3_callbacks_with_sorted_key_and_hooks.ipynb
+|   |   |       1.4_mental_models_and_under_the_hood.ipynb
+|   |   |
+|   |   +---02_Common_Patterns
+|   |   |       2.1_callback_with_state_closure_or_object.ipynb
+|   |   |       2.2_partial_for_callbacks_with_fixed_args.ipynb
+|   |   |       2.3_error_handling_in_callbacks.ipynb
+|   |   |       2.4_advanced_common_patterns_and_edge_cases.ipynb
+|   |   |
+|   |   \---03_Advanced
+|   |           3.1_callback_registries_and_dispatch_tables.ipynb
+|   |           3.2_sync_vs_async_callbacks_preview.ipynb
+|   |           3.3_testing_callbacks_mocking_preview.ipynb
+|   |           3.4_expert_advanced_and_real_world_application.ipynb
+|   |
+|   +---11_Function_Annotations
+|   |   +---01_Basics
+|   |   |       1.1_annotation_syntax_params_and_return.ipynb
+|   |   |       1.2___annotations___and_runtime_access.ipynb
+|   |   |       1.3_annotations_are_not_enforced_runtime.ipynb
+|   |   |       1.4_mental_models_and_under_the_hood.ipynb
+|   |   |
+|   |   +---02_Typing_Primer
+|   |   |       2.1_typing_basics_list_dict_optional_union.ipynb
+|   |   |       2.2_callable_and_protocols_preview.ipynb
+|   |   |       2.3_generics_intro_typevar_preview.ipynb
+|   |   |       2.4_typing_primer_mastery_and_edge_cases.ipynb
+|   |   |
+|   |   \---03_Advanced
+|   |           3.1_forward_references_and_string_annotations.ipynb
+|   |           3.2_get_type_hints_and_evaluation_rules.ipynb
+|   |           3.3_annotationlib_get_annotations_preview.ipynb
+|   |           3.4_expert_advanced_and_real_world_application.ipynb
+|   |
+|   \---12_Partial_Functions
+|       +---01_Basics
+|       |       1.1_functools_partial_intro.ipynb
+|       |       1.2_binding_positional_and_keyword_args.ipynb
+|       |       1.3_partial_vs_lambda_vs_def.ipynb
+|       |       1.4_mental_models_and_under_the_hood.ipynb
+|       |
+|       +---02_Common_Uses
+|       |       2.1_callbacks_with_pre_filled_parameters.ipynb
+|       |       2.2_adapter_functions_and_api_bridging.ipynb
+|       |       2.3_partialmethod_preview_for_methods.ipynb
+|       |       2.4_advanced_common_uses_and_edge_cases.ipynb
+|       |
+|       \---03_Pro_Tips
+|               3.1_introspection_signature_and_wrappers.ipynb
+|               3.2_annotations_and_metadata_caveats.ipynb
+|               3.3_readability_guidelines_when_not_to_use_partial.ipynb
+|               3.4_expert_pro_tips_and_real_world_application.ipynb
+|
++---G.6_Collections
+|   +---1_Lists
+|   |   +---01_Basics
+|   |   |       1.1_creating_lists_literals_constructor.ipynb
+|   |   |       1.2_indexing_slicing_basics.ipynb
+|   |   |       1.3_mutability_and_item_assignment.ipynb
+|   |   |       1.4_append_extend_insert.ipynb
+|   |   |       1.5_remove_pop_del_clear.ipynb
+|   |   |       1.6_sort_sorted_and_reverse.ipynb
+|   |   |       1.7_mental_models_and_under_the_hood.ipynb
+|   |   |
+|   |   +---02_Common_Patterns
+|   |   |       2.1_lists_as_stacks.ipynb
+|   |   |       2.2_iterating_with_enumerate_zip.ipynb
+|   |   |       2.3_copying_lists_and_common_gotchas.ipynb
+|   |   |       2.4_list_of_lists_aliasing_problem.ipynb
+|   |   |       2.5_advanced_common_patterns_and_edge_cases.ipynb
+|   |   |
+|   |   \---03_Pro_Tips
+|   |           3.1_sort_key_functions_and_stability.ipynb
+|   |           3.2_when_to_use_deque_instead_of_list.ipynb
+|   |           3.3_performance_notes_append_vs_insert.ipynb
+|   |           3.4_expert_pro_tips_and_real_world_application.ipynb
+|   |
+|   +---2_Tuples
+|   |   +---01_Basics
+|   |   |       1.1_tuple_literals_and_commas.ipynb
+|   |   |       1.2_singleton_tuple_trailing_comma.ipynb
+|   |   |       1.3_packing_and_unpacking.ipynb
+|   |   |       1.4_immutability_and_hashability.ipynb
+|   |   |       1.5_tuple_methods_count_index.ipynb
+|   |   |       1.6_mental_models_and_under_the_hood.ipynb
+|   |   |
+|   |   +---02_Common_Patterns
+|   |   |       2.1_multiple_return_values_unpacking.ipynb
+|   |   |       2.2_swapping_variables_pythonic.ipynb
+|   |   |       2.3_tuples_as_dict_keys_and_set_elements.ipynb
+|   |   |       2.4_advanced_common_patterns_and_edge_cases.ipynb
+|   |   |
+|   |   \---03_Pro_Tips
+|   |           3.1_extended_unpacking_star.ipynb
+|   |           3.2_structured_records_tuple_vs_namedtuple_preview.ipynb
+|   |           3.3_immutability_does_not_mean_deep_immutable.ipynb
+|   |           3.4_expert_pro_tips_and_real_world_application.ipynb
+|   |
+|   +---3_Sets
+|   |   +---01_Basics
+|   |   |       1.1_creating_sets_and_uniqueness.ipynb
+|   |   |       1.2_add_update_remove_discard_pop.ipynb
+|   |   |       1.3_membership_tests_and_hashability.ipynb
+|   |   |       1.4_set_operations_union_intersection_diff.ipynb
+|   |   |       1.5_mental_models_and_under_the_hood.ipynb
+|   |   |
+|   |   +---02_Common_Patterns
+|   |   |       2.1_deduplication_and_unique_filtering.ipynb
+|   |   |       2.2_subset_superset_and_set_relationships.ipynb
+|   |   |       2.3_set_comprehensions_intro.ipynb
+|   |   |       2.4_advanced_common_patterns_and_edge_cases.ipynb
+|   |   |
+|   |   \---03_Pro_Tips
+|   |           3.1_set_vs_list_membership_performance.ipynb
+|   |           3.2_working_with_immutable_sets_frozenset_preview(1).ipynb
+|   |           3.2_working_with_immutable_sets_frozenset_preview.ipynb
+|   |           3.3_common_set_pitfalls_unhashable_items.ipynb
+|   |
+|   +---4_Dictionaries
+|   |   +---01_Basics
+|   |   |       1.1_creating_dicts_literals_constructor.ipynb
+|   |   |       1.2_get_set_update_and_membership.ipynb
+|   |   |       1.3_iterating_keys_values_items.ipynb
+|   |   |       1.4_get_default_and_setdefault.ipynb
+|   |   |       1.5_deleting_keys_pop_popitem_clear.ipynb
+|   |   |       1.6_mental_models_and_under_the_hood.ipynb
+|   |   |
+|   |   +---02_Common_Patterns
+|   |   |       2.1_counting_and_grouping_patterns.ipynb
+|   |   |       2.2_dict_comprehensions_intro.ipynb
+|   |   |       2.3_safe_lookups_and_fallbacks.ipynb
+|   |   |       2.4_building_index_maps_from_sequences.ipynb
+|   |   |       2.5_advanced_common_patterns_and_edge_cases.ipynb
+|   |   |
+|   |   \---03_Pro_Tips
+|   |           3.1_dict_views_dynamic_behavior.ipynb
+|   |           3.2_dict_merge_and_update_operators_pep584.ipynb
+|   |           3.3_insertion_order_and_when_ordereddict_matters_preview.ipynb
+|   |           3.4_expert_pro_tips_and_real_world_application.ipynb
+|   |
+|   +---5_Arrays_optional
+|   |   +---01_Basics
+|   |   |       1.1_array_module_intro_and_typecodes.ipynb
+|   |   |       1.2_append_extend_and_indexing.ipynb
+|   |   |       1.3_fromlist_tolist_tobytes_frombytes.ipynb
+|   |   |       1.4_mental_models_and_under_the_hood.ipynb
+|   |   |
+|   |   +---02_Common_Patterns
+|   |   |       2.1_memory_efficiency_vs_lists.ipynb
+|   |   |       2.2_binary_io_with_arrays_preview.ipynb
+|   |   |       2.3_interop_with_memoryview_preview.ipynb
+|   |   |       2.4_advanced_common_patterns_and_edge_cases.ipynb
+|   |   |
+|   |   \---03_Pro_Tips
+|   |           3.1_choose_array_vs_bytes_bytearray.ipynb
+|   |           3.2_when_to_use_numpy_instead_preview.ipynb
+|   |           3.3_expert_pro_tips_and_real_world_application.ipynb
+|   |
+|   +---6_Comprehensions_list_set_dict
+|   |   +---01_Basics
+|   |   |       1.1_list_comprehension_syntax.ipynb
+|   |   |       1.2_set_comprehension_syntax.ipynb
+|   |   |       1.3_dict_comprehension_syntax.ipynb
+|   |   |       1.4_mental_models_and_under_the_hood.ipynb
+|   |   |
+|   |   +---02_Common_Patterns
+|   |   |       2.1_filtering_with_if_clause.ipynb
+|   |   |       2.2_nested_comprehensions_flattening.ipynb
+|   |   |       2.3_using_enumerate_zip_in_comprehensions.ipynb
+|   |   |       2.4_readability_guidelines_vs_for_loops.ipynb
+|   |   |       2.5_advanced_common_patterns_and_edge_cases.ipynb
+|   |   |
+|   |   \---03_Pro_Tips
+|   |           3.1_generator_expressions_vs_list_comprehensions_preview.ipynb
+|   |           3.2_scope_and_name_leaks_history_note.ipynb
+|   |           3.3_performance_and_memory_tradeoffs.ipynb
+|   |           3.4_expert_pro_tips_and_real_world_application.ipynb
+|   |
+|   +---7_Iterators
+|   |   +---01_Basics
+|   |   |       1.1_iterable_vs_iterator.ipynb
+|   |   |       1.2_iter_and_next_stopiteration.ipynb
+|   |   |       1.3_how_for_loops_use_iterators.ipynb
+|   |   |       1.4_mental_models_and_under_the_hood.ipynb
+|   |   |
+|   |   +---02_Common_Patterns
+|   |   |       2.1_iterator_exhaustion_and_one_shot_iterables.ipynb
+|   |   |       2.2_iter_callable_sentinel_pattern.ipynb
+|   |   |       2.3_iterating_files_streams_safely.ipynb
+|   |   |       2.4_advanced_common_patterns_and_edge_cases.ipynb
+|   |   |
+|   |   \---03_Pro_Tips
+|   |           3.1_building_custom_iterators___iter___next__.ipynb
+|   |           3.2_collections_abc_iterable_iterator_checks.ipynb
+|   |           3.3_debugging_stopiteration_and_next_usage.ipynb
+|   |           3.4_expert_pro_tips_and_real_world_application.ipynb
+|   |
+|   +---8_Generators_yield
+|   |   +---01_Basics
+|   |   |       1.1_generator_functions_with_yield.ipynb
+|   |   |       1.2_generator_objects_and_lazy_evaluation.ipynb
+|   |   |       1.3_generator_expressions_pep289_intro.ipynb
+|   |   |       1.4_mental_models_and_under_the_hood.ipynb
+|   |   |
+|   |   +---02_Common_Patterns
+|   |   |       2.1_yield_from_delegation.ipynb
+|   |   |       2.2_generator_pipelines_chaining.ipynb
+|   |   |       2.3_using_generators_with_itertools.ipynb
+|   |   |       2.4_advanced_common_patterns_and_edge_cases.ipynb
+|   |   |
+|   |   \---03_Pro_Tips
+|   |           3.1_generator_methods_send_throw_close_preview.ipynb
+|   |           3.2_exception_handling_in_generators.ipynb
+|   |           3.3_generators_powering_contextlib_contextmanager_preview.ipynb
+|   |           3.4_expert_pro_tips_and_real_world_application.ipynb
+|   |
+|   +---9_collections
+|       +---01_Overview
+|       |       1.1_what_collections_module_provides.ipynb
+|       |       1.2_namedtuple_intro_and_usage.ipynb
+|       |       1.3_when_to_use_stdlib_containers_vs_builtins.ipynb
+|       |       1.4_mental_models_and_under_the_hood.ipynb
+|       |
+|       +---02_collections_abc
+|       |       2.1_iterable_iterator_sequence_mapping_abc.ipynb
+|       |       2.2_runtime_checks_isinstance_issubclass.ipynb
+|       |       2.3_designing_custom_containers_with_abcs_preview.ipynb
+|       |       2.4_collections_abc_mastery_and_edge_cases.ipynb
+|       |
+|       \---03_Advanced
+|               3.1_userdict_userlist_userstring_preview.ipynb
+|               3.2_namedtuple_vs_typing_namedtuple_preview.ipynb
+|               3.3_expert_advanced_and_real_world_application.ipynb
+|
+|   +---10_itertools
+|   |   +---01_Basics
+|   |   |       1.1_itertools_module_overview.ipynb
+|   |   |       1.2_count_cycle_repeat_functions.ipynb
+|   |   |       1.3_islice_takewhile_dropwhile.ipynb
+|   |   |       1.4_mental_models_and_under_the_hood.ipynb
+|   |   |
+|   |   +---02_Common_Patterns
+|   |   |       2.1_chain_combinations_permutations.ipynb
+|   |   |       2.2_product_and_cartesian_product.ipynb
+|   |   |       2.3_groupby_and_windowing.ipynb
+|   |   |       2.4_advanced_common_patterns_and_edge_cases.ipynb
+|   |   |
+|   |   \---03_Pro_Tips
+|   |           3.1_flatten_nested_iterables.ipynb
+|   |           3.2_consuming_iterables_efficiently_recipes.ipynb
+|   |           3.3_memory_efficiency_vs_list_comprehensions.ipynb
+|   |           3.4_expert_pro_tips_and_real_world_application.ipynb
+|   |
+|   +---11_heapq_priority_queue
+|   |   +---01_Basics
+|   |   |       1.1_heapq_heap_property_and_binary_tree.ipynb
+|   |   |       1.2_heappush_heappop_heappushpop.ipynb
+|   |   |       1.3_heapify_nlargest_nsmallest.ipynb
+|   |   |       1.4_mental_models_and_under_the_hood.ipynb
+|   |   |
+|   |   +---02_Common_Patterns
+|   |   |       2.1_priority_queue_with_tasks.ipynb
+|   |   |       2.2_dijkstra_algorithm_with_heapq.ipynb
+|   |   |       2.3_merging_sorted_iterables.ipynb
+|   |   |       2.4_advanced_common_patterns_and_edge_cases.ipynb
+|   |   |
+|   |   \---03_Pro_Tips
+|   |           3.1_time_complexity_analysis_heap_vs_sorted.ipynb
+|   |           3.2_custom_heap_objects_comparison.ipynb
+|   |           3.3_lazy_priority_queue_with_generators.ipynb
+|   |           3.4_expert_pro_tips_and_real_world_application.ipynb
+|   |
+|   +---12_bisect_binary_search
+|   |   +---01_Basics
+|   |   |       1.1_bisect_binary_search_overview.ipynb
+|   |   |       1.2_bisect_left_bisect_right_bisect.ipynb
+|   |   |       1.3_insort_insort_left_insort_right.ipynb
+|   |   |       1.4_mental_models_and_under_the_hood.ipynb
+|   |   |
+|   |   +---02_Common_Patterns
+|   |   |       2.1_searching_sorted_data.ipynb
+|   |   |       2.2_range_queries_and_intervals.ipynb
+|   |   |       2.3_maintaining_sorted_order_via_insort.ipynb
+|   |   |       2.4_advanced_common_patterns_and_edge_cases.ipynb
+|   |   |
+|   |   \---03_Pro_Tips
+|   |           3.1_custom_key_functions_with_bisect.ipynb
+|   |           3.2_bisect_vs_binary_search_tradeoffs(1).ipynb
+|   |           3.2_bisect_vs_binary_search_tradeoffs.ipynb
+|   |           3.3_approximate_matching_and_percentile_queries.ipynb
+|   |           3.4_expert_pro_tips_and_real_world_application.ipynb
+|   |
+|   +---13_Slicing_Comprehensive
+|   |   +---01_Basics
+|   |   |       1.1_slicing_syntax_and_stride.ipynb
+|   |   |       1.2_slice_objects_and_slice_notation.ipynb
+|   |   |       1.3_negative_indices_and_edge_cases.ipynb
+|   |   |
+|   |   +---02_Common_Patterns
+|   |   |       2.1_slicing_strings_and_sequences.ipynb
+|   |   |       2.2_slice_assignment_and_deletion.ipynb
+|   |   |       2.3_slicing_multidimensional_arrays_preview.ipynb
+|   |   |       2.4_advanced_common_patterns_and_edge_cases.ipynb
+|   |   |
+|   |   \---03_Pro_Tips
+|   |           3.1_implementing_custom_slicing___getitem__.ipynb
+|   |           3.2_slicing_performance_views_vs_copies.ipynb
+|   |           3.3_extended_slicing_ellipsis.ipynb
+|   |           3.4_expert_pro_tips_and_real_world_application.ipynb
+|   |
+|   +---14_Shallow_Deep_Copy
+|   |   +---01_Basics
+|   |   |       1.1_references_vs_copies_intro.ipynb
+|   |   |       1.2_assignment_vs_shallow_copy.ipynb
+|   |   |       1.3_deep_copy_and_copy_module.ipynb
+|   |   |       1.4_mental_models_and_under_the_hood.ipynb
+|   |   |
+|   |   +---02_Common_Patterns
+|   |   |       2.1_copying_nested_data_structures.ipynb
+|   |   |       2.2_copy_builtin_vs_copy_module.ipynb
+|   |   |       2.3_circular_references_and_deepcopy.ipynb
+|   |   |       2.4_advanced_common_patterns_and_edge_cases.ipynb
+|   |   |
+|   |   \---03_Pro_Tips
+|   |           3.1_implementing_custom_copy_behavior.ipynb
+|   |           3.2_copy_module_pickle_limitations.ipynb
+|   |           3.3_memory_implications_and_performance.ipynb
+|   |           3.4_expert_pro_tips_and_real_world_application.ipynb
+|   |
+|   +---15_defaultdict_Counter
+|   |   +---01_Basics
+|   |   |       1.1_defaultdict_default_factory.ipynb
+|   |   |       1.2_counter_counting_hashable_objects.ipynb
+|   |   |       1.3_counter_methods_most_common_total.ipynb
+|   |   |       1.4_mental_models_and_under_the_hood.ipynb
+|   |   |
+|   |   +---02_Common_Patterns
+|   |   |       2.1_grouping_with_defaultdict.ipynb
+|   |   |       2.2_word_frequency_analysis_with_counter.ipynb
+|   |   |       2.3_multiset_operations_and_arithmetic.ipynb
+|   |   |       2.4_advanced_common_patterns_and_edge_cases.ipynb
+|   |   |
+|   |   \---03_Pro_Tips
+|   |           3.1_defaultdict_with_lambda_functions.ipynb
+|   |           3.2_counter_vs_dict_setdefault_performance.ipynb
+|   |           3.3_counter_arithmetic_and_set_operations.ipynb
+|   |           3.4_expert_pro_tips_and_real_world_application.ipynb
+|   |
+|   +---16_ChainMap_OrderedDict
+|   |   +---01_Basics
+|   |   |       1.1_chainmap_multiple_dict_view.ipynb
+|   |   |       1.2_ordereddict_insertion_order_preservation.ipynb
+|   |   |       1.3_when_dict_order_became_guaranteed.ipynb
+|   |   |       1.4_mental_models_and_under_the_hood.ipynb
+|   |   |
+|   |   +---02_Common_Patterns
+|   |   |       2.1_config_lookups_with_chainmap.ipynb
+|   |   |       2.2_ordereddict_move_to_end_method(1).ipynb
+|   |   |       2.2_ordereddict_move_to_end_method.ipynb
+|   |   |       2.3_chainmap_for_scope_lookup_environment(1).ipynb
+|   |   |       2.3_chainmap_for_scope_lookup_environment.ipynb
+|   |   |       2.4_advanced_common_patterns_and_edge_cases.ipynb
+|   |   |
+|   |   \---03_Advanced
+|   |           3.1_chainmap_maps_property_mutation.ipynb
+|   |           3.2_expert_advanced_and_real_world_application.ipynb
+|   |
+|   +---17_Frozenset
+|   |   +---01_Basics
+|   |   |       1.1_frozenset_immutable_set.ipynb
+|   |   |       1.2_frozenset_creation_and_operations.ipynb
+|   |   |       1.3_frozenset_as_dict_key_and_in_sets.ipynb
+|   |   |       1.4_mental_models_and_under_the_hood.ipynb
+|   |   |
+|   |   +---02_Common_Patterns
+|   |   |       2.1_frozenset_for_cache_keys.ipynb
+|   |   |       2.2_immutable_collections_in_dataclasses.ipynb
+|   |   |       2.3_advanced_common_patterns_and_edge_cases.ipynb
+|   |   |
+|   |   \---03_Pro_Tips
+|   |           3.1_frozenset_as_function_default_arguments.ipynb
+|   |           3.2_expert_pro_tips_and_real_world_application.ipynb
+|   |
+|   +---18_Deque
+|   |   +---01_Basics
+|   |   |       1.1_deque_doubly_linked_list.ipynb
+|   |   |       1.2_deque_appendleft_popleft_operations.ipynb
+|   |   |       1.3_deque_rotate_extend_and_iteration.ipynb
+|   |   |       1.4_mental_models_and_under_the_hood.ipynb
+|   |   |
+|   |   +---02_Common_Patterns
+|   |   |       2.1_queues_and_stacks_with_deque.ipynb
+|   |   |       2.2_sliding_window_deque.ipynb
+|   |   |       2.3_deque_maxlen_and_circular_behavior.ipynb
+|   |   |       2.4_advanced_common_patterns_and_edge_cases.ipynb
+|   |   |
+|   |   \---03_Pro_Tips
+|   |           3.1_deque_performance_vs_list_tradeoffs.ipynb
+|   |           3.2_expert_pro_tips_and_real_world_application.ipynb
+|   |
+|   \---19_Operator_Module
+|       +---01_Basics
+|       |       1.1_operator_module_overview_itemgetter_attrgetter.ipynb
+|       |       1.2_operator_arithmetic_comparison_functions.ipynb
+|       |       1.3_operator_methodcaller_and_inplace_operations.ipynb
+|       |       1.4_mental_models_and_under_the_hood.ipynb
+|       |
+|       +---02_Common_Patterns
+|       |       2.1_operator_with_sorted_min_max.ipynb
+|       |       2.2_operator_as_callbacks_and_higher_order_functions.ipynb
+|       |       2.3_functional_composition_with_operator.ipynb
+|       |       2.4_advanced_common_patterns_and_edge_cases.ipynb
+|       |
+|       \---03_Pro_Tips
+|               3.1_operator_vs_lambda_performance.ipynb
+|               3.2_creating_custom_operator_functions_preview.ipynb
+|               3.3_expert_pro_tips_and_real_world_application.ipynb
+|
++---H.7_OOP
+|   +---1_OOP
+|   |   +---01_Basics
+|   |   |       1.1_what_is_oop_in_python.ipynb
+|   |   |       1.2_objects_identity_type_value.ipynb
+|   |   |       1.3_attribute_access_dot_notation.ipynb
+|   |   |       1.4_instance_vs_class_conceptual.ipynb
+|   |   |       1.5_mental_models_and_under_the_hood.ipynb
+|   |   |
+|   |   +---02_Common_Patterns
+|   |   |       2.1_modeling_real_world_entities.ipynb
+|   |   |       2.2_state_and_behavior_separation.ipynb
+|   |   |       2.3_when_not_to_use_classes.ipynb
+|   |   |
+|   |   \---03_Pro_Tips
+|   |           3.1_pythonic_oop_duck_typing_mindset.ipynb
+|   |           3.2_api_design_readability_guidelines.ipynb
+|   |           3.3_data_model_driven_design_preview.ipynb
+|   |           3.4_expert_pro_tips_and_real_world_application.ipynb
+|   |
+|   +---2_Classes_Objects
+|   |   +---01_Basics
+|   |   |       1.1_define_class_and_create_instances.ipynb
+|   |   |       1.2_init_and_self.ipynb
+|   |   |       1.3_instance_attributes_vs_class_attributes.ipynb
+|   |   |       1.4_methods_and_binding.ipynb
+|   |   |       1.5_mental_models_and_under_the_hood.ipynb
+|   |   |
+|   |   +---02_Common_Patterns
+|   |   |       2.1_repr_str_basics_for_debugging.ipynb
+|   |   |       2.2_factory_methods_intro.ipynb
+|   |   |       2.3_simple_validation_in_init.ipynb
+|   |   |       2.4_advanced_common_patterns_and_edge_cases.ipynb
+|   |   |
+|   |   \---03_Advanced
+|   |           3.1_new_vs_init_object_creation_flow.ipynb
+|   |           3.2_attribute_lookup_order_instance_class.ipynb
+|   |           3.3_slots_preview_why_dict_exists.ipynb
+|   |           3.4_expert_advanced_and_real_world_application.ipynb
+|   |
+|   +---3_Inheritance
+|   |   +---01_Basics
+|   |   |       1.1_single_inheritance_and_override.ipynb
+|   |   |       1.2_super_basics.ipynb
+|   |   |       1.3_multiple_inheritance_intro.ipynb
+|   |   |       1.4_isinstance_issubclass_basics.ipynb
+|   |   |       1.5_mental_models_and_under_the_hood.ipynb
+|   |   |
+|   |   +---02_Common_Patterns
+|   |   |       2.1_template_method_pattern_intro.ipynb
+|   |   |       2.2_mixins_design_guidelines.ipynb
+|   |   |       2.3_extending_stdlib_types_safely.ipynb
+|   |   |       2.4_advanced_common_patterns_and_edge_cases.ipynb
+|   |   |
+|   |   \---03_Pro_Tips
+|   |           3.1_cooperative_multiple_inheritance_super.ipynb
+|   |           3.2_common_inheritance_pitfalls.ipynb
+|   |           3.3_prefer_composition_when_possible_preview.ipynb
+|   |
+|   +---4_Polymorphism
+|   |   +---01_Basics
+|   |   |       1.1_polymorphism_via_overriding.ipynb
+|   |   |       1.2_polymorphism_via_duck_typing.ipynb
+|   |   |       1.3_interface_like_design_without_interfaces.ipynb
+|   |   |       1.4_mental_models_and_under_the_hood.ipynb
+|   |   |
+|   |   +---02_Common_Patterns
+|   |   |       2.1_strategy_pattern_intro.ipynb
+|   |   |       2.2_plugin_architecture_lightweight.ipynb
+|   |   |       2.3_functional_polymorphism_singledispatch_preview.ipynb
+|   |   |       2.4_advanced_common_patterns_and_edge_cases.ipynb
+|   |   |
+|   |   \---03_Advanced
+|   |           3.1_operator_overloading_as_polymorphism.ipynb
+|   |           3.2_protocols_preview_structural_subtyping.ipynb
+|   |           3.3_testing_polymorphic_code_preview.ipynb
+|   |           3.4_expert_advanced_and_real_world_application.ipynb
+|   |
+|   +---5_Dunder_Methods_dataclasses
+|   |   +---01_Dunder_Basics
+|   |   |       1.1_why_dunder_methods_data_model.ipynb
+|   |   |       1.2_repr_vs_str_guidelines.ipynb
+|   |   |       1.3_eq_lt_hash_ordering_basics.ipynb
+|   |   |       1.4_len_iter_contains_quickstart.ipynb
+|   |   |       1.5_dunder_mental_models_and_under_the_hood.ipynb
+|   |   |
+|   |   +---02_dataclasses
+|   |   |       2.1_dataclass_basic_fields_init_repr.ipynb
+|   |   |       2.2_default_factory_and_field_options.ipynb
+|   |   |       2.3_frozen_order_eq_hash_options.ipynb
+|   |   |       2.4_post_init_and_validation.ipynb
+|   |   |       2.5_dataclasses_mastery_and_edge_cases.ipynb
+|   |   |
+|   |   \---03_Advanced
+|   |           3.1_rich_comparisons_total_ordering_preview.ipynb
+|   |           3.2_custom_container_dunders_preview.ipynb
+|   |           3.3_dataclass_vs_namedtuple_vs_attrs_preview.ipynb
+|   |           3.4_expert_advanced_and_real_world_application.ipynb
+|   |
+|   +---6_Encapsulation_Private_Protected
+|   |   +---01_Basics
+|   |   |       1.1_public_vs_non_public_conventions.ipynb
+|   |   |       1.2_single_underscore_usage.ipynb
+|   |   |       1.3_double_underscore_name_mangling.ipynb
+|   |   |       1.4_mental_models_and_under_the_hood.ipynb
+|   |   |
+|   |   +---02_Common_Patterns
+|   |   |       2.1_validation_with_properties_intro.ipynb
+|   |   |       2.2_read_only_attributes_patterns.ipynb
+|   |   |       2.3_internal_helpers_and_api_surface.ipynb
+|   |   |       2.4_advanced_common_patterns_and_edge_cases.ipynb
+|   |   |
+|   |   \---03_Pro_Tips
+|   |           3.1_encapsulation_is_a_design_tool.ipynb
+|   |           3.2_testing_internals_without_breaking_contracts.ipynb
+|   |           3.3_documenting_public_api_boundaries.ipynb
+|   |
+|   +---7_Abstract_Base_Classes
+|   |   +---01_Basics
+|   |   |       1.1_why_abcs_and_when_to_use.ipynb
+|   |   |       1.2_abstractmethod_and_enforcement.ipynb
+|   |   |       1.3_abcmeta_overview.ipynb
+|   |   |       1.4_mental_models_and_under_the_hood.ipynb
+|   |   |
+|   |   +---02_Common_Patterns
+|   |   |       2.1_defining_interfaces_with_abcs.ipynb
+|   |   |       2.2_collections_abc_iterable_sequence_mapping.ipynb
+|   |   |       2.3_virtual_subclassing_register.ipynb
+|   |   |       2.4_advanced_common_patterns_and_edge_cases.ipynb
+|   |   |
+|   |   \---03_Advanced
+|   |           3.1_customizing_subclasshook_preview.ipynb
+|   |           3.2_abcs_vs_protocols_tradeoffs_preview.ipynb
+|   |           3.3_designing_extensible_framework_abcs_preview.ipynb
+|   |           3.4_expert_advanced_and_real_world_application.ipynb
+|   |
+|   +---8_Class_Static_Methods
+|   |   +---01_Basics
+|   |   |       1.1_instance_methods_vs_class_methods_vs_static_methods.ipynb
+|   |   |       1.2_classmethod_for_alternative_constructors.ipynb
+|   |   |       1.3_staticmethod_for_utility_functions.ipynb
+|   |   |       1.4_mental_models_and_under_the_hood.ipynb
+|   |   |
+|   |   +---02_Common_Patterns
+|   |   |       2.1_named_constructors_from_str_from_json.ipynb
+|   |   |       2.2_factories_and_registries_with_classmethods.ipynb
+|   |   |       2.3_when_module_level_function_is_better.ipynb
+|   |   |       2.4_advanced_common_patterns_and_edge_cases.ipynb
+|   |   |
+|   |   \---03_Advanced
+|   |           3.1_descriptor_view_of_method_binding_preview.ipynb
+|   |           3.2_inheritance_behavior_classmethod_dispatch.ipynb
+|   |           3.3_testing_and_mocking_classmethods_preview.ipynb
+|   |           3.4_expert_advanced_and_real_world_application.ipynb
+|   |
+|   +---9_Property_Decorators
+|       +---01_Basics
+|       |       1.1_property_as_managed_attribute.ipynb
+|       |       1.2_getter_setter_deleter.ipynb
+|       |       1.3_read_only_properties.ipynb
+|       |       1.4_mental_models_and_under_the_hood.ipynb
+|       |
+|       +---02_Common_Patterns
+|       |       2.1_validation_and_normalization_in_setter.ipynb
+|       |       2.2_computed_attributes_and_caching_preview.ipynb
+|       |       2.3_backward_compatible_refactors_attribute_to_property.ipynb
+|       |       2.4_advanced_common_patterns_and_edge_cases.ipynb
+|       |
+|       \---03_Advanced
+|               3.1_properties_and_descriptors_relationship.ipynb
+|               3.2_common_property_pitfalls_recursion.ipynb
+|               3.3_debugging_attribute_access_getattribute_getattr.ipynb
+|
+|   +---10_Metaclasses_Basics
+|       +---01_Basics
+|       |       1.1_what_is_a_metaclass_type_is_metaclass.ipynb
+|       |       1.2_custom_metaclass_new_and_init.ipynb
+|       |       1.3_setting_class_attributes_during_creation.ipynb
+|       |       1.4_mental_models_and_under_the_hood.ipynb
+|       |
+|       +---02_Safer_Alternatives
+|       |       2.1_init_subclass_hook_intro.ipynb
+|       |       2.2_class_decorators_as_alternative.ipynb
+|       |       2.3_set_name_descriptor_hook_preview.ipynb
+|       |       2.4_safer_alternatives_mastery_and_edge_cases.ipynb
+|       |
+|       \---03_Pro_Tips
+|               3.1_registry_patterns_via_metaclasses.ipynb
+|               3.2_framework_design_metaclass_gotchas.ipynb
+|               3.3_when_metaclasses_are_overkill.ipynb
+|               3.4_expert_pro_tips_and_real_world_application.ipynb
+|
+|   +---11_Method_Resolution_Order
+|       +---01_Basics
+|       |       1.1_mro_and_super_with_single_inheritance.ipynb
+|       |       1.2_c3_linearization_algorithm_overview.ipynb
+|       |       1.3_inspecting_mro_dunder_mro.ipynb
+|       |       1.4_mental_models_and_under_the_hood.ipynb
+|       |
+|       +---02_Multiple_Inheritance
+|       |       2.1_diamond_problem_and_super_cooperative.ipynb
+|       |       2.2_mixin_design_patterns.ipynb
+|       |       2.3_common_gotchas_argument_passing_in_super.ipynb
+|       |       2.4_multiple_inheritance_mastery_and_edge_cases.ipynb
+|       |
+|       \---03_Pro_Tips
+|               3.1_debugging_inheritance_hierarchies.ipynb
+|               3.2_when_to_avoid_multiple_inheritance.ipynb
+|               3.3_abstract_base_classes_and_mro.ipynb
+|               3.4_expert_pro_tips_and_real_world_application.ipynb
+|
+|   +---12_Composition_vs_Inheritance
+|       +---01_Basics
+|       |       1.1_favor_composition_over_inheritance_why.ipynb
+|       |       1.2_delegation_pattern.ipynb
+|       |       1.3_when_inheritance_is_still_appropriate.ipynb
+|       |       1.4_mental_models_and_under_the_hood.ipynb
+|       |
+|       +---02_Patterns
+|       |       2.1_dependency_injection_basics.ipynb
+|       |       2.2_strategy_pattern_via_composition.ipynb
+|       |       2.3_forwarding_wrappers_and_proxies.ipynb
+|       |       2.4_advanced_patterns_and_edge_cases.ipynb
+|       |
+|       \---03_Pro_Tips
+|               3.1_testing_benefits_of_composition.ipynb
+|               3.2_refactoring_inheritance_to_composition.ipynb
+|               3.3_composition_with_dataclasses_and_attrs.ipynb
+|               3.4_expert_pro_tips_and_real_world_application.ipynb
+|
+|   +---13_Protocols_Duck_Typing
+|       +---01_Basics
+|       |       1.1_duck_typing_philosophy.ipynb
+|       |       1.2_structural_vs_nominal_typing.ipynb
+|       |       1.3_typing_protocol_basics.ipynb
+|       |       1.4_mental_models_and_under_the_hood.ipynb
+|       |
+|       +---02_Common_Protocols
+|       |       2.1_iterator_protocol_iter_next.ipynb
+|       |       2.2_context_manager_protocol_enter_exit.ipynb
+|       |       2.3_descriptor_protocol_get_set_delete.ipynb
+|       |       2.4_advanced_common_protocols_and_edge_cases.ipynb
+|       |
+|       \---03_Pro_Tips
+|               3.1_runtime_checkable_protocols.ipynb
+|               3.2_designing_your_own_protocols.ipynb
+|               3.3_protocols_vs_abc_when_to_use_which.ipynb
+|               3.4_expert_pro_tips_and_real_world_application.ipynb
+|
+|   +---14_Slots
+|       +---01_Basics
+|       |       1.1_what_are_slots_memory_optimization.ipynb
+|       |       1.2_defining_slots_simple_example.ipynb
+|       |       1.3_slots_and_no_dict.ipynb
+|       |       1.4_mental_models_and_under_the_hood.ipynb
+|       |
+|       +---02_Tradeoffs
+|       |       2.1_performance_benefits_when_it_matters.ipynb
+|       |       2.2_restrictions_no_dynamic_attributes.ipynb
+|       |       2.3_slots_and_inheritance_gotchas.ipynb
+|       |       2.4_tradeoffs_mastery_and_edge_cases.ipynb
+|       |
+|       \---03_Pro_Tips
+|               3.1_weak_references_with_slots.ipynb
+|               3.2_when_to_use_slots_dataclasses_attrs.ipynb
+|               3.3_debugging_slots_related_issues.ipynb
+|               3.4_expert_pro_tips_and_real_world_application.ipynb
+|
+|   \---15_Enums_Flags
+|       +---01_Basics
+|       |       1.1_enum_enum_basics_member_value.ipynb
+|       |       1.2_auto_and_member_names.ipynb
+|       |       1.3_comparing_enums_identity_equality.ipynb
+|       |       1.4_mental_models_and_under_the_hood.ipynb
+|       |
+|       +---02_Advanced
+|       |       2.1_intenum_strenum_specialized_enums.ipynb
+|       |       2.2_flag_and_intflag_bitwise_operations.ipynb
+|       |       2.3_custom_enum_methods_and_properties.ipynb
+|       |       2.4_expert_advanced_and_real_world_application.ipynb
+|       |
+|       \---03_Pro_Tips
+|               3.1_enum_vs_constants_vs_strings.ipynb
+|               3.2_serialization_enums_json_pickle.ipynb
+|               3.3_mypy_and_type_safety_with_enums.ipynb
+|               3.4_expert_pro_tips_and_real_world_application.ipynb
+|
++---I.8_Files_Data
+|   +---1_File_I_O_open_read_write
+|   |   +---01_Basics
+|   |   |       1.1_open_text_files_modes_encoding_newline.ipynb
+|   |   |       1.2_read_text_readline_readlines_iteration.ipynb
+|   |   |       1.3_write_text_write_writelines_print.ipynb
+|   |   |       1.4_with_context_manager_file_closing.ipynb
+|   |   |       1.5_common_errors_file_not_found_permission.ipynb
+|   |   |       1.6_mental_models_and_under_the_hood.ipynb
+|   |   |
+|   |   +---02_Common_Patterns
+|   |   |       2.1_streaming_large_files_line_by_line.ipynb
+|   |   |       2.2_append_modes_and_log_files.ipynb
+|   |   |       2.3_read_modify_write_safe_patterns.ipynb
+|   |   |       2.4_encoding_errors_ignore_replace_surrogateescape.ipynb
+|   |   |       2.5_advanced_common_patterns_and_edge_cases.ipynb
+|   |   |
+|   |   \---03_Advanced
+|   |           3.1_buffering_flush_and_fsync_basics.ipynb
+|   |           3.2_binary_mode_vs_text_mode_behaviors.ipynb
+|   |           3.3_file_descriptors_os_open_os_read_os_write_preview.ipynb
+|   |           3.4_processing_multiple_files_with_fileinput_preview.ipynb
+|   |           3.5_expert_advanced_and_real_world_application.ipynb
+|   |
+|   +---2_Paths_pathlib_os
+|   |   +---01_Basics
+|   |   |       1.1_pathlib_path_create_join_parts.ipynb
+|   |   |       1.2_relative_vs_absolute_paths_resolve.ipynb
+|   |   |       1.3_exists_is_file_is_dir_stat.ipynb
+|   |   |       1.4_mkdir_touch_unlink_rmdir.ipynb
+|   |   |       1.5_mental_models_and_under_the_hood.ipynb
+|   |   |
+|   |   +---02_Common_Patterns
+|   |   |       2.1_glob_rglob_and_pattern_matching.ipynb
+|   |   |       2.2_iterdir_recursive_walk_compare.ipynb
+|   |   |       2.3_read_text_write_text_helpers_pathlib.ipynb
+|   |   |       2.4_env_vars_expanduser_expandvars.ipynb
+|   |   |       2.5_advanced_common_patterns_and_edge_cases.ipynb
+|   |   |
+|   |   \---03_Advanced
+|   |           3.1_symlinks_hardlinks_and_readlink.ipynb
+|   |           3.2_permissions_chmod_chown_umask_preview.ipynb
+|   |           3.3_ospath_vs_pathlib_tradeoffs.ipynb
+|   |           3.4_cross_platform_path_gotchas_windows_posix.ipynb
+|   |           3.5_expert_advanced_and_real_world_application.ipynb
+|   |
+|   +---3_JSON
+|   |   +---01_Basics
+|   |   |       1.1_json_loads_and_dumps_strings.ipynb
+|   |   |       1.2_json_load_and_dump_files.ipynb
+|   |   |       1.3_pretty_print_indent_sort_keys_ensure_ascii.ipynb
+|   |   |       1.4_json_types_mapping_and_common_errors.ipynb
+|   |   |       1.5_mental_models_and_under_the_hood.ipynb
+|   |   |
+|   |   +---02_Common_Patterns
+|   |   |       2.1_custom_serialization_default_hook.ipynb
+|   |   |       2.2_dataclasses_to_from_dict_for_json.ipynb
+|   |   |       2.3_read_write_jsonl_newline_delimited_json.ipynb
+|   |   |       2.4_validation_and_schema_like_checks_preview.ipynb
+|   |   |       2.5_advanced_common_patterns_and_edge_cases.ipynb
+|   |   |
+|   |   \---03_Advanced
+|   |           3.1_security_notes_untrusted_json_size_limits.ipynb
+|   |           3.2_decimal_datetime_encoding_strategies.ipynb
+|   |           3.3_performance_notes_and_streaming_strategies_preview.ipynb
+|   |           3.4_expert_advanced_and_real_world_application.ipynb
+|   |
+|   +---4_Dates_datetime
+|   |   +---01_Basics
+|   |   |       1.1_datetime_objects_now_utcnow_constructor.ipynb
+|   |   |       1.2_date_time_and_timedelta_arithmetic.ipynb
+|   |   |       1.3_strftime_and_strptime_formatting_parsing.ipynb
+|   |   |       1.4_timezone_aware_vs_naive_datetime.ipynb
+|   |   |       1.5_mental_models_and_under_the_hood.ipynb
+|   |   |
+|   |   +---02_Common_Patterns
+|   |   |       2.1_timestamps_and_epoch_conversion.ipynb
+|   |   |       2.2_timedelta_calculating_durations_differences.ipynb
+|   |   |       2.3_parsing_iso_8601_and_common_formats.ipynb
+|   |   |       2.4_comparing_and_sorting_dates.ipynb
+|   |   |       2.5_advanced_common_patterns_and_edge_cases.ipynb
+|   |   |
+|   |   \---03_Advanced
+|   |           3.1_timezones_pytz_zoneinfo_naive_localization.ipynb
+|   |           3.2_recurring_dates_and_business_logic.ipynb
+|   |           3.3_dateutil_arrow_and_relative_dates_preview.ipynb
+|   |           3.4_expert_advanced_and_real_world_application.ipynb
+|   |
+|   +---5_CSV_Handling
+|   |   +---01_Basics
+|   |   |       1.1_csv_reader_and_csv_writer_open_files.ipynb
+|   |   |       1.2_csv_dictreader_and_dictwriter_dicts.ipynb
+|   |   |       1.3_delimiters_quoting_and_escaping.ipynb
+|   |   |       1.4_fieldnames_restkey_restval_basics.ipynb
+|   |   |       1.5_mental_models_and_under_the_hood.ipynb
+|   |   |
+|   |   +---02_Common_Patterns
+|   |   |       2.1_reading_large_csv_files_chunking.ipynb
+|   |   |       2.2_type_conversion_and_data_cleaning.ipynb
+|   |   |       2.3_reading_csv_into_lists_and_dicts.ipynb
+|   |   |       2.4_register_dialect_custom_csv_formats.ipynb
+|   |   |       2.5_advanced_common_patterns_and_edge_cases.ipynb
+|   |   |
+|   |   \---03_Advanced
+|   |           3.1_efficient_csv_filtering_without_loading_all.ipynb
+|   |           3.2_pandas_vs_csv_module_when_to_use_preview.ipynb
+|   |           3.3_expert_advanced_and_real_world_application.ipynb
+|   |
+|   +---6_Pickle_Serialization
+|   |   +---01_Basics
+|   |   |       1.1_pickle_dumps_and_loads_bytes.ipynb
+|   |   |       1.2_pickle_dump_and_load_files.ipynb
+|   |   |       1.3_pickle_protocols_and_compatibility.ipynb
+|   |   |       1.4_custom_getstate_setstate_reduce.ipynb
+|   |   |       1.5_mental_models_and_under_the_hood.ipynb
+|   |   |
+|   |   +---02_Common_Patterns
+|   |   |       2.1_pickling_objects_and_classes.ipynb
+|   |   |       2.2_caching_with_pickle.ipynb
+|   |   |       2.3_pickletools_inspection_and_debugging.ipynb
+|   |   |       2.4_advanced_common_patterns_and_edge_cases.ipynb
+|   |   |
+|   |   \---03_Advanced
+|   |           3.1_security_warnings_untrusted_pickle.ipynb
+|   |           3.2_version_compatibility_and_migrations.ipynb
+|   |           3.3_expert_advanced_and_real_world_application.ipynb
+|   |
+|   +---7_XML_YAML
+|   |   +---01_XML_Basics
+|   |   |       1.1_xml_etree_parsing_and_tree_structure.ipynb
+|   |   |       1.2_finding_elements_xpath_basics.ipynb
+|   |   |       1.3_xml_writing_and_tostring.ipynb
+|   |   |       1.4_xml_mental_models_and_under_the_hood.ipynb
+|   |   |
+|   |   +---02_XML_Common_Patterns
+|   |   |       2.1_parsing_attributes_and_namespaces.ipynb
+|   |   |       2.2_iterative_parsing_large_xml_files.ipynb
+|   |   |       2.3_xml_to_dict_conversion.ipynb
+|   |   |       2.4_advanced_xml_common_patterns_and_edge_cases.ipynb
+|   |   |
+|   |   \---03_YAML_Preview
+|   |           3.1_yaml_module_basics_preview.ipynb
+|   |           3.2_yaml_vs_json_when_to_use_preview.ipynb
+|   |           3.3_yaml_preview_mastery_and_edge_cases.ipynb
+|   |
+|   +---8_Binary_Files
+|   |   +---01_Basics
+|   |   |       1.1_binary_file_operations_bytes_objects.ipynb
+|   |   |       1.2_read_write_binary_data_chunks.ipynb
+|   |   |       1.3_struct_module_pack_and_unpack.ipynb
+|   |   |       1.4_bytearray_mutable_byte_sequences.ipynb
+|   |   |       1.5_mental_models_and_under_the_hood.ipynb
+|   |   |
+|   |   +---02_Common_Patterns
+|   |   |       2.1_binary_file_format_parsing_headers.ipynb
+|   |   |       2.2_memory_mapping_and_seek_tell.ipynb
+|   |   |       2.3_image_audio_binary_handling_preview.ipynb
+|   |   |       2.4_advanced_common_patterns_and_edge_cases.ipynb
+|   |   |
+|   |   \---03_Advanced
+|   |           3.1_endianness_and_byte_order_issues.ipynb
+|   |           3.2_hexdump_and_debugging_binary_data.ipynb
+|   |           3.3_expert_advanced_and_real_world_application.ipynb
+|   |
+|   +---9_Temporary_Files
+|   |   +---01_Basics
+|   |   |       1.1_tempfile_tempdir_gettempdirname.ipynb
+|   |   |       1.2_namedtemporaryfile_and_temporaryfile.ipynb
+|   |   |       1.3_temporarydirectory_context_manager.ipynb
+|   |   |       1.4_mental_models_and_under_the_hood.ipynb
+|   |   |
+|   |   +---02_Common_Patterns
+|   |   |       2.1_temp_files_for_processing_and_cleanup.ipynb
+|   |   |       2.2_sparse_temp_directory_strategies.ipynb
+|   |   |       2.3_secure_temporary_file_permissions.ipynb
+|   |   |       2.4_advanced_common_patterns_and_edge_cases.ipynb
+|   |   |
+|   |   \---03_Advanced
+|   |           3.1_tempfile_security_and_ramdisk_placement.ipynb
+|   |           3.2_expert_advanced_and_real_world_application.ipynb
+|   |
+|   +---10_SQLite_Basics
+|   |   +---01_Basics
+|   |   |       1.1_sqlite3_connect_and_cursor.ipynb
+|   |   |       1.2_create_table_insert_select_basics.ipynb
+|   |   |       1.3_parameterized_queries_and_safety.ipynb
+|   |   |       1.4_commit_rollback_transactions.ipynb
+|   |   |       1.5_mental_models_and_under_the_hood.ipynb
+|   |   |
+|   |   +---02_Common_Patterns
+|   |   |       2.1_row_factories_and_custom_row_types.ipynb
+|   |   |       2.2_executemany_bulk_insert_performance.ipynb
+|   |   |       2.3_fetch_one_all_many_and_iteration.ipynb
+|   |   |       2.4_aggregate_functions_and_group_by.ipynb
+|   |   |       2.5_advanced_common_patterns_and_edge_cases.ipynb
+|   |   |
+|   |   \---03_Advanced
+|   |           3.1_context_managers_and_connection_pools.ipynb
+|   |           3.2_custom_sql_functions_and_aggregates.ipynb
+|   |           3.3_joins_indexes_and_query_optimization.ipynb
+|   |           3.4_expert_advanced_and_real_world_application.ipynb
+|   |
+|   +---11_Config_Files
+|   |   +---01_INI_Configparser
+|   |   |       1.1_configparser_read_write_ini_files.ipynb
+|   |   |       1.2_sections_options_and_defaults.ipynb
+|   |   |       1.3_type_conversion_getint_getfloat_getboolean.ipynb
+|   |   |       1.4_interpolation_and_multi_line_values.ipynb
+|   |   |       1.5_ini_configparser_mastery_and_edge_cases.ipynb
+|   |   |
+|   |   +---02_TOML_Preview
+|   |   |       2.1_tomli_tomllib_read_toml_files_preview.ipynb
+|   |   |       2.2_toml_data_structure_and_syntax_preview.ipynb
+|   |   |       2.3_toml_vs_ini_vs_yaml_when_to_use_preview.ipynb
+|   |   |       2.4_toml_preview_mastery_and_edge_cases.ipynb
+|   |   |
+|   |   \---03_Common_Patterns
+|   |           3.1_dotenv_and_environment_variables.ipynb
+|   |           3.2_pydantic_and_config_validation.ipynb
+|   |           3.3_config_merging_and_precedence.ipynb
+|   |           3.4_advanced_common_patterns_and_edge_cases.ipynb
+|   |
+|   +---12_Subprocess_External_Commands
+|   |   +---01_Basics
+|   |   |       1.1_subprocess_run_subprocess_call_basics.ipynb
+|   |   |       1.2_capture_output_and_returncode.ipynb
+|   |   |       1.3_shell_argument_parsing_and_shlex.ipynb
+|   |   |       1.4_popen_for_interactive_processes.ipynb
+|   |   |       1.5_mental_models_and_under_the_hood.ipynb
+|   |   |
+|   |   +---02_Common_Patterns
+|   |   |       2.1_input_output_piping_between_processes.ipynb
+|   |   |       2.2_timeout_and_process_control.ipynb
+|   |   |       2.3_streaming_output_and_large_data.ipynb
+|   |   |       2.4_environment_variables_and_cwd.ipynb
+|   |   |       2.5_advanced_common_patterns_and_edge_cases.ipynb
+|   |   |
+|   |   \---03_Advanced
+|   |           3.1_security_considerations_shell_injection.ipynb
+|   |           3.2_asyncio_and_concurrent_processes.ipynb
+|   |           3.3_expert_advanced_and_real_world_application.ipynb
+|   |
+|   +---13_Shutil_HighLevel_Ops
+|   |   +---01_Basics
+|   |   |       1.1_copy_copy2_file_operations.ipynb
+|   |   |       1.2_copytree_rmtree_directory_operations.ipynb
+|   |   |       1.3_move_rename_file_and_directories.ipynb
+|   |   |       1.4_disk_usage_and_which_utilities.ipynb
+|   |   |       1.5_mental_models_and_under_the_hood.ipynb
+|   |   |
+|   |   +---02_Common_Patterns
+|   |   |       2.1_recursive_copy_with_ignore_patterns.ipynb
+|   |   |       2.2_safe_file_operations_and_backups.ipynb
+|   |   |       2.3_copyfunc_custom_copy_handlers.ipynb
+|   |   |       2.4_advanced_common_patterns_and_edge_cases.ipynb
+|   |   |
+|   |   \---03_Advanced
+|   |           3.1_symlink_considerations_and_follow_symlinks.ipynb
+|   |           3.2_performance_memory_usage_large_copies.ipynb
+|   |           3.3_expert_advanced_and_real_world_application.ipynb
+|   |
+|   +---14_Archiving_Zip_Tar
+|   |   +---01_ZIP_Basics
+|   |   |       1.1_zipfile_read_extract_archive.ipynb
+|   |   |       1.2_zipfile_write_create_archive.ipynb
+|   |   |       1.3_zipfile_compression_formats_and_pwd.ipynb
+|   |   |       1.4_zip_mental_models_and_under_the_hood.ipynb
+|   |   |
+|   |   +---02_TAR_Basics
+|   |   |       2.1_tarfile_read_extract_tar_archives.ipynb
+|   |   |       2.2_tarfile_write_create_tar_archives.ipynb
+|   |   |       2.3_tarfile_compression_modes_gz_bz2.ipynb
+|   |   |       2.4_tar_mental_models_and_under_the_hood.ipynb
+|   |   |
+|   |   \---03_Advanced
+|   |           3.1_nested_archives_and_batch_operations.ipynb
+|   |           3.2_zip_vs_tar_use_cases_and_performance.ipynb
+|   |           3.3_expert_advanced_and_real_world_application.ipynb
+|   |
+|   \---15_IO_Streams
+|       +---01_Basics
+|       |       1.1_stringio_and_bytesio_in_memory_files.ipynb
+|       |       1.2_textwrapper_and_bufferedreader_basics.ipynb
+|       |       1.3_iobase_abstractmethods_and_protocols.ipynb
+|       |       1.4_custom_file_like_objects.ipynb
+|       |       1.5_mental_models_and_under_the_hood.ipynb
+|       |
+|       +---02_Common_Patterns
+|       |       2.1_redirect_stdout_stderr_context_managers.ipynb
+|       |       2.2_decoding_encoding_on_the_fly.ipynb
+|       |       2.3_wrapping_file_objects_filters_transforms.ipynb
+|       |       2.4_advanced_common_patterns_and_edge_cases.ipynb
+|       |
+|       \---03_Advanced
+|               3.1_io_performance_buffering_efficiency.ipynb
+|               3.2_codecs_and_custom_encoding_schemes.ipynb
+|               3.3_universal_newline_mode_considerations.ipynb
+|               3.4_expert_advanced_and_real_world_application.ipynb
+|
++---J.9_Code_Quality
+|   +---1_Debugging_pdb
+|   |   +---01_Basics
+|   |   |       1.1_reading_tracebacks_and_error_context.ipynb
+|   |   |       1.2_breakpoint_function_and_basic_pdb.ipynb
+|   |   |       1.3_pdb_commands_step_next_continue_list.ipynb
+|   |   |       1.4_inspecting_variables_frames_and_locals.ipynb
+|   |   |       1.5_mental_models_and_under_the_hood.ipynb
+|   |   |
+|   |   +---02_Common_Patterns
+|   |   |       2.1_breakpoints_conditions_and_ignore_counts.ipynb
+|   |   |       2.2_post_mortem_debugging_on_exceptions.ipynb
+|   |   |       2.3_debugging_inside_tests_pytest_unittest.ipynb
+|   |   |       2.4_debugging_import_time_and_startup_issues.ipynb
+|   |   |       2.5_advanced_common_patterns_and_edge_cases.ipynb
+|   |   |
+|   |   \---03_Pro_Tips
+|   |           3.1_debugger_gotchas_side_effects_and_state.ipynb
+|   |           3.2_debugging_generators_and_iterators_preview.ipynb
+|   |           3.3_minimize_heisenbugs_logging_vs_debugger.ipynb
+|   |           3.4_expert_pro_tips_and_real_world_application.ipynb
+|   |
+|   +---2_Logging
+|   |   +---01_Basics
+|   |   |       1.1_why_logging_vs_print_levels.ipynb
+|   |   |       1.2_basicConfig_format_and_handlers_intro.ipynb
+|   |   |       1.3_loggers_names_hierarchy_propagation.ipynb
+|   |   |       1.4_logging_exceptions_exc_info_stack_info.ipynb
+|   |   |       1.5_mental_models_and_under_the_hood.ipynb
+|   |   |
+|   |   +---02_Common_Patterns
+|   |   |       2.1_module_level_logger_best_practice.ipynb
+|   |   |       2.2_rotating_file_handlers_and_log_files.ipynb
+|   |   |       2.3_dictConfig_and_config_files_preview.ipynb
+|   |   |       2.4_structured_logging_basics_preview.ipynb
+|   |   |
+|   |   \---03_Pro_Tips
+|   |           3.1_logging_in_libraries_NullHandler.ipynb
+|   |           3.2_performance_lazy_formatting_and_log_levels.ipynb
+|   |           3.3_debugging_duplicate_logs_and_handler_misconfig.ipynb
+|   |           3.4_expert_pro_tips_and_real_world_application.ipynb
+|   |
+|   +---3_Testing_unittest_pytest
+|   |   +---01_Basics
+|   |   |       1.1_what_to_test_unit_vs_integration_smoke.ipynb
+|   |   |       1.2_unittest_testcase_assertions_and_running.ipynb
+|   |   |       1.3_pytest_getting_started_assert_and_discovery.ipynb
+|   |   |       1.4_testing_exceptions_and_error_paths.ipynb
+|   |   |       1.5_mental_models_and_under_the_hood.ipynb
+|   |   |
+|   |   +---02_Common_Patterns
+|   |   |       2.1_setup_teardown_vs_pytest_fixtures_preview.ipynb
+|   |   |       2.2_skips_xfail_and_markers_preview.ipynb
+|   |   |       2.3_test_structure_arrange_act_assert.ipynb
+|   |   |       2.4_test_data_builders_and_factories_preview.ipynb
+|   |   |       2.5_advanced_common_patterns_and_edge_cases.ipynb
+|   |   |
+|   |   \---03_Pro_Tips
+|   |           3.1_test_isolation_state_time_randomness.ipynb
+|   |           3.2_running_unittest_suites_with_pytest_preview.ipynb
+|   |           3.3_fast_feedback_loops_selective_runs_preview.ipynb
+|   |           3.4_expert_pro_tips_and_real_world_application.ipynb
+|   |
+|   +---4_Type_Hints_typing_mypy
+|   |   +---01_Basics
+|   |   |       1.1_function_and_variable_annotations.ipynb
+|   |   |       1.2_common_types_list_dict_tuple_set_optional_union.ipynb
+|   |   |       1.3_return_types_none_and_never_preview.ipynb
+|   |   |       1.4_introducing_mypy_run_and_first_errors.ipynb
+|   |   |       1.5_mental_models_and_under_the_hood.ipynb
+|   |   |
+|   |   +---02_Common_Patterns
+|   |   |       2.1_type_aliases_and_literal_values_preview.ipynb
+|   |   |       2.2_generics_typevar_generic_collections.ipynb
+|   |   |       2.3_typed_dict_and_structured_data_preview.ipynb
+|   |   |       2.4_type_narrowing_isinstance_and_guards_preview.ipynb
+|   |   |       2.5_mypy_configuration_strictness_and_ignores.ipynb
+|   |   |       2.6_advanced_common_patterns_and_edge_cases.ipynb
+|   |   |
+|   |   \---03_Pro_Tips
+|   |           3.1_protocols_and_structural_typing_preview.ipynb
+|   |           3.2_overload_and_callable_signatures_preview.ipynb
+|   |           3.3_stubs_typeshed_and_third_party_types_preview.ipynb
+|   |           3.4_expert_pro_tips_and_real_world_application.ipynb
+|   |
+|   +---5_Style_Docs_PEP_8_Docstrings
+|   |   +---01_Basics
+|   |   |       1.1_pep8_code_layout_naming_and_imports.ipynb
+|   |   |       1.2_pep257_docstrings_one_line_and_multi_line.ipynb
+|   |   |       1.3_docstrings_for_functions_classes_modules.ipynb
+|   |   |       1.4_readme_and_module_docs_basics_preview.ipynb
+|   |   |       1.5_mental_models_and_under_the_hood.ipynb
+|   |   |
+|   |   +---02_Common_Patterns
+|   |   |       2.1_docstring_sections_args_returns_raises_preview.ipynb
+|   |   |       2.2_google_vs_numpy_docstring_styles_preview.ipynb
+|   |   |       2.3_doctest_style_examples_preview.ipynb
+|   |   |       2.4_documenting_public_api_and_deprecations_preview.ipynb
+|   |   |       2.5_advanced_common_patterns_and_edge_cases.ipynb
+|   |   |
+|   |   \---03_Pro_Tips
+|   |           3.1_docs_generation_sphinx_or_mkdocs_preview.ipynb
+|   |           3.2_docstring_linting_with_ruff_pydocstyle_preview.ipynb
+|   |           3.3_style_tradeoffs_readability_vs_dogma.ipynb
+|   |           3.4_expert_pro_tips_and_real_world_application.ipynb
+|   |
+|   +---6_Property-based_testing_Hypothesis_optional
+|   |   +---01_Basics
+|   |   |       1.1_property_based_testing_concept.ipynb
+|   |   |       1.2_given_and_strategies_quickstart.ipynb
+|   |   |       1.3_shrinking_and_finding_minimal_counterexamples.ipynb
+|   |   |       1.4_mental_models_and_under_the_hood.ipynb
+|   |   |
+|   |   +---02_Common_Patterns
+|   |   |       2.1_testing_invariants_for_parsers_and_serializers_preview.ipynb
+|   |   |       2.2_hypothesis_with_pytest_integration_preview.ipynb
+|   |   |       2.3_settings_deadlines_and_flaky_tests_preview.ipynb
+|   |   |       2.4_advanced_common_patterns_and_edge_cases.ipynb
+|   |   |
+|   |   \---03_Pro_Tips
+|   |           3.1_custom_strategies_and_composites_preview.ipynb
+|   |           3.2_stateful_testing_preview.ipynb
+|   |           3.3_using_hypothesis_to_harden_edge_cases_preview.ipynb
+|   |
+|   +---7_Code_Coverage
+|   |   +---01_Basics
+|   |   |       1.1_what_coverage_measures_and_why.ipynb
+|   |   |       1.2_running_coverage_run_report_html.ipynb
+|   |   |       1.3_interpreting_missing_lines_and_false_confidence.ipynb
+|   |   |       1.4_mental_models_and_under_the_hood.ipynb
+|   |   |
+|   |   +---02_Common_Patterns
+|   |   |       2.1_branch_coverage_and_decision_points_preview.ipynb
+|   |   |       2.2_configure_coverage_omit_include_and_paths.ipynb
+|   |   |       2.3_combining_data_and_parallel_runs_preview.ipynb
+|   |   |       2.4_advanced_common_patterns_and_edge_cases.ipynb
+|   |   |
+|   |   \---03_Pro_Tips
+|   |           3.1_quality_gates_thresholds_and_fail_under_preview.ipynb
+|   |           3.2_coverage_in_ci_and_reports_preview.ipynb
+|   |           3.3_coverage_best_practices_focus_on_risk.ipynb
+|   |
+|   +---8_Mocking_unittest_mock
+|   |   +---01_Basics
+|   |   |       1.1_mock_vs_stub_vs_fake_concepts.ipynb
+|   |   |       1.2_mock_and_magicmock_basics.ipynb
+|   |   |       1.3_patch_basics_and_context_manager.ipynb
+|   |   |       1.4_assert_called_with_call_count_and_calls.ipynb
+|   |   |       1.5_mental_models_and_under_the_hood.ipynb
+|   |   |
+|   |   +---02_Common_Patterns
+|   |   |       2.1_patch_where_used_import_patching_rule.ipynb
+|   |   |       2.2_side_effect_return_value_and_exceptions.ipynb
+|   |   |       2.3_mocking_time_random_and_uuid_preview.ipynb
+|   |   |       2.4_mocking_network_and_io_boundaries_preview.ipynb
+|   |   |       2.5_advanced_common_patterns_and_edge_cases.ipynb
+|   |   |
+|   |   \---03_Pro_Tips
+|   |           3.1_autospec_and_spec_set_for_safer_mocks.ipynb
+|   |           3.2_mocking_async_functions_preview.ipynb
+|   |           3.3_overmocking_smells_and_refactor_strategies.ipynb
+|   |           3.4_expert_pro_tips_and_real_world_application.ipynb
+|   |
+|   \---9_Pytest_Fixtures
+|       +---01_Basics
+|       |       1.1_fixture_decorator_and_dependency_injection.ipynb
+|       |       1.2_fixture_scopes_function_class_module_session.ipynb
+|       |       1.3_teardown_with_yield_fixtures.ipynb
+|       |       1.4_mental_models_and_under_the_hood.ipynb
+|       |
+|       +---02_Common_Patterns
+|       |       2.1_conftest_shared_fixtures_and_discovery.ipynb
+|       |       2.2_autouse_fixtures_when_to_use.ipynb
+|       |       2.3_tmp_path_and_temp_resources_preview.ipynb
+|       |       2.4_monkeypatch_basics_preview.ipynb
+|       |       2.5_advanced_common_patterns_and_edge_cases.ipynb
+|       |
+|       \---03_Pro_Tips
+|               3.1_factory_fixtures_and_builders_preview.ipynb
+|               3.2_parametrized_fixtures_preview.ipynb
+|               3.3_fixture_overuse_and_readability_guardrails.ipynb
+|               3.4_expert_pro_tips_and_real_world_application.ipynb
+|
+|   +---10_Parametrized_Tests
+|   |   +---01_Basics
+|   |   |       1.1_pytest_mark_parametrize_basics.ipynb
+|   |   |       1.2_ids_and_readable_test_case_names.ipynb
+|   |   |       1.3_pytest_param_marks_xfail_skip_preview.ipynb
+|   |   |       1.4_mental_models_and_under_the_hood.ipynb
+|   |   |
+|   |   +---02_Common_Patterns
+|   |   |       2.1_combinatorial_params_and_cartesian_products_preview.ipynb
+|   |   |       2.2_indirect_parametrization_preview.ipynb
+|   |   |       2.3_data_driven_tests_from_files_preview.ipynb
+|   |   |       2.4_advanced_common_patterns_and_edge_cases.ipynb
+|   |   |
+|   |   \---03_Pro_Tips
+|   |           3.1_generate_tests_hook_pytest_generate_tests_preview.ipynb
+|   |           3.2_parametrization_vs_fixtures_tradeoffs.ipynb
+|   |           3.3_parametrization_with_hypothesis_complementary_preview.ipynb
+|   |           3.4_expert_pro_tips_and_real_world_application.ipynb
+|   |
+|   +---11_Linting_pylint_flake8_ruff
+|   |   +---01_Basics
+|   |   |       1.1_why_linting_static_analysis_vs_runtime.ipynb
+|   |   |       1.2_ruff_check_basics_and_fix_preview.ipynb
+|   |   |       1.3_flake8_basics_and_core_checks_preview.ipynb
+|   |   |       1.4_pylint_basics_messages_and_scores_preview.ipynb
+|   |   |       1.5_mental_models_and_under_the_hood.ipynb
+|   |   |
+|   |   +---02_Common_Patterns
+|   |   |       2.1_configuration_pyproject_toml_and_ignores.ipynb
+|   |   |       2.2_rule_selection_per_file_ignores_and_noqa.ipynb
+|   |   |       2.3_complexity_and_maintainability_checks_preview.ipynb
+|   |   |       2.4_linting_in_ci_fail_the_build_preview.ipynb
+|   |   |       2.5_advanced_common_patterns_and_edge_cases.ipynb
+|   |   |
+|   |   \---03_Pro_Tips
+|   |           3.1_migrating_from_flake8_isort_pydocstyle_to_ruff_preview.ipynb
+|   |           3.2_custom_plugins_and_team_standards_preview.ipynb
+|   |           3.3_linting_strategy_minimum_ruleset_to_start.ipynb
+|   |           3.4_expert_pro_tips_and_real_world_application.ipynb
+|   |
+|   +---12_Formatting_black_isort
+|   |   +---01_Basics
+|   |   |       1.1_black_formatting_basics_and_philosophy.ipynb
+|   |   |       1.2_black_check_mode_and_ci_usage_preview.ipynb
+|   |   |       1.3_isort_basics_sort_sections_and_groups.ipynb
+|   |   |       1.4_isort_profile_black_compatibility_preview.ipynb
+|   |   |       1.5_mental_models_and_under_the_hood.ipynb
+|   |   |
+|   |   +---02_Common_Patterns
+|   |   |       2.1_configuring_black_in_pyproject_toml.ipynb
+|   |   |       2.2_configuring_isort_in_pyproject_toml.ipynb
+|   |   |       2.3_formatter_vs_linter_responsibilities.ipynb
+|   |   |       2.4_advanced_common_patterns_and_edge_cases.ipynb
+|   |   |
+|   |   \---03_Pro_Tips
+|   |           3.1_format_on_save_editor_integration_preview.ipynb
+|   |           3.2_minimizing_diff_noise_in_code_reviews.ipynb
+|   |           3.3_single_tool_formatting_ruff_formatter_preview.ipynb
+|   |           3.4_expert_pro_tips_and_real_world_application.ipynb
+|   |
+|   +---13_Pre_commit_Hooks
+|   |   +---01_Basics
+|   |   |       1.1_what_pre_commit_is_and_why.ipynb
+|   |   |       1.2_pre_commit_install_and_run_all_files.ipynb
+|   |   |       1.3_pre_commit_config_yaml_and_hook_selection.ipynb
+|   |   |       1.4_mental_models_and_under_the_hood.ipynb
+|   |   |
+|   |   +---02_Common_Patterns
+|   |   |       2.1_hooks_black_isort_ruff_pytest_pipeline.ipynb
+|   |   |       2.2_excluding_paths_and_language_versions.ipynb
+|   |   |       2.3_updating_hooks_and_pin_versions.ipynb
+|   |   |       2.4_advanced_common_patterns_and_edge_cases.ipynb
+|   |   |
+|   |   \---03_Pro_Tips
+|   |           3.1_local_hooks_for_project_specific_checks_preview.ipynb
+|   |           3.2_running_pre_commit_in_ci_preview.ipynb
+|   |           3.3_speed_tuning_caching_and_selective_hooks_preview.ipynb
+|   |           3.4_expert_pro_tips_and_real_world_application.ipynb
+|   |
+|   \---14_CI_CD_Basics
+|       +---01_Basics
+|       |       1.1_ci_concepts_jobs_steps_artifacts.ipynb
+|       |       1.2_github_actions_minimal_python_workflow.ipynb
+|       |       1.3_matrix_testing_multiple_python_versions_preview.ipynb
+|       |       1.4_dependency_caching_pip_cache_preview.ipynb
+|       |       1.5_mental_models_and_under_the_hood.ipynb
+|       |
+|       +---02_Common_Patterns
+|       |       2.1_ci_run_tests_lint_typecheck_coverage_pipeline.ipynb
+|       |       2.2_fail_fast_and_quality_gates_preview.ipynb
+|       |       2.3_reporting_test_results_and_coverage_html_preview.ipynb
+|       |       2.4_secrets_and_environment_variables_safely_preview.ipynb
+|       |       2.5_advanced_common_patterns_and_edge_cases.ipynb
+|       |
+|       \---03_Pro_Tips
+|               3.1_release_workflows_tags_and_versioning_preview.ipynb
+|               3.2_cd_basics_deploy_steps_and_approvals_preview.ipynb
+|               3.3_ci_design_tradeoffs_speed_vs_confidence.ipynb
+|               3.4_expert_pro_tips_and_real_world_application.ipynb
+|
+\---K.10_Advanced
+    +---2_functools_caching_lru_cache_partial
+    |   +---01_Caching_Basics
+    |   |       1.1_memoization_concept_and_use_cases.ipynb
+    |   |       1.2_functools_cache_unbounded_cache.ipynb
+    |   |       1.3_cache_key_hashability_and_args_rules.ipynb
+    |   |
+    |   +---02_lru_cache_Core
+    |   |       2.1_lru_cache_maxsize_typed_parameters.ipynb
+    |   |       2.2_cache_info_cache_clear_cache_parameters.ipynb
+    |   |       2.3_recursive_speedups_and_limits.ipynb
+    |   |       2.4_common_pitfalls_mutable_args_and_side_effects.ipynb
+    |   |
+    |   +---03_Partial_Functions
+    |   |       3.1_functools_partial_basics.ipynb
+    |   |       3.2_partial_for_callbacks_and_adapters.ipynb
+    |   |       3.3_partial_vs_lambda_vs_def_tradeoffs.ipynb
+    |   |       3.4_partialmethod_preview_for_methods.ipynb
+    |   |
+    |   \---04_Wrapping_and_Dispatch_Pro
+    |           4.1_wraps_and_update_wrapper_preserve_metadata.ipynb
+    |           4.2_decorators_with_cache_and_signature_behavior.ipynb
+    |           4.3_singledispatch_preview_function_overloading.ipynb
+    |           4.4_perf_notes_cache_eviction_memory_growth.ipynb
+    |
+    +---4_Descriptors
+        +---01_Descriptor_Protocol
+        |       1.1_what_is_a_descriptor_and_why.ipynb
+        |       1.2___get___invocation_instance_vs_class.ipynb
+        |       1.3___set___and___delete___managed_attributes.ipynb
+        |       1.4_data_vs_non_data_descriptors_precedence.ipynb
+        |
+        +---02_Python_Builtins_Are_Descriptors
+        |       2.1_property_as_descriptor.ipynb
+        |       2.2_functions_methods_and_binding.ipynb
+        |       2.3_staticmethod_and_classmethod_descriptor_view.ipynb
+        |       2.4_slots_and_member_descriptors_preview.ipynb
+        |
+        +---03_Building_Descriptors
+        |       3.1_validator_descriptor_example.ipynb
+        |       3.2___set_name___automatic_attribute_naming.ipynb
+        |       3.3_reusable_validation_and_normalization_patterns.ipynb
+        |       3.4_cached_property_preview_and_tradeoffs.ipynb
+        |
+        \---04_Advanced_Descriptor_Topics
+                4.1_descriptor_invocation_with_super_and_mro_preview.ipynb
+                4.2_debugging_attribute_access___getattribute___getattr__.ipynb
+                4.3_when_descriptors_are_overkill_design_guidelines.ipynb
+                4.4_expert_advanced_descriptor_topics_and_real_world_application.ipynb
+    |
+    \---05_Introspection_Inspect
+        +---01_Basics
+        |       1.1_what_inspect_is_and_common_use_cases.ipynb
+        |       1.2_type_checks_isfunction_ismethod_isclass.ipynb
+        |       1.3_getdoc_getcomments_and_helpful_metadata.ipynb
+        |       1.4_getmembers_dir_vars_basics.ipynb
+        |
+        +---02_Signatures_and_Callables
+        |       2.1_inspect_signature_parameters_return.ipynb
+        |       2.2_binding_arguments_and_defaults.ipynb
+        |       2.3_wrapped_functions_and_follow_wrapped.ipynb
+        |       2.4_callable_objects___call___and_signature_preview.ipynb
+        |
+        +---03_Source_and_Location
+        |       3.1_getsource_getfile_getsourcefile.ipynb
+        |       3.2_find_module_and_origin_getmodule.ipynb
+        |       3.3_limits_source_not_available_and_builtins.ipynb
+        |
+        \---04_Frames_Stacks_and_Closures
+                4.1_currentframe_stack_traceback_objects_preview.ipynb
+                4.2_debugging_callers_and_logging_context_preview.ipynb
+                4.3_getclosurevars_and_freevars_preview.ipynb
+                4.4_introspection_security_and_privacy_notes.ipynb
+                4.5_frames_stacks_and_closures_mastery_and_edge_cases.ipynb
+                

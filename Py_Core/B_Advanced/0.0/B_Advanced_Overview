@@ -1,0 +1,1567 @@
+D:.
+\---B_Advanced
+    +---L.11_Typing_Static
+    |   +---1_Type_Hints_Basics
+    |   |   +---01_Basics
+    |   |   |       1.1_function_annotations_and___annotations__.ipynb
+    |   |   |       1.2_variable_annotations_in_code.ipynb
+    |   |   |       1.3_type_hints_as_documentation.ipynb
+    |   |   |       1.4_when_to_add_types_and_when_to_skip.ipynb
+    |   |   |
+    |   |   +---02_Common_Patterns
+    |   |   |       2.1_optional_and_union_basics.ipynb
+    |   |   |       2.2_list_dict_tuple_generic_annotations.ipynb
+    |   |   |       2.3_callable_types_function_signatures.ipynb
+    |   |   |       2.4_annotations_do_not_enforce_at_runtime.ipynb
+    |   |   |
+    |   |   \---03_Advanced
+    |   |           3.1_forward_references_and_string_annotations.ipynb
+    |   |           3.2_get_type_hints_and_evaluation.ipynb
+    |   |           3.3_pep563_postponed_evaluation_import_annotations.ipynb
+    |   |           3.4_advanced_type_hints_mastery_and_edge_cases.ipynb
+    |   |
+    |   +---2_Generic_Types
+    |   |   +---01_Basics
+    |   |   |       1.1_what_are_generics_and_why.ipynb
+    |   |   |       1.2_typescript_style_list_dict_generics.ipynb
+    |   |   |       1.3_typevar_for_functions.ipynb
+    |   |   |       1.4_bound_and_constrained_typevars.ipynb
+    |   |   |
+    |   |   +---02_Common_Patterns
+    |   |   |       2.1_creating_generic_classes.ipynb
+    |   |   |       2.2_variance_covariance_contravariance.ipynb
+    |   |   |       2.3_multiple_type_parameters.ipynb
+    |   |   |       2.4_generic_aliases_and_specialization.ipynb
+    |   |   |
+    |   |   \---03_Pro_Tips
+    |   |           3.1_avoiding_type_erasure_in_isinstance.ipynb
+    |   |           3.2_self_type_for_chaining_preview.ipynb
+    |   |           3.3_generic_testing_strategy.ipynb
+    |   |           3.4_generic_types_mastery_and_edge_cases.ipynb
+    |   |
+    |   +---3_Protocols_Runtime_Checkables
+    |   |   +---01_Basics
+    |   |   |       1.1_structural_typing_duck_typing_in_types.ipynb
+    |   |   |       1.2_typing_protocol_definition.ipynb
+    |   |   |       1.3_runtime_checkable_decorator.ipynb
+    |   |   |       1.4_protocol_methods_and_properties.ipynb
+    |   |   |
+    |   |   +---02_Advanced_Protocols
+    |   |   |       2.1_invariant_covariant_property_definitions.ipynb
+    |   |   |       2.2_class_variables_and_protocol_requirements.ipynb
+    |   |   |       2.3_protocols_with_generics.ipynb
+    |   |   |       2.4_limiting_runtime_checks_and_false_positives.ipynb
+    |   |   |
+    |   |   \---03_Design_Notes
+    |   |           3.1_abstractmethod_vs_protocol_tradeoffs.ipynb
+    |   |           3.2_static_only_protocols.ipynb
+    |   |           3.3_using_protocols_in_library_design.ipynb
+    |   |           3.4_protocol_design_mastery_and_edge_cases.ipynb
+    |   |
+    |   +---4_TypedDict_Literal_Annotated
+    |   |   +---01_Basics
+    |   |   |       1.1_typeddict_basic_definition.ipynb
+    |   |   |       1.2_required_and_notrequired_keys.ipynb
+    |   |   |       1.3_literal_types_for_enums_and_constants.ipynb
+    |   |   |       1.4_annotated_metadata_and_tools.ipynb
+    |   |   |
+    |   |   +---02_Common_Patterns
+    |   |   |       2.1_typed_dicts_for_json_schemas.ipynb
+    |   |   |       2.2_literal_in_function_signatures.ipynb
+    |   |   |       2.3_annotated_for_validation_and_serialization.ipynb
+    |   |   |       2.4_generic_typeddicts_preview.ipynb
+    |   |   |
+    |   |   \---03_Pro_Tips
+    |   |           3.1_typeddict_vs_dataclass_tradeoffs.ipynb
+    |   |           3.2_nested_typeddicts_and_inheritance.ipynb
+    |   |           3.3_total_and_partial_typeddicts.ipynb
+    |   |           3.4_typeddict_mastery_and_edge_cases.ipynb
+    |   |
+    |   +---5_Type_Narrowing_cast_isinstance
+    |   |   +---01_Basics
+    |   |   |       1.1_type_guards_and_narrowing_basics.ipynb
+    |   |   |       1.2_isinstance_and_issubclass_for_narrowing.ipynb
+    |   |   |       1.3_typeguard_decorator_and_assert_never.ipynb
+    |   |   |       1.4_cast_when_type_checker_is_wrong.ipynb
+    |   |   |
+    |   |   +---02_Patterns
+    |   |   |       2.1_user_defined_type_guards.ipynb
+    |   |   |       2.2_chained_assertions_and_complexity.ipynb
+    |   |   |       2.3_narrowing_with_truthiness_and_membership.ipynb
+    |   |   |       2.4_overloads_for_precise_types.ipynb
+    |   |   |
+    |   |   \---03_Advanced
+    |   |           3.1_type_assertion_vs_guard_semantics.ipynb
+    |   |           3.2_refining_union_types_in_branches.ipynb
+    |   |           3.3_limits_of_narrowing_in_generators_and_closures.ipynb
+    |   |           3.4_type_narrowing_mastery_and_edge_cases.ipynb
+    |   |
+    |   +---6_Mypy_Config_Practices
+    |   |   +---01_Basics
+    |   |   |       1.1_mypy_quickstart_and_command_line.ipynb
+    |   |   |       1.2_mypy_ini_configuration_basics.ipynb
+    |   |   |       1.3_strict_mode_and_incremental_checking.ipynb
+    |   |   |       1.4_error_codes_and_filtering.ipynb
+    |   |   |
+    |   |   +---02_Configuration
+    |   |   |       2.1_per_module_options_and_overrides.ipynb
+    |   |   |       2.2_ignoring_types_and_errors_selectively.ipynb
+    |   |   |       2.3_plugins_and_custom_checks_preview.ipynb
+    |   |   |       2.4_stubs_py_typed_and_typing_support.ipynb
+    |   |   |
+    |   |   \---03_Pro_Tips
+    |   |           3.1_mypy_cache_and_performance_tuning.ipynb
+    |   |           3.2_integrating_mypy_in_ci_and_editors.ipynb
+    |   |           3.3_mypy_confidence_reporting_and_gaps.ipynb
+    |   |           3.4_mypy_mastery_and_edge_cases.ipynb
+    |   |
+    |   +---7_Pyright_vs_Mypy
+    |   |   +---01_Basics
+    |   |   |       1.1_pyright_vs_mypy_comparison.ipynb
+    |   |   |       1.2_pyright_pylance_language_server_setup.ipynb
+    |   |   |       1.3_different_checking_strategies_and_speeds.ipynb
+    |   |   |       1.4_choosing_your_type_checker.ipynb
+    |   |   |
+    |   |   +---02_Pyright_Specific
+    |   |   |       2.1_pyright_py_project_toml_config.ipynb
+    |   |   |       2.2_pyright_strict_mode_and_basedonsourcecode.ipynb
+    |   |   |       2.3_pyright_advanced_features.ipynb
+    |   |   |
+    |   |   \---03_Pro_Tips
+    |   |           3.1_using_both_checkers_in_ci.ipynb
+    |   |           3.2_pyrightconfig_json_for_projects.ipynb
+    |   |           3.3_language_server_integration_vscode_neovim.ipynb
+    |   |           3.4_type_checker_mastery_and_real_world_integration.ipynb
+    |   |
+    |   +---8_Gradual_Typing_Strategy
+    |   |   +---01_Basics
+    |   |   |       1.1_gradual_typing_philosophy.ipynb
+    |   |   |       1.2_types_first_vs_bottom_up_approach.ipynb
+    |   |   |       1.3_setting_reporting_mode_and_allow_untyped.ipynb
+    |   |   |       1.4_measuring_coverage_of_annotations.ipynb
+    |   |   |
+    |   |   +---02_Strategies
+    |   |   |       2.1_gradual_adoption_in_large_codebases.ipynb
+    |   |   |       2.2_type_comment_to_annotations_migration.ipynb
+    |   |   |       2.3_public_api_typing_first.ipynb
+    |   |   |       2.4_py_typed_marker_and_distributing_types.ipynb
+    |   |   |
+    |   |   \---03_Pro_Tips
+    |   |           3.1_avoid_any_at_module_boundaries.ipynb
+    |   |           3.2_typing_your_tests_benefits_and_tradeoffs.ipynb
+    |   |           3.3_gradual_typing_without_performance_hits.ipynb
+    |   |           3.4_gradual_typing_mastery_and_edge_cases.ipynb
+    |   |
+    |   +---9_Runtime_Type_Validation
+    |   |   +---01_Basics
+    |   |   |       1.1_type_hints_do_not_validate_at_runtime.ipynb
+    |   |   |       1.2_basic_validation_with_isinstance_checks.ipynb
+    |   |   |       1.3_typeguard_library_for_runtime_checking.ipynb
+    |   |   |       1.4_pydantic_schemas_for_validation.ipynb
+    |   |   |
+    |   |   +---02_Validation_Tools
+    |   |   |       2.1_pydantic_v2_models_and_validation.ipynb
+    |   |   |       2.2_dataclasses_with_validation_decorators.ipynb
+    |   |   |       2.3_attrs_validators_and_converters.ipynb
+    |   |   |       2.4_custom_validation_logic.ipynb
+    |   |   |
+    |   |   \---03_Pro_Tips
+    |   |           3.1_performance_of_runtime_validation.ipynb
+    |   |           3.2_error_messages_and_user_feedback.ipynb
+    |   |           3.3_when_to_validate_and_when_to_trust_types.ipynb
+    |   |           3.4_runtime_validation_mastery_and_edge_cases.ipynb
+    |   |
+    |   \---10_Limitations_Erase_Runtime
+        +---01_Basics
+        |       1.1_erasure_generics_and_constraints.ipynb
+        |       1.2_runtime_availability_of_types.ipynb
+        |       1.3_inspect_signature_and_typevars.ipynb
+        |       1.4_type_information_in_error_messages.ipynb
+        |
+        +---02_Workarounds_and_Strategies
+        |       2.1_serialize_types_in_metadata.ipynb
+        |       2.2_runtime_hooks_and_custom_metaclasses.ipynb
+        |       2.3_typing_extensions_and_future_features.ipynb
+        |       2.4_design_for_testability_without_runtime_types.ipynb
+        |
+        \---03_Roadmap
+                3.1_pep_585_builtin_generics_availability.ipynb
+                3.2_pep_692_typedict_unpacking_preview.ipynb
+                3.3_python_type_system_future_direction.ipynb
+                3.4_roadmap_mastery_and_edge_cases.ipynb
+    |
+    +---M.12_Errors_Robust
+    |   +---1_Custom_Exception_Hierarchy
+    |   |   +---01_Basics
+    |   |   |       1.1_creating_custom_exceptions.ipynb
+    |   |   |       1.2_exception_hierarchy_and_inheritance.ipynb
+    |   |   |       1.3_exception_attributes_and_context.ipynb
+    |   |   |       1.4_raise_from_chaining_exceptions.ipynb
+    |   |   |
+    |   |   +---02_Common_Patterns
+    |   |   |       2.1_domain_specific_exceptions.ipynb
+    |   |   |       2.2_exceptions_for_control_flow_tradeoffs.ipynb
+    |   |   |       2.3_exception_groups_and_nested_errors_preview.ipynb
+    |   |   |       2.4_documenting_exception_contracts.ipynb
+    |   |   |
+    |   |   \---03_Pro_Tips
+    |   |           3.1_exception_serialization_and_logging.ipynb
+    |   |           3.2_retry_logic_with_exception_types.ipynb
+    |   |           3.3_testing_exception_raising_code.ipynb
+    |   |           3.4_exception_handling_mastery_and_edge_cases.ipynb
+    |   |
+    |   +---2_Contextlib_suppress_exitstack
+    |   |   +---01_Basics
+    |   |   |       1.1_contextlib_suppress_ignoring_exceptions.ipynb
+    |   |   |       1.2_exitstack_managing_contexts_and_cleanup.ipynb
+    |   |   |       1.3_enter_and_exit_stack_ordering.ipynb
+    |   |   |       1.4_callback_registration_for_cleanup.ipynb
+    |   |   |
+    |   |   +---02_Advanced_Patterns
+    |   |   |       2.1_exitstack_for_dynamic_resource_cleanup.ipynb
+    |   |   |       2.2_nested_exitstacks_and_error_propagation.ipynb
+    |   |   |       2.3_try_except_finally_simulation_with_exitstack.ipynb
+    |   |   |       2.4_performance_notes_and_cleanup_order.ipynb
+    |   |   |
+    |   |   \---03_Pro_Tips
+    |   |           3.1_exitstack_vs_contextmanager_when_to_use.ipynb
+    |   |           3.2_suppress_vs_exception_handling_semantics.ipynb
+    |   |           3.3_testing_cleanup_logic_with_exitstack.ipynb
+    |   |           3.4_context_management_mastery_and_edge_cases.ipynb
+    |   |
+    |   +---3_Retry_Patterns_backoff
+    |   |   +---01_Basics
+    |   |   |       1.1_retry_logic_intro_and_use_cases.ipynb
+    |   |   |       1.2_simple_retry_loop_with_for_range.ipynb
+    |   |   |       1.3_exponential_backoff_and_jitter.ipynb
+    |   |   |       1.4_tenacity_and_retry_decorators.ipynb
+    |   |   |
+    |   |   +---02_Common_Patterns
+    |   |   |       2.1_retry_with_delays_and_conditions.ipynb
+    |   |   |       2.2_exponential_backoff_implementation.ipynb
+    |   |   |       2.3_circuit_breaker_pattern_overview.ipynb
+    |   |   |       2.4_logging_and_metrics_on_retries.ipynb
+    |   |   |
+    |   |   \---03_Pro_Tips
+    |   |           3.1_when_not_to_retry_and_idempotency.ipynb
+    |   |           3.2_async_retry_patterns_preview.ipynb
+    |   |           3.3_testing_retry_logic.ipynb
+    |   |           3.4_retry_patterns_mastery_and_edge_cases.ipynb
+    |   |
+    |   +---4_Assertions_vs_Exceptions
+    |   |   +---01_Basics
+    |   |   |       1.1_assert_for_debugging_vs_exceptions_for_control.ipynb
+    |   |   |       1.2_when_to_raise_vs_when_to_assert.ipynb
+    |   |   |       1.3_assert_can_be_disabled_and_risk.ipynb
+    |   |   |       1.4_assertions_in_testing_vs_production.ipynb
+    |   |   |
+    |   |   +---02_Defense_Strategies
+    |   |   |       2.1_defensive_input_validation_with_exceptions.ipynb
+    |   |   |       2.2_preconditions_postconditions_invariants.ipynb
+    |   |   |       2.3_fail_fast_and_fail_graceful_tradeoffs.ipynb
+    |   |   |       2.4_design_by_contract_in_python.ipynb
+    |   |   |
+    |   |   \---03_Pro_Tips
+    |   |           3.1_assert_messages_and_debugging_clarity.ipynb
+    |   |           3.2_custom_assert_utilities_and_helpers.ipynb
+    |   |           3.3_asserts_vs_types_complementary_safety.ipynb
+    |   |           3.4_assertions_mastery_and_real_world_strategy.ipynb
+    |   |
+    |   +---5_Warnings_filters
+    |   |   +---01_Basics
+    |   |   |       1.1_warnings_module_basics.ipynb
+    |   |   |       1.2_warning_categories_and_severity.ipynb
+    |   |   |       1.3_stacklevel_for_useful_messages.ipynb
+    |   |   |       1.4_deprecation_warnings_for_api_changes.ipynb
+    |   |   |
+    |   |   +---02_Filtering_and_Control
+    |   |   |       2.1_filterwarnings_configuration.ipynb
+    |   |   |       2.2_warning_filters_in_pyproject_toml.ipynb
+    |   |   |       2.3_capturing_warnings_in_tests.ipynb
+    |   |   |       2.4_custom_warning_types.ipynb
+    |   |   |
+    |   |   \---03_Pro_Tips
+    |   |           3.1_warnings_for_library_authors.ipynb
+    |   |           3.2_deprecation_policies_and_timelines.ipynb
+    |   |           3.3_testing_that_warnings_are_raised.ipynb
+    |   |           3.4_warnings_mastery_and_edge_cases.ipynb
+    |   |
+    |   +---6_Defensive_Programming_Principles
+    |   |   +---01_Basics
+    |   |   |       1.1_what_is_defensive_programming.ipynb
+    |   |   |       1.2_fail_fast_principles.ipynb
+    |   |   |       1.3_redundancy_and_checks.ipynb
+    |   |   |       1.4_defense_layers_and_layering.ipynb
+    |   |   |
+    |   |   +---02_Practices
+    |   |   |       2.1_input_validation_at_boundaries.ipynb
+    |   |   |       2.2_invariant_enforcement_with_assertions.ipynb
+    |   |   |       2.3_defensive_copies_and_immutability.ipynb
+    |   |   |       2.4_explicit_error_handling_no_silent_failures.ipynb
+    |   |   |
+    |   |   \---03_Pro_Tips
+    |   |           3.1_defense_overhead_vs_benefit_tradeoff.ipynb
+    |   |           3.2_defensive_programming_in_teams.ipynb
+    |   |           3.3_type_hints_as_defense_mechanism.ipynb
+    |   |           3.4_defensive_programming_mastery_and_application.ipynb
+    |   |
+    |   +---7_Error_Recovery_Patterns
+    |   |   +---01_Basics
+    |   |   |       1.1_recovery_vs_propagation_decisions.ipynb
+    |   |   |       1.2_fallback_values_and_defaults.ipynb
+    |   |   |       1.3_partial_success_and_partial_failure.ipynb
+    |   |   |       1.4_graceful_degradation_concepts.ipynb
+    |   |   |
+    |   |   +---02_Patterns
+    |   |   |       2.1_retry_with_exponential_backoff_review.ipynb
+    |   |   |       2.2_fallback_chains_and_cascade_logic.ipynb
+    |   |   |       2.3_error_aggregation_and_batch_errors.ipynb
+    |   |   |       2.4_recovery_queues_and_deferred_processing.ipynb
+    |   |   |
+    |   |   \---03_Pro_Tips
+    |   |           3.1_testing_recovery_scenarios.ipynb
+    |   |           3.2_monitoring_recovery_and_failure_rates.ipynb
+    |   |           3.3_user_impact_of_recovery_decisions.ipynb
+    |   |           3.4_error_recovery_mastery_and_edge_cases.ipynb
+    |   |
+    |   +---8_Signal_Handling
+    |   |   +---01_Basics
+    |   |   |       1.1_signals_and_interrupt_handling_basics.ipynb
+    |   |   |       1.2_signal_handler_registration.ipynb
+    |   |   |       1.3_sigterm_sigint_and_shutdown.ipynb
+    |   |   |       1.4_signal_safety_and_limitations.ipynb
+    |   |   |
+    |   |   +---02_Patterns
+    |   |   |       2.1_graceful_shutdown_with_signals.ipynb
+    |   |   |       2.2_signal_handlers_in_servers_and_daemons.ipynb
+    |   |   |       2.3_cleanup_and_resources_on_interrupt.ipynb
+    |   |   |       2.4_signal_handling_in_async_code_preview.ipynb
+    |   |   |
+    |   |   \---03_Pro_Tips
+    |   |           3.1_testing_signal_handlers.ipynb
+    |   |           3.2_signal_handler_pitfalls_and_race_conditions.ipynb
+    |   |           3.3_when_to_use_signals_vs_other_mechanisms.ipynb
+    |   |           3.4_signal_handling_mastery_and_edge_cases.ipynb
+    |   |
+    |   +---9_Circuit_Breaker_Pattern
+    |   |   +---01_Basics
+    |   |   |       1.1_circuit_breaker_concept_and_states.ipynb
+    |   |   |       1.2_closed_open_half_open_transitions.ipynb
+    |   |   |       1.3_failure_rate_thresholds_and_triggers.ipynb
+    |   |   |       1.4_reset_timeouts_and_monitoring.ipynb
+    |   |   |
+    |   |   +---02_Implementation
+    |   |   |       2.1_simple_circuit_breaker_decorator.ipynb
+    |   |   |       2.2_libraries_pybreaker_circuitbreaker.ipynb
+    |   |   |       2.3_stateful_vs_stateless_patterns.ipynb
+    |   |   |       2.4_circuit_breaker_with_fallback.ipynb
+    |   |   |
+    |   |   \---03_Pro_Tips
+    |   |           3.1_monitoring_and_alerting_circuit_state.ipynb
+    |   |           3.2_async_circuit_breaker_patterns.ipynb
+    |   |           3.3_testing_circuit_breaker_behavior.ipynb
+    |   |           3.4_circuit_breaker_mastery_and_integration.ipynb
+    |   |
+    |   +---10_Graceful_Degradation
+    |   |   +---01_Basics
+    |   |   |       1.1_degradation_vs_failure_concepts.ipynb
+    |   |   |       1.2_feature_flags_and_toggles_for_degradation.ipynb
+    |   |   |       1.3_reduced_functionality_patterns.ipynb
+    |   |   |       1.4_user_communication_on_degradation.ipynb
+    |   |   |
+    |   |   +---02_Patterns
+    |   |   |       2.1_cache_hit_vs_miss_graceful_fallback.ipynb
+    |   |   |       2.2_timeout_handling_with_reduced_results.ipynb
+    |   |   |       2.3_tiered_data_quality_layers.ipynb
+    |   |   |       2.4_feature_flag_rollout_and_rollback.ipynb
+    |   |   |
+    |   |   \---03_Pro_Tips
+    |   |           3.1_testing_degraded_mode_scenarios.ipynb
+    |   |           3.2_monitoring_degradation_events.ipynb
+    |   |           3.3_when_degradation_is_better_than_failure.ipynb
+    |   |           3.4_graceful_degradation_mastery_and_edge_cases.ipynb
+    |   |
+    |   \---11_Error_Reporting_Sentry
+        +---01_Basics
+        |       1.1_sentry_basics_and_signup.ipynb
+        |       1.2_sentry_sdk_installation_and_init.ipynb
+        |       1.3_capturing_exceptions_and_messages.ipynb
+        |       1.4_breadcrumbs_and_context_enrichment.ipynb
+        |
+        +---02_Configuration
+        |       2.1_environment_config_and_dsa.ipynb
+        |       2.2_sample_rate_and_filtering_noise.ipynb
+        |       2.3_source_map_and_release_tracking.ipynb
+        |       2.4_privacy_and_data_scrubbing.ipynb
+        |
+        \---03_Pro_Tips
+                3.1_error_grouping_and_noise_reduction.ipynb
+                3.2_alerts_and_notifications_setup.ipynb
+                3.3_sentry_workflow_and_tickets.ipynb
+                3.4_expert_pro_tips_and_real_world_application.ipynb
+    |
+    +---N.13_Logging_Obs
+    |   +---1_logging_Basics
+    |   |   +---01_Basics
+    |   |   |       1.1_logging_vs_print_and_levels.ipynb
+    |   |   |       1.2_basicconfig_for_quick_setup.ipynb
+    |   |   |       1.3_logger_getlogger_and_naming.ipynb
+    |   |   |       1.4_log_records_and_attributes.ipynb
+    |   |   |
+    |   |   +---02_Common_Patterns
+    |   |   |       2.1_function_logging_in_entry_and_exit.ipynb
+    |   |   |       2.2_exception_logging_with_exc_info.ipynb
+    |   |   |       2.3_context_logging_with_extra_dict.ipynb
+    |   |   |       2.4_debug_logging_and_log_levels_guide.ipynb
+    |   |   |
+    |   |   \---03_Pro_Tips
+    |   |           3.1_pythonoptions_and_logging_configuration.ipynb
+    |   |           3.2_logger_inheritance_and_hierarchy.ipynb
+    |   |           3.3_logging_to_multiple_handlers.ipynb
+    |   |           3.4_logging_basics_mastery_and_edge_cases.ipynb
+    |   |
+    |   +---2_Handlers_Formatters_Filters
+    |   |   +---01_Basics
+    |   |   |       1.1_handlers_file_stream_http_syslog.ipynb
+    |   |   |       1.2_formatters_and_log_patterns.ipynb
+    |   |   |       1.3_filters_for_selecting_records.ipynb
+    |   |   |       1.4_handler_levels_and_propagation.ipynb
+    |   |   |
+    |   |   +---02_Common_Patterns
+    |   |   |       2.1_multiple_handlers_different_files.ipynb
+    |   |   |       2.2_custom_formatters_and_formatting_hooks.ipynb
+    |   |   |       2.3_custom_filters_and_logic.ipynb
+    |   |   |       2.4_handler_levels_for_granular_control.ipynb
+    |   |   |
+    |   |   \---03_Pro_Tips
+    |   |           3.1_efficient_handler_configuration.ipynb
+    |   |           3.2_handler_compatibility_and_thread_safety.ipynb
+    |   |           3.3_logging_configuration_with_dictconfig.ipynb
+    |   |           3.4_handlers_formatters_mastery_and_integration.ipynb
+    |   |
+    |   +---3_Structured_Logging_JSON
+    |   |   +---01_Basics
+    |   |   |       1.1_why_structured_logging.ipynb
+    |   |   |       1.2_json_formatter_and_libraries.ipynb
+    |   |   |       1.3_field_standardization_and_context.ipynb
+    |   |   |       1.4_parsing_json_logs_with_tools.ipynb
+    |   |   |
+    |   |   +---02_Implementation
+    |   |   |       2.1_custom_json_formatter.ipynb
+    |   |   |       2.2_structured_logging_with_structlog.ipynb
+    |   |   |       2.3_correlation_id_and_request_tracking.ipynb
+    |   |   |       2.4_dynamic_field_injection.ipynb
+    |   |   |
+    |   |   \---03_Pro_Tips
+    |   |           3.1_performance_of_json_logging.ipynb
+    |   |           3.2_log_aggregation_and_querying.ipynb
+    |   |           3.3_privacy_and_sensitive_data_in_logs.ipynb
+    |   |           3.4_structured_logging_mastery_and_edge_cases.ipynb
+    |   |
+    |   \---4_Log_Rotation_Performance
+        +---01_Basics
+        |       1.1_rotatingfilehandler_and_size_limits.ipynb
+        |       1.2_timedrotatingfilehandler_and_schedules.ipynb
+        |       1.3_compression_and_cleanup_retention.ipynb
+        |       1.4_disk_space_management.ipynb
+        |
+        +---02_Common_Patterns
+        |       2.1_log_rotation_strategy_selection.ipynb
+        |       2.2_external_log_rotation_with_logrotate.ipynb
+        |       2.3_cloudwatch_and_cloud_logging_preview.ipynb
+        |       2.4_log_aggregation_centralizing_logs.ipynb
+        |
+        \---03_Pro_Tips
+                3.1_performance_impact_of_logging.ipynb
+                3.2_lazy_formatting_and_percent_style.ipynb
+                3.3_benchmarking_logging_overhead.ipynb
+                3.4_expert_pro_tips_and_real_world_application.ipynb
+    |
+    +---O.14_Concurrency
+    |   +---1_Threads_GIL_Concepts
+    |   |   +---01_Basics
+    |   |   |       1.1_threads_and_processes_intro.ipynb
+    |   |   |       1.2_the_global_interpreter_lock_gil.ipynb
+    |   |   |       1.3_gil_impact_on_performance.ipynb
+    |   |   |       1.4_when_threads_help_and_when_they_dont.ipynb
+    |   |   |
+    |   |   +---02_Thread_Safety
+    |   |   |       2.1_race_conditions_and_data_races.ipynb
+    |   |   |       2.2_atomicity_and_critical_sections.ipynb
+    |   |   |       2.3_designing_thread_safe_code.ipynb
+    |   |   |       2.4_thread_local_storage_and_context.ipynb
+    |   |   |
+    |   |   \---03_Pro_Tips
+    |   |           3.1_shared_nothing_architecture_for_threads.ipynb
+    |   |           3.2_monitoring_thread_health_and_deadlocks.ipynb
+    |   |           3.3_python_free_threading_preview_pep703.ipynb
+    |   |           3.4_thread_safety_mastery_and_edge_cases.ipynb
+    |   |
+    |   +---2_threading_Locks_Events
+    |   |   +---01_Basics
+    |   |   |       1.1_threading_thread_creation_and_start.ipynb
+    |   |   |       1.2_locks_mutex_and_reentrant_locks.ipynb
+    |   |   |       1.3_rlock_for_nested_locking.ipynb
+    |   |   |       1.4_events_and_signaling.ipynb
+    |   |   |
+    |   |   +---02_Synchronization
+    |   |   |       2.1_condition_wait_notify_pattern.ipynb
+    |   |   |       2.2_semaphores_bounded_access.ipynb
+    |   |   |       2.3_barrier_and_countdown_latch.ipynb
+    |   |   |       2.4_thread_safe_queues_for_synchronization.ipynb
+    |   |   |
+    |   |   \---03_Pro_Tips
+    |   |           3.1_deadlock_detection_and_prevention.ipynb
+    |   |           3.2_lock_ordering_guidelines.ipynb
+    |   |           3.3_timeout_on_locks_and_fairness.ipynb
+    |   |           3.4_locks_events_mastery_and_edge_cases.ipynb
+    |   |
+    |   +---3_Queues_Producer_Consumer
+    |   |   +---01_Basics
+    |   |   |       1.1_queue_queue_lifo_and_priority.ipynb
+    |   |   |       1.2_producer_consumer_pattern.ipynb
+    |   |   |       1.3_blocking_and_timeouts.ipynb
+    |   |   |       1.4_work_distribution_with_queues.ipynb
+    |   |   |
+    |   |   +---02_Patterns
+    |   |   |       2.1_worker_pools_with_queues.ipynb
+    |   |   |       2.2_task_prioritization_and_queuing.ipynb
+    |   |   |       2.3_graceful_shutdown_and_queue_draining.ipynb
+    |   |   |       2.4_backpressure_and_queue_limits.ipynb
+    |   |   |
+    |   |   \---03_Pro_Tips
+    |   |           3.1_monitoring_queue_depth_and_latency.ipynb
+    |   |           3.2_distributed_queues_and_rpc_alternatives.ipynb
+    |   |           3.3_debugging_producer_consumer_bottlenecks.ipynb
+    |   |           3.4_queue_patterns_mastery_and_edge_cases.ipynb
+    |   |
+    |   +---4_multiprocessing_Pools
+    |   |   +---01_Basics
+    |   |   |       1.1_multiprocessing_vs_threading_when_to_use.ipynb
+    |   |   |       1.2_process_creation_and_forking.ipynb
+    |   |   |       1.3_pool_pool_workers_and_maps.ipynb
+    |   |   |       1.4_inter_process_communication_pipes_queues.ipynb
+    |   |   |
+    |   |   +---02_Patterns
+    |   |   |       2.1_map_reduce_with_multiprocessing_pool.ipynb
+    |   |   |       2.2_async_pool_operations_apply_async.ipynb
+    |   |   |       2.3_exception_handling_in_multiprocessing.ipynb
+    |   |   |       2.4_process_pool_sizes_and_tuning.ipynb
+    |   |   |
+    |   |   \---03_Pro_Tips
+    |   |           3.1_shared_memory_and_array_for_data.ipynb
+    |   |           3.2_process_debugging_and_logging.ipynb
+    |   |           3.3_context_methods_spawn_fork_forkserver.ipynb
+    |   |           3.4_multiprocessing_mastery_and_edge_cases.ipynb
+    |   |
+    |   +---5_AsyncIO_Event_Loop
+    |   |   +---01_Basics
+    |   |   |       1.1_asyncio_event_loop_concepts.ipynb
+    |   |   |       1.2_coroutines_and_await_syntax.ipynb
+    |   |   |       1.3_running_coroutines_asyncio_run.ipynb
+    |   |   |       1.4_event_loop_internals_and_callbacks.ipynb
+    |   |   |
+    |   |   +---02_Event_Loop_Patterns
+    |   |   |       2.1_tasks_and_futures_creation.ipynb
+    |   |   |       2.2_running_multiple_tasks_concurrently.ipynb
+    |   |   |       2.3_event_loop_lifecycle_and_cleanup.ipynb
+    |   |   |       2.4_integrating_sync_code_with_asyncio.ipynb
+    |   |   |
+    |   |   \---03_Pro_Tips
+    |   |           3.1_event_loop_debugging_and_profiling.ipynb
+    |   |           3.2_per_event_loop_resources_thread_safety.ipynb
+    |   |           3.3_custom_event_loop_policies_preview.ipynb
+    |   |           3.4_event_loop_mastery_and_edge_cases.ipynb
+    |   |
+    |   +---6_Async_Tasks_Cancellation
+    |   |   +---01_Basics
+    |   |   |       1.1_creating_asyncio_tasks.ipynb
+    |   |   |       1.2_task_lifecycle_and_states.ipynb
+    |   |   |       1.3_cancellation_and_cancellederror.ipynb
+    |   |   |       1.4_tasks_done_result_and_exception.ipynb
+    |   |   |
+    |   |   +---02_Patterns
+    |   |   |       2.1_graceful_task_cancellation.ipynb
+    |   |   |       2.2_cancellation_token_and_shutdown_events.ipynb
+    |   |   |       2.3_timeout_and_wait_for_cancellation.ipynb
+    |   |   |       2.4_task_error_handling_and_exceptions.ipynb
+    |   |   |
+    |   |   \---03_Pro_Tips
+    |   |           3.1_testing_cancelled_tasks.ipynb
+    |   |           3.2_context_managers_for_task_cleanup.ipynb
+    |   |           3.3_task_groups_and_structured_concurrency_preview.ipynb
+    |   |           3.4_task_cancellation_mastery_and_edge_cases.ipynb
+    |   |
+    |   +---7_Async_Streams_async_generators
+    |   |   +---01_Basics
+    |   |   |       1.1_async_for_and_aiter_aiter.ipynb
+    |   |   |       1.2_async_generators_with_yield.ipynb
+    |   |   |       1.3_async_context_managers_aenter_aexit.ipynb
+    |   |   |       1.4_async_itertools_and_recipes_preview.ipynb
+    |   |   |
+    |   |   +---02_Streaming_Patterns
+    |   |   |       2.1_async_streaming_data_processing.ipynb
+    |   |   |       2.2_backpressure_and_buffering_in_streams.ipynb
+    |   |   |       2.3_async_filter_map_and_composition.ipynb
+    |   |   |       2.4_graceful_stream_shutdown.ipynb
+    |   |   |
+    |   |   \---03_Pro_Tips
+    |   |           3.1_memory_efficiency_with_async_generators.ipynb
+    |   |           3.2_testing_async_iterables.ipynb
+    |   |           3.3_channels_pipes_for_async_communication.ipynb
+    |   |           3.4_async_streams_mastery_and_edge_cases.ipynb
+    |   |
+    |   +---8_Concurrency_Patterns
+    |   |   +---01_Basics
+    |   |   |       1.1_fan_out_fan_in_concurrency.ipynb
+    |   |   |       1.2_map_reduce_concurrency_pattern.ipynb
+    |   |   |       1.3_pipeline_concurrency_pattern.ipynb
+    |   |   |       1.4_parallel_vs_concurrent_terminology.ipynb
+    |   |   |
+    |   |   +---02_Advanced_Patterns
+    |   |   |       2.1_thread_pools_vs_async_vs_multiprocessing.ipynb
+    |   |   |       2.2_scatter_gather_patterns.ipynb
+    |   |   |       2.3_composing_patterns_combined_strategies.ipynb
+    |   |   |       2.4_rate_limiting_and_backpressure.ipynb
+    |   |   |
+    |   |   \---03_Pro_Tips
+    |   |           3.1_choosing_concurrency_model_for_workload.ipynb
+    |   |           3.2_monitoring_concurrency_metrics.ipynb
+    |   |           3.3_profiling_concurrent_code.ipynb
+    |   |           3.4_concurrency_patterns_mastery_and_real_world.ipynb
+    |   |
+    |   \---9_Performance_Comparison
+        +---01_Basics
+        |       1.1_benchmarking_thread_process_async.ipynb
+        |       1.2_io_bound_vs_cpu_bound_workloads.ipynb
+        |       1.3_context_switching_and_overhead.ipynb
+        |       1.4_measuring_throughput_and_latency.ipynb
+        |
+        +---02_Comparison
+        |       2.1_threading_performance_characteristics.ipynb
+        |       2.2_multiprocessing_performance_characteristics.ipynb
+        |       2.3_asyncio_performance_characteristics.ipynb
+        |       2.4_hybrid_approaches_and_trade_offs.ipynb
+        |
+        \---03_Pro_Tips
+                3.1_profiling_asyncio_bottlenecks.ipynb
+                3.2_gil_elimination_strategies.ipynb
+                3.3_choosing_model_decision_tree.ipynb
+                3.4_expert_pro_tips_and_real_world_application.ipynb
+    |
+    +---P.15_Performance
+    |   +---1_timeit_micro_bench
+    |   |   +---01_Basics
+    |   |   |       1.1_timeit_module_and_command_line.ipynb
+    |   |   |       1.2_timer_function_selection.ipynb
+    |   |   |       1.3_repeat_and_number_for_statistical_significance.ipynb
+    |   |   |       1.4_micro_benchmark_gotchas.ipynb
+    |   |   |
+    |   |   +---02_Techniques
+    |   |   |       2.1_timing_small_snippets_with_timeit.ipynb
+    |   |   |       2.2_setup_and_globals_for_context.ipynb
+    |   |   |       2.3_comparing_variations_and_baselines.ipynb
+    |   |   |       2.4_avoiding_jit_and_cache_effects.ipynb
+    |   |   |
+    |   |   \---03_Pro_Tips
+    |   |           3.1_statistical_analysis_of_timeit_results.ipynb
+    |   |           3.2_warmup_and_systematic_variation.ipynb
+    |   |           3.3_pitfalls_and_when_not_to_micro_benchmark.ipynb
+    |   |           3.4_micro_benchmarking_mastery_and_edge_cases.ipynb
+    |   |
+    |   +---2_cProfile_pstats
+    |   |   +---01_Basics
+    |   |   |       1.1_cprofile_profiling_python_programs.ipynb
+    |   |   |       1.2_pstats_analyzing_profiling_results.ipynb
+    |   |   |       1.3_deterministic_profiling_and_timing.ipynb
+    |   |   |       1.4_comparing_profiles_and_baselines.ipynb
+    |   |   |
+    |   |   +---02_Analysis
+    |   |   |       2.1_hotspots_identifying_slow_functions.ipynb
+    |   |   |       2.2_call_graphs_understanding_calling_patterns.ipynb
+    |   |   |       2.3_callers_and_callees_execution_flow.ipynb
+    |   |   |       2.4_cumulative_vs_time_and_call_counts.ipynb
+    |   |   |
+    |   |   \---03_Pro_Tips
+    |   |           3.1_continuous_profiling_in_production.ipynb
+    |   |           3.2_interpreting_profiler_overhead.ipynb
+    |   |           3.3_combining_profilers_for_complete_picture.ipynb
+    |   |           3.4_profiling_mastery_and_production_insights.ipynb
+    |   |
+    |   +---3_tracemalloc_memory
+    |   |   +---01_Basics
+    |   |   |       1.1_tracemalloc_module_and_snapshots.ipynb
+    |   |   |       1.2_memory_allocation_tracking.ipynb
+    |   |   |       1.3_peak_memory_and_size_comparisons.ipynb
+    |   |   |       1.4_line_by_line_memory_tracking.ipynb
+    |   |   |
+    |   |   +---02_Analysis
+    |   |   |       2.1_identifying_memory_leaks.ipynb
+    |   |   |       2.2_memory_usage_by_file_and_function.ipynb
+    |   |   |       2.3_object_size_and_reference_tracking.ipynb
+    |   |   |       2.4_memory_snapshots_and_deltas.ipynb
+    |   |   |
+    |   |   \---03_Pro_Tips
+    |   |           3.1_memory_profiling_on_production_servers.ipynb
+    |   |           3.2_guppy_and_pympler_integration_preview.ipynb
+    |   |           3.3_memory_efficiency_improvements_strategies.ipynb
+    |   |           3.4_memory_profiling_mastery_and_edge_cases.ipynb
+    |   |
+    |   +---4_Algorithmic_vs_Constant_Factors
+    |   |   +---01_Basics
+    |   |   |       1.1_big_o_notation_and_complexity_analysis.ipynb
+    |   |   |       1.2_constant_factors_and_practice.ipynb
+    |   |   |       1.3_space_and_time_tradeoffs.ipynb
+    |   |   |       1.4_when_big_o_matters_and_when_it_doesnt.ipynb
+    |   |   |
+    |   |   +---02_Practical_Impact
+    |   |   |       2.1_algorithm_selection_impact_on_performance.ipynb
+    |   |   |       2.2_data_structure_impact_on_performance.ipynb
+    |   |   |       2.3_algorithmic_improvements_vs_optimization.ipynb
+    |   |   |       2.4_scaling_analysis_and_bottleneck_shifts.ipynb
+    |   |   |
+    |   |   \---03_Pro_Tips
+    |   |           3.1_analyzing_algorithm_performance.ipynb
+    |   |           3.2_premature_optimization_false_equivalence.ipynb
+    |   |           3.3_hybrid_algorithms_and_adaptive_strategies.ipynb
+    |   |           3.4_algorithmic_optimization_mastery_and_edge_cases.ipynb
+    |   |
+    |   +---5_Data_Structure_Choices
+    |   |   +---01_Basics
+    |   |   |       1.1_list_vs_array_vs_deque_performance.ipynb
+    |   |   |       1.2_dict_vs_list_search_performance.ipynb
+    |   |   |       1.3_set_for_membership_testing.ipynb
+    |   |   |       1.4_memory_layout_and_cache_locality.ipynb
+    |   |   |
+    |   |   +---02_Optimization
+    |   |   |       2.1_choosing_data_structure_for_access_patterns.ipynb
+    |   |   |       2.2_built_in_vs_numpy_vs_pandas_data_structures.ipynb
+    |   |   |       2.3_custom_data_structures_when_needed.ipynb
+    |   |   |       2.4_immutable_vs_mutable_performance_tradeoffs.ipynb
+    |   |   |
+    |   |   \---03_Pro_Tips
+    |   |           3.1_data_structure_migration_and_refactoring.ipynb
+    |   |           3.2_asymptotic_vs_constant_overhead_analysis.ipynb
+    |   |           3.3_profiling_for_data_structure_impact.ipynb
+    |   |           3.4_data_structure_optimization_mastery_and_edge_cases.ipynb
+    |   |
+    |   +---7_Caching_lru_cache_custom
+    |   |   +---01_Basics
+    |   |   |       1.1_caching_concepts_and_cache_lines.ipynb
+    |   |   |       1.2_lru_cache_decorator_and_maxsize.ipynb
+    |   |   |       1.3_cache_info_and_hits_stats.ipynb
+    |   |   |       1.4_cache_invalidation_and_ttl.ipynb
+    |   |   |
+    |   |   +---02_Techniques
+    |   |   |       2.1_custom_cache_implementation.ipynb
+    |   |   |       2.2_cache_warming_and_precomputation.ipynb
+    |   |   |       2.3_distributed_caching_preview.ipynb
+    |   |   |       2.4_cache_coherence_and_invalidation_strategies.ipynb
+    |   |   |
+    |   |   \---03_Pro_Tips
+    |   |           3.1_cpu_cache_behavior_and_optimization.ipynb
+    |   |           3.2_memoization_vs_caching_distinction.ipynb
+    |   |           3.3_testing_cache_implementations.ipynb
+    |   |           3.4_caching_mastery_and_edge_cases.ipynb
+    |   |
+    |   +---8_Memoization_vs_Cache_Invalidation
+    |   |   +---01_Basics
+    |   |   |       1.1_memoization_for_repeated_calls.ipynb
+    |   |   |       1.2_when_memoization_helps_pure_functions.ipynb
+    |   |   |       1.3_cache_invalidation_strategies.ipynb
+    |   |   |       1.4_cost_of_memoization.ipynb
+    |   |   |
+    |   |   +---02_Patterns
+    |   |   |       2.1_memoization_with_side_effects_danger.ipynb
+    |   |   |       2.2_cache_busting_and_versioning.ipynb
+    |   |   |       2.3_time_based_expiry_and_staleness.ipynb
+    |   |   |       2.4_callback_driven_invalidation.ipynb
+    |   |   |
+    |   |   \---03_Pro_Tips
+    |   |           3.1_load_test_cache_hit_rates.ipynb
+    |   |           3.2_monitoring_cache_effectiveness.ipynb
+    |   |           3.3_debugging_cache_related_bugs.ipynb
+    |   |           3.4_memoization_mastery_and_edge_cases.ipynb
+    |   |
+    |   \---9_Benchmarking_Methodology
+        +---01_Basics
+        |       1.1_benchmarking_goals_and_hypotheses.ipynb
+        |       1.2_baseline_establishment_and_regression_detection.ipynb
+        |       1.3_noise_sources_and_isolation.ipynb
+        |       1.4_statistical_testing_and_significance.ipynb
+        |
+        +---02_Techniques
+        |       2.1_systematic_variation_and_parameter_sweep.ipynb
+        |       2.2_benchmark_suite_design.ipynb
+        |       2.3_continuous_benchmarking_in_ci_preview.ipynb
+        |       2.4_reproducibility_and_environment_control.ipynb
+        |
+        \---03_Pro_Tips
+                3.1_avoiding_benchmark_pitfalls_and_false_results.ipynb
+                3.2_benchmark_data_analysis_and_visualization.ipynb
+                3.3_acting_on_benchmark_results_responsibly.ipynb
+                3.4_expert_pro_tips_and_real_world_application.ipynb
+    |
+    +---Q.16_Internals
+    |   +---1_Object_Model_identity_mutability
+    |   |   +---01_Basics
+    |   |   |       1.1_object_identity_id_and_is.ipynb
+    |   |   |       1.2_object_type_and_isinstance.ipynb
+    |   |   |       1.3_mutable_vs_immutable_objects.ipynb
+    |   |   |       1.4_object_lifetime_and_garbage_collection.ipynb
+    |   |   |
+    |   |   +---02_Deep_Dive
+    |   |   |       2.1_reference_semantics_vs_value_semantics.ipynb
+    |   |   |       2.2_container_mutability_and_aliasing.ipynb
+    |   |   |       2.3_copying_mechanics_shallow_vs_deep.ipynb
+    |   |   |       2.4_object_attributes_and_dict.ipynb
+    |   |   |
+    |   |   \---03_Pro_Tips
+    |   |           3.1_understanding_copy_module.ipynb
+    |   |           3.2_mutable_default_args_revisited.ipynb
+    |   |           3.3_immutable_design_patterns.ipynb
+    |   |           3.4_object_model_mastery_and_edge_cases.ipynb
+    |   |
+    |   +---2_Descriptors_Detail
+    |   |   +---01_Basics
+    |   |   |       1.1_descriptor_protocol_get_set_delete.ipynb
+    |   |   |       1.2_data_vs_non_data_descriptors.ipynb
+    |   |   |       1.3_descriptor_invocation_lookup_order.ipynb
+    |   |   |       1.4_descriptors_in_classes_and_metaclasses.ipynb
+    |   |   |
+    |   |   +---02_Implementation
+    |   |   |       2.1_property_as_a_descriptor.ipynb
+    |   |   |       2.2_classmethod_staticmethod_as_descriptors.ipynb
+    |   |   |       2.3_custom_descriptor_implementations.ipynb
+    |   |   |       2.4_descriptor_protocol_advanced_patterns.ipynb
+    |   |   |
+    |   |   \---03_Pro_Tips
+    |   |           3.1_descriptor_performance_considerations.ipynb
+    |   |           3.2_debugging_descriptor_lookup.ipynb
+    |   |           3.3_descriptors_for_orm_frameworks_preview.ipynb
+    |   |           3.4_descriptor_mastery_and_edge_cases.ipynb
+    |   |
+    |   +---3_Method_Resolution_Order
+    |   |   +---01_Basics
+    |   |   |       1.1_c3_linearization_algorithm.ipynb
+    |   |   |       1.2_mro_method_and_class_mro.ipynb
+    |   |   |       1.3_super_and_mro_interaction.ipynb
+    |   |   |       1.4_mro_with_multiple_inheritance.ipynb
+    |   |   |
+    |   |   +---02_Advanced
+    |   |   |       2.1_mro_conflicts_and_typeerror.ipynb
+    |   |   |       2.2_mro_diamonds_and_solutions.ipynb
+    |   |   |       2.3_mixin_design_with_mro_consideration.ipynb
+    |   |   |       2.4_super_delegation_patterns.ipynb
+    |   |   |
+    |   |   \---03_Pro_Tips
+    |   |           3.1_mro_debugging_and_inspection.ipynb
+    |   |           3.2_avoiding_mro_problems_design_guidelines.ipynb
+    |   |           3.3_mro_alternatives_to_multiple_inheritance.ipynb
+    |   |           3.4_mro_mastery_and_edge_cases.ipynb
+    |   |
+    |   +---4_Name_Mangling_private_convention
+    |   |   +---01_Basics
+    |   |   |       1.1_single_underscore_convention.ipynb
+    |   |   |       1.2_double_underscore_name_mangling.ipynb
+    |   |   |       1.3_name_mangling_mechanics.ipynb
+    |   |   |       1.4_when_to_use_private_convention.ipynb
+    |   |   |
+    |   |   +---02_Patterns
+    |   |   |       2.1_protected_vs_private_style_debate.ipynb
+    |   |   |       2.2_mangling_gotchas_and_edge_cases.ipynb
+    |   |   |       2.3_inheritance_and_mangling_interaction.ipynb
+    |   |   |       2.4_testing_private_implementation_details.ipynb
+    |   |   |
+    |   |   \---03_Pro_Tips
+    |   |           3.1_documenting_private_interfaces.ipynb
+    |   |           3.2_mangling_for_subclass_isolation.ipynb
+    |   |           3.3_python_privacy_philosophy.ipynb
+    |   |           3.4_name_mangling_mastery_and_edge_cases.ipynb
+    |   |
+    |   +---5_Slots_Impact
+    |   |   +---01_Basics
+    |   |   |       1.1_slots_definition_and_mechanism.ipynb
+    |   |   |       1.2_dict_elimination_and_memory_savings.ipynb
+    |   |   |       1.3_performance_implications_of_slots.ipynb
+    |   |   |       1.4_slots_with_inheritance.ipynb
+    |   |   |
+    |   |   +---02_Trade_offs
+    |   |   |       2.1_slots_limitations_and_restrictions.ipynb
+    |   |   |       2.2_slots_vs_dict_when_to_use.ipynb
+    |   |   |       2.3_dynamic_attribute_assignment_with_slots.ipynb
+    |   |   |       2.4_slots_and_descriptors_interaction.ipynb
+    |   |   |
+    |   |   \---03_Pro_Tips
+    |   |           3.1_migrating_to_slots_safely.ipynb
+    |   |           3.2_slots_performance_measurements.ipynb
+    |   |           3.3_slots_compatibility_and_testing.ipynb
+    |   |           3.4_slots_mastery_and_edge_cases.ipynb
+    |   |
+    |   +---6_String_and_Int_Interning
+    |   |   +---01_Basics
+    |   |   |       1.1_string_interning_and_caching.ipynb
+    |   |   |       1.2_integer_caching_and_pool.ipynb
+    |   |   |       1.3_why_interning_exists_memory_optimization.ipynb
+    |   |   |       1.4_interning_guarantees_and_assumptions.ipynb
+    |   |   |
+    |   |   +---02_Implications
+    |   |   |       2.1_is_vs_equality_string_identity.ipynb
+    |   |   |       2.2_numeric_comparisons_and_identity.ipynb
+    |   |   |       2.3_interning_across_python_implementations.ipynb
+    |   |   |       2.4_performance_implications_of_interning.ipynb
+    |   |   |
+    |   |   \---03_Pro_Tips
+    |   |           3.1_sys_intern_for_manual_interning.ipynb
+    |   |           3.2_dependency_on_interning_is_bad_practice.ipynb
+    |   |           3.3_interning_as_implementation_detail.ipynb
+    |   |           3.4_interning_mastery_and_edge_cases.ipynb
+    |   |
+    |   +---7_Reference_Counting_GC
+    |   |   +---01_Basics
+    |   |   |       1.1_reference_counting_mechanism.ipynb
+    |   |   |       1.2_sys_getrefcount_and_introspection.ipynb
+    |   |   |       1.3_cyclic_references_and_limitations.ipynb
+    |   |   |       1.4_garbage_collection_for_cycles.ipynb
+    |   |   |
+    |   |   +---02_Mechanics
+    |   |   |       2.1_gc_module_enable_disable_collect.ipynb
+    |   |   |       2.2_gc_statistics_and_monitoring.ipynb
+    |   |   |       2.3_reference_cycles_and_collection.ipynb
+    |   |   |       2.4_weakref_for_non_owning_references.ipynb
+    |   |   |
+    |   |   \---03_Pro_Tips
+    |   |           3.1_memory_leaks_from_cycles.ipynb
+    |   |           3.2_gc_performance_considerations.ipynb
+    |   |           3.3_gc_behavior_across_implementations.ipynb
+    |   |           3.4_gc_mastery_and_edge_cases.ipynb
+    |   |
+    |   +---8_Bytecode_disassembly
+    |   |   +---01_Basics
+    |   |   |       1.1_bytecode_and_virtual_machine.ipynb
+    |   |   |       1.2_dis_module_disassembling_code.ipynb
+    |   |   |       1.3_reading_bytecode_instructions.ipynb
+    |   |   |       1.4_co_code_and_code_object_inspection.ipynb
+    |   |   |
+    |   |   +---02_Analysis
+    |   |   |       2.1_performance_implications_of_bytecode.ipynb
+    |   |   |       2.2_optimization_recognizing_inefficient_code.ipynb
+    |   |   |       2.3_compiler_optimizations_and_peephole.ipynb
+    |   |   |       2.4_interpreting_bytecode_for_debugging.ipynb
+    |   |   |
+    |   |   \---03_Pro_Tips
+    |   |           3.1_jit_speculation_and_future_optimizations.ipynb
+    |   |           3.2_bytecode_stability_across_versions.ipynb
+    |   |           3.3_bytecode_for_security_anti_patterns.ipynb
+    |   |           3.4_bytecode_mastery_and_edge_cases.ipynb
+    |   |
+    |   +---9_Performance_Implications_of_Internals
+    |   |   +---01_Basics
+    |   |   |       1.1_understanding_performance_from_internals.ipynb
+    |   |   |       1.2_attribute_lookup_and_mro_performance.ipynb
+    |   |   |       1.3_method_call_overhead.ipynb
+    |   |   |       1.4_import_caching_and_sys_modules.ipynb
+    |   |   |
+    |   |   +---02_Optimization
+    |   |   |       2.1_local_variable_access_vs_global.ipynb
+    |   |   |       2.2_attribute_caching_and_optimization.ipynb
+    |   |   |       2.3_function_call_overhead_and_inlining.ipynb
+    |   |   |       2.4_specialization_and_adaptive_bytecode.ipynb
+    |   |   |
+    |   |   \---03_Pro_Tips
+    |   |           3.1_measuring_internal_overhead.ipynb
+    |   |           3.2_when_to_care_about_internal_performance.ipynb
+    |   |           3.3_cpython_vs_pypy_vs_other_implementations.ipynb
+    |   |           3.4_internals_optimization_mastery_and_edge_cases.ipynb
+    |   |
+    |   \---10_Implementation_Differences
+        +---01_Basics
+        |       1.1_cpython_pypy_jython_ironpython.ipynb
+        |       1.2_implementation_specific_behavior.ipynb
+        |       1.3_version_differences_in_behavior.ipynb
+        |       1.4_testing_across_implementations_preview.ipynb
+        |
+        +---02_Compatibility
+        |       2.1_code_for_multiple_implementations.ipynb
+        |       2.2_detecting_implementation_and_version.ipynb
+        |       2.3_conditional_imports_and_polyfills.ipynb
+        |       2.4_library_compatibility_strategies.ipynb
+        |
+        \---03_Pro_Tips
+                3.1_pypy_performance_and_jit.ipynb
+                3.2_micro_python_and_embedded_python.ipynb
+                3.3_choosing_implementation_for_workload.ipynb
+                3.4_expert_pro_tips_and_real_world_application.ipynb
+    |
+    +---R.17_Security
+    |   +---1_Input_Validation
+    |   |   +---01_Basics
+    |   |   |       1.1_input_validation_importance.ipynb
+    |   |   |       1.2_whitelist_vs_blacklist_approaches.ipynb
+    |   |   |       1.3_type_checking_and_schema_validation.ipynb
+    |   |   |       1.4_error_handling_for_invalid_input.ipynb
+    |   |   |
+    |   |   +---02_Techniques
+    |   |   |       2.1_regex_for_input_validation.ipynb
+    |   |   |       2.2_library_validation_pydantic_marshmallow.ipynb
+    |   |   |       2.3_custom_validators_and_rules.ipynb
+    |   |   |       2.4_multilayer_validation_approach.ipynb
+    |   |   |
+    |   |   \---03_Pro_Tips
+    |   |           3.1_injection_attacks_and_prevention.ipynb
+    |   |           3.2_validation_for_iam_and_authorization.ipynb
+    |   |           3.3_fuzzing_and_adversarial_input_testing.ipynb
+    |   |           3.4_input_validation_mastery_and_edge_cases.ipynb
+    |   |
+    |   +---2_Avoiding_eval_exec
+    |   |   +---01_Basics
+    |   |   |       1.1_why_eval_and_exec_are_dangerous.ipynb
+    |   |   |       1.2_arbitrary_code_execution_risks.ipynb
+    |   |   |       1.3_eval_vs_ast_literal_eval.ipynb
+    |   |   |       1.4_exec_vs_compile_considerations.ipynb
+    |   |   |
+    |   |   +---02_Alternatives
+    |   |   |       2.1_ast_literal_eval_for_safe_parsing.ipynb
+    |   |   |       2.2_ast_parsing_for_code_inspection.ipynb
+    |   |   |       2.3_operator_module_for_dispatch.ipynb
+    |   |   |       2.4_domain_specific_languages_dsl_preview.ipynb
+    |   |   |
+    |   |   \---03_Pro_Tips
+    |   |           3.1_when_eval_is_necessary_and_isolation.ipynb
+    |   |           3.2_restricted_execution_mechanisms.ipynb
+    |   |           3.3_sandboxing_and_process_isolation_preview.ipynb
+    |   |           3.4_eval_and_exec_mastery_and_safe_alternatives.ipynb
+    |   |
+    |   +---3_Safe_Serialization_pickle_dangers
+    |   |   +---01_Basics
+    |   |   |       1.1_pickle_and_deserialization_risks.ipynb
+    |   |   |       1.2_arbitrary_code_execution_via_pickle.ipynb
+    |   |   |       1.3_json_yaml_and_safer_formats.ipynb
+    |   |   |       1.4_when_to_use_pickle_and_alternatives.ipynb
+    |   |   |
+    |   |   +---02_Techniques
+    |   |   |       2.1_json_for_data_interchange.ipynb
+    |   |   |       2.2_pyyaml_and_safe_loaders.ipynb
+    |   |   |       2.3_messagepack_and_protobuf_alternatives.ipynb
+    |   |   |       2.4_custom_serialization_logic.ipynb
+    |   |   |
+    |   |   \---03_Pro_Tips
+    |   |           3.1_restricted_pickle_environments.ipynb
+    |   |           3.2_version_compatibility_and_serialization.ipynb
+    |   |           3.3_testing_serialization_security.ipynb
+    |   |           3.4_serialization_mastery_and_edge_cases.ipynb
+    |   |
+    |   +---4_Secrets_Management_environment
+    |   |   +---01_Basics
+    |   |   |       1.1_secrets_vs_configuration.ipynb
+    |   |   |       1.2_environment_variables_for_secrets.ipynb
+    |   |   |       1.3_dotenv_and_local_development.ipynb
+    |   |   |       1.4_never_commit_secrets_to_version_control.ipynb
+    |   |   |
+    |   |   +---02_Practices
+    |   |   |       2.1_secret_rotation_and_expiry.ipynb
+    |   |   |       2.2_key_derivation_and_stretching.ipynb
+    |   |   |       2.3_vault_and_secret_managers_overview.ipynb
+    |   |   |       2.4_audit_logging_access_to_secrets.ipynb
+    |   |   |
+    |   |   \---03_Pro_Tips
+    |   |           3.1_secrets_in_environment_scanning.ipynb
+    |   |           3.2_secrets_rotation_in_ci_cd.ipynb
+    |   |           3.3_incident_response_secret_leak_handling.ipynb
+    |   |           3.4_secrets_management_mastery_and_edge_cases.ipynb
+    |   |
+    |   +---5_Hashing_HMAC_compare_digest
+    |   |   +---01_Basics
+    |   |   |       1.1_hashing_vs_encryption_vs_signing.ipynb
+    |   |   |       1.2_hashlib_basics_and_safe_algorithms.ipynb
+    |   |   |       1.3_hmac_basics_message_authentication.ipynb
+    |   |   |       1.4_constant_time_compare_compare_digest.ipynb
+    |   |   |
+    |   |   +---02_Common_Patterns
+    |   |   |       2.1_password_hashing_pbkdf2_hmac_scrypt_intro.ipynb
+    |   |   |       2.2_salts_peppers_and_storage_format.ipynb
+    |   |   |       2.3_sign_and_verify_webhooks_pattern.ipynb
+    |   |   |       2.4_fips_usedforsecurity_flag_notes.ipynb
+    |   |   |
+    |   |   \---03_Pro_Tips
+    |   |           3.1_key_management_and_rotation_for_hmac.ipynb
+    |   |           3.2_timing_attacks_and_string_compare_pitfalls.ipynb
+    |   |           3.3_protocol_design_mistakes_and_replay_protection.ipynb
+    |   |           3.4_hashing_mastery_and_edge_cases.ipynb
+    |   |
+    |   +---6_Dependency_Scanning_pip_audit_safety
+    |   |   +---01_Basics
+    |   |   |       1.1_what_supply_chain_security_means_in_python.ipynb
+    |   |   |       1.2_pip_audit_quickstart_on_requirements.ipynb
+    |   |   |       1.3_safety_quickstart_on_environment.ipynb
+    |   |   |       1.4_interpreting_vuln_reports_cves_vs_advisories.ipynb
+    |   |   |
+    |   |   +---02_Common_Patterns
+    |   |   |       2.1_scan_in_ci_github_actions_overview.ipynb
+    |   |   |       2.2_pinning_lockfiles_and_repeatable_builds.ipynb
+    |   |   |       2.3_transitive_deps_and_dependency_tree_auditing.ipynb
+    |   |   |       2.4_handling_false_positives_and_exceptions.ipynb
+    |   |   |
+    |   |   \---03_Pro_Tips
+    |   |           3.1_sbom_basics_and_where_it_fits.ipynb
+    |   |           3.2_vuln_db_sources_and_coverage_differences.ipynb
+    |   |           3.3_release_process_gating_and_risk_acceptance.ipynb
+    |   |           3.4_dependency_scanning_mastery_and_edge_cases.ipynb
+    |   |
+    |   +---7_Least_Privilege_File_Perms
+    |   |   +---01_Basics
+    |   |   |       1.1_unix_permission_model_rwx_overview.ipynb
+    |   |   |       1.2_os_chmod_and_stat_constants.ipynb
+    |   |   |       1.3_umask_basics_for_secure_defaults.ipynb
+    |   |   |       1.4_avoid_world_writable_and_exec_bits.ipynb
+    |   |   |
+    |   |   +---02_Common_Patterns
+    |   |   |       2.1_secure_file_creation_patterns.ipynb
+    |   |   |       2.2_permissions_for_keys_and_credentials_files.ipynb
+    |   |   |       2.3_running_as_non_root_and_drop_privileges_overview.ipynb
+    |   |   |       2.4_directory_permissions_for_app_data.ipynb
+    |   |   |
+    |   |   \---03_Pro_Tips
+    |   |           3.1_symlink_risks_and_follow_symlinks_notes.ipynb
+    |   |           3.2_cross_platform_permission_behavior_windows_notes.ipynb
+    |   |           3.3_security_review_checklist_for_filesystem_access.ipynb
+    |   |           3.4_file_permissions_mastery_and_edge_cases.ipynb
+    |   |
+    |   +---8_Temporary_Files_Secure_Usage
+    |   |   +---01_Basics
+    |   |   |       1.1_tempfile_module_overview.ipynb
+    |   |   |       1.2_namedtemporaryfile_and_cleanup.ipynb
+    |   |   |       1.3_temporarydirectory_context_manager.ipynb
+    |   |   |       1.4_why_mktemp_is_unsafe_race_conditions.ipynb
+    |   |   |
+    |   |   +---02_Common_Patterns
+    |   |   |       2.1_secure_temp_paths_and_permissions.ipynb
+    |   |   |       2.2_atomic_writes_write_then_rename_pattern.ipynb
+    |   |   |       2.3_streaming_to_temp_files_for_large_data.ipynb
+    |   |   |       2.4_temp_files_in_multi_process_apps.ipynb
+    |   |   |
+    |   |   \---03_Pro_Tips
+    |   |           3.1_tempdir_selection_and_threat_model.ipynb
+    |   |           3.2_windows_file_locking_namedtemporaryfile_gotchas.ipynb
+    |   |           3.3_forensics_and_secure_deletion_limits.ipynb
+    |   |           3.4_temporary_files_mastery_and_edge_cases.ipynb
+    |   |
+    |   +---9_Configuration_Secrets_vs_Config
+    |   |   +---01_Basics
+    |   |   |       1.1_secrets_vs_configuration_definitions.ipynb
+    |   |   |       1.2_config_file_formats_ini_toml_json_basics.ipynb
+    |   |   |       1.3_safe_defaults_and_fail_closed_basics.ipynb
+    |   |   |       1.4_dont_eval_configs_logging_config_warning.ipynb
+    |   |   |
+    |   |   +---02_Common_Patterns
+    |   |   |       2.1_env_overrides_and_profiles_dev_stage_prod.ipynb
+    |   |   |       2.2_secret_injection_runtime_only_patterns.ipynb
+    |   |   |       2.3_config_validation_and_schema_like_checks.ipynb
+    |   |   |       2.4_redacting_config_dumps_and_debug_views.ipynb
+    |   |   |
+    |   |   \---03_Pro_Tips
+    |   |           3.1_config_attack_surface_review_checklist.ipynb
+    |   |           3.2_multi_tenant_config_isolation_patterns.ipynb
+    |   |           3.3_change_management_and_audit_trails.ipynb
+    |   |           3.4_configuration_security_mastery_and_edge_cases.ipynb
+    |   |
+    |   \---10_Sandboxing_Limits
+        +---01_Basics
+        |       1.1_why_python_has_no_secure_in_process_sandbox.ipynb
+        |       1.2_attack_surface_object_model_reflection_imports.ipynb
+        |       1.3_restrictedpython_what_it_is_and_isnt.ipynb
+        |       1.4_safe_alternatives_policy_based_execution.ipynb
+        |
+        +---02_Practical_Isolation
+        |       2.1_process_isolation_subprocess_and_users_overview.ipynb
+        |       2.2_containers_namespaces_and_seccomp_concepts.ipynb
+        |       2.3_resource_limits_cpu_mem_timeouts.ipynb
+        |       2.4_network_fs_restrictions_and_allowlists.ipynb
+        |
+        \---03_Pro_Tips
+                3.1_defense_in_depth_design_for_untrusted_code.ipynb
+                3.2_logging_auditing_and_incident_response_hooks.ipynb
+                3.3_security_testing_fuzzing_and_escape_attempts.ipynb
+                3.4_expert_pro_tips_and_real_world_application.ipynb
+    |
+    +---T.18_Deployment
+    |   +---2_Environment_Variables_Config
+    |   |   +---01_Basics
+    |   |   |       1.1_config_vs_code_12factor_overview.ipynb
+    |   |   |       1.2_read_env_vars_os_getenv_defaults.ipynb
+    |   |   |       1.3_required_vars_fail_fast_patterns.ipynb
+    |   |   |       1.4_dotenv_for_local_dev_and_gitignore.ipynb
+    |   |   |
+    |   |   +---02_Common_Patterns
+    |   |   |       2.1_config_layers_env_file_defaults.ipynb
+    |   |   |       2.2_config_validation_and_schema_like_checks.ipynb
+    |   |   |       2.3_runtime_feature_flags_and_profiles.ipynb
+    |   |   |       2.4_logging_safe_config_dump_redaction.ipynb
+    |   |   |
+    |   |   \---03_Pro_Tips
+    |   |           3.1_config_naming_conventions_prefixes_and_scoping.ipynb
+    |   |           3.2_runtime_reload_vs_restart_tradeoffs_preview.ipynb
+    |   |           3.3_config_attack_surface_and_injection_notes_preview.ipynb
+    |   |           3.4_environment_config_mastery_and_edge_cases.ipynb
+    |   |
+    |   +---3_CI_CD_Pipelines_GitHub_Actions
+    |   |   +---01_Basics
+    |   |   |       1.1_workflow_yaml_structure_triggers_jobs_steps.ipynb
+    |   |   |       1.2_checkout_setup_python_install_deps_run_tests.ipynb
+    |   |   |       1.3_matrix_builds_multiple_python_versions.ipynb
+    |   |   |       1.4_artifacts_and_test_reports_basics.ipynb
+    |   |   |
+    |   |   +---02_Common_Patterns
+    |   |   |       2.1_dependency_caching_pip_poetry_pipenv.ipynb
+    |   |   |       2.2_lint_format_typecheck_in_pipeline.ipynb
+    |   |   |       2.3_coverage_upload_and_quality_gates.ipynb
+    |   |   |       2.4_release_workflows_tags_and_version_bumps.ipynb
+    |   |   |
+    |   |   \---03_Pro_Tips
+    |   |           3.1_security_hardening_permissions_pin_actions_versions.ipynb
+    |   |           3.2_environments_approvals_and_protected_branches_preview.ipynb
+    |   |           3.3_reusable_workflows_and_composite_actions_preview.ipynb
+    |   |           3.4_cicd_pipelines_mastery_and_edge_cases.ipynb
+    |   |
+    |   +---4_Package_Distribution_PyPI
+    |   |   +---01_Basics
+    |   |   |       1.1_project_layout_and_pyproject_toml_basics.ipynb
+    |   |   |       1.2_build_sdist_and_wheel_with_build.ipynb
+    |   |   |       1.3_metadata_readme_license_classifiers.ipynb
+    |   |   |       1.4_upload_to_testpypi_then_pypi_with_twine.ipynb
+    |   |   |
+    |   |   +---02_Common_Patterns
+    |   |   |       2.1_versioning_strategies_and_tags.ipynb
+    |   |   |       2.2_include_package_data_and_manifest_in.ipynb
+    |   |   |       2.3_private_indexes_and_internal_packages_preview.ipynb
+    |   |   |       2.4_release_notes_changelog_and_artifacts.ipynb
+    |   |   |
+    |   |   \---03_Pro_Tips
+    |   |           3.1_trusted_publishing_oidc_from_github_actions.ipynb
+    |   |           3.2_build_reproducibility_isolation_and_clean_envs.ipynb
+    |   |           3.3_deprecation_policy_and_backward_compatibility_preview.ipynb
+    |   |           3.4_package_distribution_mastery_and_edge_cases.ipynb
+    |   |
+    |   +---5_Virtual_Environments_Production
+    |   |   +---01_Basics
+    |   |   |       1.1_venv_creation_and_layout_bin_lib_site_packages.ipynb
+    |   |   |       1.2_install_deps_from_requirements_txt_or_lockfiles.ipynb
+    |   |   |       1.3_freeze_constraints_and_repeatable_installs.ipynb
+    |   |   |       1.4_where_venv_lives_in_deployments_patterns.ipynb
+    |   |   |
+    |   |   +---02_Common_Patterns
+    |   |   |       2.1_build_wheels_then_install_wheels_only_preview.ipynb
+    |   |   |       2.2_separating_runtime_and_dev_dependencies.ipynb
+    |   |   |       2.3_pip_configuration_indexes_certs_timeouts.ipynb
+    |   |   |       2.4_health_checks_and_smoke_tests_post_deploy.ipynb
+    |   |   |
+    |   |   \---03_Pro_Tips
+    |   |           3.1_immutable_deploy_artifacts_and_rollbacks_preview.ipynb
+    |   |           3.2_native_deps_manylinux_and_platform_wheels_preview.ipynb
+    |   |           3.3_debugging_env_drift_sys_path_and_import_issues.ipynb
+    |   |           3.4_virtual_environments_mastery_and_edge_cases.ipynb
+    |   |
+    |   \---6_Secrets_Management
+        +---01_Basics
+        |       1.1_secrets_vs_config_and_threat_model.ipynb
+        |       1.2_github_actions_secrets_usage_and_scoping.ipynb
+        |       1.3_local_dev_secrets_dotenv_do_and_dont.ipynb
+        |       1.4_generate_tokens_with_python_secrets_module.ipynb
+        |
+        +---02_Common_Patterns
+        |       2.1_rotation_expiry_and_break_glass_process.ipynb
+        |       2.2_secret_redaction_in_logs_and_error_reports.ipynb
+        |       2.3_managed_secret_stores_vault_kms_overview.ipynb
+        |       2.4_least_privilege_and_auditability_checklist.ipynb
+        |
+        \---03_Pro_Tips
+                3.1_oidc_federation_for_ci_tokens_no_long_lived_secrets.ipynb
+                3.2_dynamic_credentials_and_short_lived_secrets_preview.ipynb
+                3.3_incident_response_for_secret_leaks_preview.ipynb
+                3.4_expert_pro_tips_and_real_world_application.ipynb
+    |
+    +---U.19_Documentation
+    |   +---1_Docstrings_PEP257_Standards
+    |   |   +---01_Basics
+    |   |   |       1.1_what_is_a_docstring_and___doc__.ipynb
+    |   |   |       1.2_one_line_docstrings_pep257_rules.ipynb
+    |   |   |       1.3_multiline_docstrings_summary_blankline_details.ipynb
+    |   |   |       1.4_module_class_function_method_docstrings.ipynb
+    |   |   |
+    |   |   +---02_Styles_and_Templates
+    |   |   |       2.1_rst_field_lists_sphinx_friendly.ipynb
+    |   |   |       2.2_google_style_docstrings_overview.ipynb
+    |   |   |       2.3_numpy_style_docstrings_overview.ipynb
+    |   |   |       2.4_sphinx_napoleon_for_google_numpy.ipynb
+    |   |   |
+    |   |   \---03_Pro_Tips
+    |   |           3.1_docstring_linting_with_pydocstyle.ipynb
+    |   |           3.2_docstrings_for_public_api_contracts.ipynb
+    |   |           3.3_common_docstring_smells_and_refactors.ipynb
+    |   |           3.4_docstring_mastery_and_best_practices.ipynb
+    |   |
+    |   +---2_Sphinx_Setup_Configuration
+    |   |   +---01_Basics
+    |   |   |       1.1_sphinx_quickstart_project_layout.ipynb
+    |   |   |       1.2_conf_py_minimum_settings.ipynb
+    |   |   |       1.3_source_build_dirs_and_make_html.ipynb
+    |   |   |       1.4_toctree_structure_and_index_page.ipynb
+    |   |   |
+    |   |   +---02_Extensions_and_Builders
+    |   |   |       2.1_enable_autodoc_autosummary_napoleon.ipynb
+    |   |   |       2.2_intersphinx_external_crossrefs.ipynb
+    |   |   |       2.3_doctest_in_docs_sphinx_ext_doctest.ipynb
+    |   |   |       2.4_linkcheck_builder_for_broken_links.ipynb
+    |   |   |
+    |   |   \---03_Pro_Tips
+    |   |           3.1_docs_import_side_effects_and_safe_imports.ipynb
+    |   |           3.2_notebooks_in_sphinx_nbsphinx_overview.ipynb
+    |   |           3.3_docs_build_in_ci_preview_workflow.ipynb
+    |   |           3.4_sphinx_mastery_and_best_practices.ipynb
+    |   |
+    |   +---3_RST_vs_Markdown
+    |   |   +---01_reStructuredText_Basics
+    |   |   |       1.1_headings_lists_code_blocks.ipynb
+    |   |   |       1.2_directives_and_roles_basics.ipynb
+    |   |   |       1.3_links_refs_and_crossrefs_intro.ipynb
+    |   |   |
+    |   |   +---02_Markdown_in_Docs
+    |   |   |       2.1_markdown_flavors_commonmark_gfm.ipynb
+    |   |   |       2.2_sphinx_markdown_with_myst_parser.ipynb
+    |   |   |       2.3_myst_directives_roles_and_crossrefs.ipynb
+    |   |   |
+    |   |   \---03_Pro_Tips
+    |   |           3.1_when_rst_is_better_when_md_is_better.ipynb
+    |   |           3.2_mixed_rst_md_projects_strategy.ipynb
+    |   |           3.3_migration_checklist_rst_to_md_or_md_to_rst.ipynb
+    |   |           3.4_markup_format_mastery_and_best_practices.ipynb
+    |   |
+    |   +---4_API_Documentation_autodoc
+    |   |   +---01_Basics
+    |   |   |       1.1_automodule_autoclass_autofunction_basics.ipynb
+    |   |   |       1.2_members_private_members_special_members.ipynb
+    |   |   |       1.3_using___all___to_control_public_api.ipynb
+    |   |   |       1.4_docstrings_vs_signature_what_users_see.ipynb
+    |   |   |
+    |   |   +---02_Autosummary_and_Apidoc
+    |   |   |       2.1_autosummary_lists_and_stub_generation.ipynb
+    |   |   |       2.2_autosummary_templates_customization_intro.ipynb
+    |   |   |       2.3_sphinx_apidoc_generate_from_package.ipynb
+    |   |   |       2.4_apidoc_warning_import_side_effects.ipynb
+    |   |   |
+    |   |   \---03_Pro_Tips
+    |   |           3.1_api_information_architecture_modules_vs_guides.ipynb
+    |   |           3.2_linking_across_projects_with_intersphinx.ipynb
+    |   |           3.3_doc_testing_api_snippets_doctest_strategy.ipynb
+    |   |           3.4_api_documentation_mastery_and_best_practices.ipynb
+    |   |
+    |   +---5_Type_Hints_in_Docs
+    |   |   +---01_Basics
+    |   |   |       1.1_documenting_types_single_source_of_truth.ipynb
+    |   |   |       1.2_sphinx_autodoc_typehints_options_overview.ipynb
+    |   |   |       1.3_type_aliases_and_forward_refs_in_docs.ipynb
+    |   |   |
+    |   |   +---02_Tooling
+    |   |   |       2.1_sphinx_autodoc_typehints_extension_intro.ipynb
+    |   |   |       2.2_rendering_generics_optional_union_examples.ipynb
+    |   |   |       2.3_typed_dict_literal_annotated_doc_patterns.ipynb
+    |   |   |
+    |   |   \---03_Pro_Tips
+    |   |           3.1_avoiding_duplication_docstrings_vs_annotations.ipynb
+    |   |           3.2_stability_of_types_and_public_api_guidance.ipynb
+    |   |           3.3_common_type_rendering_pitfalls_and_fixes.ipynb
+    |   |           3.4_type_hints_in_docs_mastery_and_best_practices.ipynb
+    |   |
+    |   +---6_Examples_and_Tutorials
+    |   |   +---01_Basics
+    |   |   |       1.1_quickstart_vs_tutorial_vs_howto_vs_reference.ipynb
+    |   |   |       1.2_writing_good_examples_minimal_complete.ipynb
+    |   |   |       1.3_showing_outputs_and_expected_results.ipynb
+    |   |   |
+    |   |   +---02_Testable_Documentation
+    |   |   |       2.1_sphinx_doctest_blocks_and_setup.ipynb
+    |   |   |       2.2_keep_examples_in_sync_with_tests.ipynb
+    |   |   |       2.3_notebook_based_tutorials_with_nbsphinx_overview.ipynb
+    |   |   |
+    |   |   \---03_Pro_Tips
+    |   |           3.1_example_taxonomy_basic_intermediate_advanced.ipynb
+    |   |           3.2_docs_ci_gating_doctest_and_linkcheck.ipynb
+    |   |           3.3_deprecations_and_versioned_examples_strategy.ipynb
+    |   |           3.4_examples_and_tutorials_mastery_and_best_practices.ipynb
+    |   |
+    |   +---7_README_Best_Practices
+    |   |   +---01_Basics
+    |   |   |       1.1_readme_purpose_and_audience.ipynb
+    |   |   |       1.2_minimum_sections_install_usage_support.ipynb
+    |   |   |       1.3_github_readme_rendering_and_toc_basics.ipynb
+    |   |   |
+    |   |   +---02_Common_Patterns
+    |   |   |       2.1_quickstart_copy_pasteable_commands.ipynb
+    |   |   |       2.2_examples_configuration_and_troubleshooting.ipynb
+    |   |   |       2.3_contributing_code_of_conduct_license.ipynb
+    |   |   |       2.4_badges_status_docs_build_coverage_release.ipynb
+    |   |   |
+    |   |   \---03_Pro_Tips
+    |   |           3.1_readme_as_entrypoint_link_to_full_docs.ipynb
+    |   |           3.2_security_policy_reporting_basics.ipynb
+    |   |           3.3_maintenance_expectations_and_support_matrix.ipynb
+    |   |           3.4_readme_mastery_and_best_practices.ipynb
+    |   |
+    |   \---8_Changelog_Versioning
+        \---01_Basics
+                1.1_keep_a_changelog_format_and_principles.ipynb
+                1.2_mental_models_and_under_the_hood.ipynb
+                1.3_mental_models_and_under_the_hood.ipynb
+    |
+    \---Y.20_Refactoring
+        +---1_Identify_Code_Smells
+        |   +---01_Basics
+        |   |       1.1_refactoring_basics_behavior_preserving.ipynb
+        |   |       1.2_what_is_a_code_smell.ipynb
+        |   |       1.3_smell_vs_bug_vs_style.ipynb
+        |   |       1.4_common_smells_in_python_examples.ipynb
+        |   |
+        |   +---02_Catalog_and_Triage
+        |   |       2.1_smell_catalog_overview_and_mapping.ipynb
+        |   |       2.2_prioritize_by_change_frequency_and_risk.ipynb
+        |   |       2.3_tech_debt_backlog_labels_and_ownership.ipynb
+        |   |       2.4_refactor_vs_rewrite_decision_framework.ipynb
+        |   |
+        |   \---03_Pro_Tips
+        |           3.1_smell_interactions_root_causes.ipynb
+        |           3.2_make_refactors_diff_friendly_small_steps.ipynb
+        |           3.3_static_analysis_as_smell_detector.ipynb
+        |           3.4_code_smell_mastery_and_edge_cases.ipynb
+        |
+        +---2_Extract_Function_Object
+        |   +---01_Basics
+        |   |       1.1_extract_function_when_and_why.ipynb
+        |   |       1.2_extract_variable_inline_variable.ipynb
+        |   |       1.3_rename_refactoring_safely.ipynb
+        |   |       1.4_move_function_move_module_basics.ipynb
+        |   |
+        |   +---02_Extracting_Objects
+        |   |       2.1_extract_class_from_god_object.ipynb
+        |   |       2.2_introduce_parameter_object_dataclasses.ipynb
+        |   |       2.3_replace_primitive_with_value_object.ipynb
+        |   |       2.4_encapsulate_data_and_invariants.ipynb
+        |   |
+        |   \---03_Pro_Tips
+        |           3.1_finding_seams_cut_points_for_extraction.ipynb
+        |           3.2_refactor_toward_pure_functions.ipynb
+        |           3.3_api_boundaries_and_public_contracts.ipynb
+        |           3.4_extraction_mastery_and_best_practices.ipynb
+        |
+        +---3_Composition_vs_Inheritance
+        |   +---01_Basics
+        |   |       1.1_inheritance_strengths_and_risks.ipynb
+        |   |       1.2_composition_delegation_forwarding.ipynb
+        |   |       1.3_mixins_protocols_and_interfaces_in_python.ipynb
+        |   |       1.4_strategy_pattern_intro.ipynb
+        |   |
+        |   +---02_Common_Patterns
+        |   |       2.1_replace_inheritance_with_composition.ipynb
+        |   |       2.2_dependency_injection_for_pluggable_behavior.ipynb
+        |   |       2.3_template_method_to_hooks_refactor.ipynb
+        |   |       2.4_refactor_conditionals_to_strategy_objects.ipynb
+        |   |
+        |   \---03_Pro_Tips
+        |           3.1_avoiding_fragile_base_class_problems.ipynb
+        |           3.2_cooperative_multiple_inheritance_sanity_checks.ipynb
+        |           3.3_testability_benefits_of_composition.ipynb
+        |           3.4_composition_mastery_and_edge_cases.ipynb
+        |
+        +---4_Simplifying_Conditionals
+        |   +---01_Basics
+        |   |       1.1_decompose_conditional_readability.ipynb
+        |   |       1.2_guard_clauses_intro.ipynb
+        |   |       1.3_reduce_boolean_flags_and_flag_args.ipynb
+        |   |       1.4_dispatch_tables_dict_based_routing.ipynb
+        |   |
+        |   +---02_Refactoring_Patterns
+        |   |       2.1_replace_nested_conditionals_with_guards.ipynb
+        |   |       2.2_replace_conditional_with_polymorphism_strategy.ipynb
+        |   |       2.3_introduce_special_case_null_object.ipynb
+        |   |       2.4_match_case_refactoring_when_it_helps.ipynb
+        |   |
+        |   \---03_Pro_Tips
+        |           3.1_rules_engines_and_data_driven_conditionals.ipynb
+        |           3.2_exception_flow_vs_branching_tradeoffs.ipynb
+        |           3.3_measuring_branch_complexity_practically.ipynb
+        |           3.4_conditional_refactoring_mastery_and_edge_cases.ipynb
+        |
+        +---5_State_Elimination_with_Data
+        |   +---01_Basics
+        |   |       1.1_make_state_explicit_in_data_structures.ipynb
+        |   |       1.2_replace_mutation_with_return_values.ipynb
+        |   |       1.3_dataclasses_as_state_containers.ipynb
+        |   |       1.4_immutability_and_copy_patterns.ipynb
+        |   |
+        |   +---02_Data_Driven_Design
+        |   |       2.1_table_driven_logic_and_lookup_maps.ipynb
+        |   |       2.2_replace_magic_values_with_enums.ipynb
+        |   |       2.3_state_machine_as_data_transitions.ipynb
+        |   |       2.4_configuration_driven_rules_safely.ipynb
+        |   |
+        |   \---03_Pro_Tips
+        |           3.1_functional_core_imperative_shell.ipynb
+        |           3.2_isolate_side_effects_io_boundaries.ipynb
+        |           3.3_property_based_tests_for_state_refactors.ipynb
+        |           3.4_state_elimination_mastery_and_best_practices.ipynb
+        |
+        +---6_Test_Supported_Refactors
+        |   +---01_Basics
+        |   |       1.1_refactor_with_tests_safety_net.ipynb
+        |   |       1.2_pytest_quickstart_for_refactoring.ipynb
+        |   |       1.3_unit_vs_integration_tests_for_confidence.ipynb
+        |   |       1.4_refactor_workflow_small_steps_and_commits.ipynb
+        |   |
+        |   +---02_Legacy_Code_Techniques
+        |   |       2.1_characterization_tests_golden_master.ipynb
+        |   |       2.2_dependency_breaking_seams_intro.ipynb
+        |   |       2.3_test_doubles_mocks_stubs_fakes.ipynb
+        |   |       2.4_refactor_to_increase_testability.ipynb
+        |   |
+        |   \---03_Pro_Tips
+        |           3.1_contract_tests_and_backward_compatibility.ipynb
+        |           3.2_migration_refactors_with_feature_flags.ipynb
+        |           3.3_large_refactors_incremental_strangling.ipynb
+        |           3.4_test_supported_refactoring_mastery_and_edge_cases.ipynb
+        |
+        +---7_Tooling_for_Refactoring
+        |   +---01_Basics
+        |   |       1.1_ide_refactorings_rename_extract_move.ipynb
+        |   |       1.2_autoformat_with_black_before_refactor.ipynb
+        |   |       1.3_ruff_lint_and_fix_workflows.ipynb
+        |   |       1.4_pre_commit_hooks_for_quality_gates.ipynb
+        |   |
+        |   +---02_Refactoring_Tools
+        |   |       2.1_rope_project_setup_and_indexing.ipynb
+        |   |       2.2_rope_rename_extract_move_examples.ipynb
+        |   |       2.3_codemods_ast_based_changes_overview.ipynb
+        |   |       2.4_large_scale_refactoring_playbook.ipynb
+        |   |
+        |   \---03_Pro_Tips
+        |           3.1_fix_first_then_refactor_reduce_noise.ipynb
+        |           3.2_safe_autofix_vs_unsafe_autofix_guidelines.ipynb
+        |           3.3_ci_enforcement_and_refactor_branch_strategy.ipynb
+        |           3.4_refactoring_tools_mastery_and_best_practices.ipynb
+        |
+        \---8_Metrics_Cyclomatic_Coupling
+            +---01_Basics
+            |       1.1_why_metrics_support_refactoring.ipynb
+            |       1.2_cyclomatic_complexity_definition_and_limits.ipynb
+            |       1.3_coupling_vs_cohesion_concepts.ipynb
+            |       1.4_setting_thresholds_context_not_dogma.ipynb
+            |
+            +---02_Tooling
+            |       2.1_radon_cc_halstead_mi_basics.ipynb
+            |       2.2_pylint_design_metrics_branches_locals_args.ipynb
+            |       2.3_ruff_pylint_rules_as_fast_feedback.ipynb
+            |       2.4_class_coupling_cbo_and_interpretation.ipynb
+            |
+            \---03_Pro_Tips
+                    3.1_trends_over_time_in_ci_dashboards.ipynb
+                    3.2_hotspots_churn_plus_complexity_prioritization.ipynb
+                    3.3_avoiding_metrics_gaming_and_false_precision.ipynb
+                    3.4_expert_pro_tips_and_real_world_application.ipynb
