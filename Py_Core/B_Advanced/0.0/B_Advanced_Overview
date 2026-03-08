@@ -18,7 +18,7 @@ D:.
     |   |           3.1_forward_references_and_string_annotations.ipynb
     |   |           3.2_get_type_hints_and_evaluation.ipynb
     |   |           3.3_pep563_postponed_evaluation_import_annotations.ipynb
-    |   |           3.4_advanced_type_hints_mastery_and_edge_cases.ipynb
+    |   |           3.4_expert_pro_tips_and_real_world_application.ipynb
     |   |
     |   +---2_Generic_Types
     |   |   +---01_Basics
