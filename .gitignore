@@ -189,3 +189,6 @@ credentials.json
 # *.parquet
 # data/
 # datasets/
+
+# Learning resources (keep local only)
+python_cs_master_hub_2026.txt
